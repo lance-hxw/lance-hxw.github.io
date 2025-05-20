@@ -237,7 +237,7 @@
             
             // 在本地开发环境中，你可以使用fetch API来获取文件列表
             try {
-                const response = await fetch('../md/file-list.json');
+                const response = await fetch('../md/file-list.json?' + new Date().getTime());
                 if (response.ok) {
                     const data = await response.json();
                     fileTree = data;
@@ -353,7 +353,7 @@
             contentElement.innerHTML = '<div class="loading">加载中...</div>';
             
             try {
-                const response = await fetch(filePath);
+                const response = await fetch(filePath + '?' + new Date().getTime());
                 if (response.ok) {
                     const markdown = await response.text();
                     // 使用marked.js渲染Markdown
