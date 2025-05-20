@@ -2,6 +2,19 @@
   "md": {
     "type": "folder",
     "children": {
+      "abc": {
+        "type": "folder",
+        "children": {
+          "红黑树.md": {
+            "type": "file",
+            "path": "../md/abc/红黑树.md"
+          },
+          "跳表.md": {
+            "type": "file",
+            "path": "../md/abc/跳表.md"
+          }
+        }
+      },
       "example.md": {
         "type": "file",
         "path": "../md/example.md"
