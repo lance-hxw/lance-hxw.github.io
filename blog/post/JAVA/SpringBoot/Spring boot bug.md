@@ -1,0 +1,3 @@
+-  testWhileIdle is true, validationQuery not set
+	- springboot1.4就没有spring.datasource.type
+	- 然后让query这个不能配置了，必须写配置类
