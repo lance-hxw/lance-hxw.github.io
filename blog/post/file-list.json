@@ -13,23 +13,23 @@
                 "children": {
                   "跳表.md": {
                     "type": "file",
-                    "path": "../_post/abc/好的/abcc/跳表.md"
+                    "path": "abc/好的/abcc/跳表.md"
                   }
                 }
               },
               "跳表.md": {
                 "type": "file",
-                "path": "../_post/abc/好的/跳表.md"
+                "path": "abc/好的/跳表.md"
               }
             }
           },
           "红黑树.md": {
             "type": "file",
-            "path": "../_post/abc/红黑树.md"
+            "path": "abc/红黑树.md"
           },
           "跳表.md": {
             "type": "file",
-            "path": "../_post/abc/跳表.md"
+            "path": "abc/跳表.md"
           }
         }
       },
@@ -38,13 +38,13 @@
         "children": {
           "another-example.md": {
             "type": "file",
-            "path": "../_post/subfolder/another-example.md"
+            "path": "subfolder/another-example.md"
           }
         }
       },
       "example.md": {
         "type": "file",
-        "path": "../_post/example.md"
+        "path": "example.md"
       }
     }
   }
