@@ -41,7 +41,7 @@ function buildFileList(dirPath) {
     const relativePath = path.relative(postDir, itemPath);
     result[item] = {
       type: 'file',
-      path: path.join('./', relativePath).replace(/\\/g, '/') // Use forward slashes for URL paths
+      path: path.join('../_post/', relativePath).replace(/\\/g, '/') // Prepend ../_post/ and use forward slashes
     };
   });
 
