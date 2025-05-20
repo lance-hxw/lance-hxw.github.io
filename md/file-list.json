@@ -1,0 +1,20 @@
+{
+  "md": {
+    "type": "folder",
+    "children": {
+      "example.md": {
+        "type": "file",
+        "path": "../md/example.md"
+      },
+      "subfolder": {
+        "type": "folder",
+        "children": {
+          "another-example.md": {
+            "type": "file",
+            "path": "../md/subfolder/another-example.md"
+          }
+        }
+      }
+    }
+  }
+}

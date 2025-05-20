@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lance的个人网站</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        header {
+            text-align: center;
+            padding: 2rem 0;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            color: #7f8c8d;
+            margin-bottom: 2rem;
+        }
+        .nav-buttons {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        .nav-button {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+        .nav-button:hover {
+            background-color: #2980b9;
+        }
+        .content {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding: 1rem 0;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Lance的个人网站</h1>
+            <p class="subtitle">欢迎访问我的GitHub Pages站点</p>
+        </header>
+        
+        <div class="nav-buttons">
+            <a href="#" class="nav-button">首页</a>
+            <a href="blog/" class="nav-button">博客</a>
+            <a href="https://github.com/lance-hxw" class="nav-button">GitHub</a>
+            <a href="#about" class="nav-button">关于我</a>
+        </div>
+        
+        <div class="content">
+            <h2>欢迎来到我的网站</h2>
+            <p>这是我的个人网站，使用GitHub Pages搭建。</p>
+            <p>点击上方的"博客"按钮，可以浏览我的博客文章，这些文章都是用Markdown格式编写的。</p>
+            
+            <div id="about">
+                <h2>关于我</h2>
+                <p>这里可以添加一些个人介绍...</p>
+            </div>
+        </div>
+        
+        <footer>
+            <p>&copy; 2023 Lance的个人网站. 使用GitHub Pages搭建.</p>
+        </footer>
+    </div>
+</body>
+</html>
