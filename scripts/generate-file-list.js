@@ -1,42 +1,57 @@
 const fs = require('fs');
 const path = require('path');
 
-const mdDir = path.join(__dirname, '..', 'md');
-const outputFile = path.join(mdDir, 'file-list.json');
+const postDir = path.join(__dirname, '..', '_post');
+const outputFile = path.join(postDir, 'file-list.json');
 
 function buildFileList(dirPath) {
   const items = fs.readdirSync(dirPath);
   const result = {};
 
+  const folders = [];
+  const files = [];
+
   items.forEach(item => {
     const itemPath = path.join(dirPath, item);
     const stat = fs.statSync(itemPath);
-    const relativePath = path.relative(mdDir, itemPath);
 
     if (stat.isDirectory()) {
       // Ignore .github and scripts directories
       if (item === '.github' || item === 'scripts') {
         return;
       }
-      result[item] = {
-        type: 'folder',
-        children: buildFileList(itemPath)
-      };
+      folders.push(item);
     } else if (stat.isFile() && item.endsWith('.md')) {
-      result[item] = {
-        type: 'file',
-        path: path.join('../md', relativePath).replace(/\\/g, '/') // Use forward slashes for URL paths
-      };
+      files.push(item);
     }
+  });
+
+  // Process folders first
+  folders.forEach(item => {
+    const itemPath = path.join(dirPath, item);
+    result[item] = {
+      type: 'folder',
+      children: buildFileList(itemPath)
+    };
+  });
+
+  // Then process files
+  files.forEach(item => {
+    const itemPath = path.join(dirPath, item);
+    const relativePath = path.relative(postDir, itemPath);
+    result[item] = {
+      type: 'file',
+      path: path.join('./', relativePath).replace(/\\/g, '/') // Use forward slashes for URL paths
+    };
   });
 
   return result;
 }
 
 const fileList = {
-  md: {
+  _post: {
     type: 'folder',
-    children: buildFileList(mdDir)
+    children: buildFileList(postDir)
   }
 };
 

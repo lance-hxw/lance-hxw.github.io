@@ -1,0 +1,51 @@
+{
+  "_post": {
+    "type": "folder",
+    "children": {
+      "abc": {
+        "type": "folder",
+        "children": {
+          "好的": {
+            "type": "folder",
+            "children": {
+              "abcc": {
+                "type": "folder",
+                "children": {
+                  "跳表.md": {
+                    "type": "file",
+                    "path": "abc/好的/abcc/跳表.md"
+                  }
+                }
+              },
+              "跳表.md": {
+                "type": "file",
+                "path": "abc/好的/跳表.md"
+              }
+            }
+          },
+          "红黑树.md": {
+            "type": "file",
+            "path": "abc/红黑树.md"
+          },
+          "跳表.md": {
+            "type": "file",
+            "path": "abc/跳表.md"
+          }
+        }
+      },
+      "subfolder": {
+        "type": "folder",
+        "children": {
+          "another-example.md": {
+            "type": "file",
+            "path": "subfolder/another-example.md"
+          }
+        }
+      },
+      "example.md": {
+        "type": "file",
+        "path": "example.md"
+      }
+    }
+  }
+}

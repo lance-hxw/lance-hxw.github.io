@@ -81,12 +81,13 @@
         }
         .file-tree ul {
             list-style-type: none;
-            margin-left: 0.8rem;
+            margin-left: 0;
+            padding-left: 1.5rem; /* Adjust padding for indentation */
             display: none;
         }
         .file-tree > ul {
             display: block;
-            margin-left: 0;
+            padding-left: 0; /* Remove padding for the root level */
         }
         .file-tree .folder.open + ul { /* Add this rule */
             display: block;
@@ -99,7 +100,6 @@
             cursor: pointer;
             color: #2c3e50;
             position: relative;
-            padding-left: 1rem;
         }
         .file-tree .folder::before {
             content: '▶'; /* Right arrow for collapsed state */
@@ -237,34 +237,11 @@
             
             // 在本地开发环境中，你可以使用fetch API来获取文件列表
             try {
-                const response = await fetch('../md/file-list.json?' + new Date().getTime());
-                if (response.ok) {
-                    const data = await response.json();
-                    fileTree = data;
-                } else {
-                    console.warn('无法获取文件列表，使用示例数据');
-                    // 使用示例数据
-                    fileTree = {
-                        'md': {
-                            type: 'folder',
-                            children: {
-                                'example.md': {
-                                    type: 'file',
-                                    path: '../md/example.md'
-                                },
-                                'subfolder': {
-                                    type: 'folder',
-                                    children: {
-                                        'another-example.md': {
-                                            type: 'file',
-                                            path: '../md/subfolder/another-example.md'
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    };
+                const response = await fetch('../_post/file-list.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
                 }
+                fileTree = await response.json();
             } catch (error) {
                 console.warn('获取文件列表失败，使用示例数据', error);
                 // 使用示例数据
@@ -290,10 +267,22 @@
             const rootUl = document.createElement('ul');
             fileTreeElement.appendChild(rootUl);
             
-            // 渲染根目录
-            for (const [name, item] of Object.entries(fileTree)) {
-                const li = createTreeItem(name, item);
-                rootUl.appendChild(li);
+            // Render the children of the _post folder as the root nodes
+            const postFolder = fileTree['_post'];
+            if (postFolder && postFolder.type === 'folder' && postFolder.children) {
+                for (const [childName, childItem] of Object.entries(postFolder.children)) {
+                    const childLi = createTreeItem(childName, childItem);
+                    rootUl.appendChild(childLi);
+                    // If the item is a folder, make it open by default
+                    if (childItem.type === 'folder') {
+                        const folderSpan = childLi.querySelector('.folder');
+                        const ul = childLi.querySelector('ul');
+                        if (folderSpan && ul) {
+                            folderSpan.classList.add('open');
+                            ul.style.display = 'block';
+                        }
+                    }
+                }
             }
         }
         
@@ -310,22 +299,32 @@
                 
                 // 子节点容器
                 const ul = document.createElement('ul');
+                // 默认收起子文件夹
+                ul.style.display = 'none'; 
                 li.appendChild(ul);
                 
                 // 渲染子节点
-                for (const [childName, childItem] of Object.entries(item.children)) {
+                // Separate folders and files
+                const children = Object.entries(item.children);
+                const folders = children.filter(([name, childItem]) => childItem.type === 'folder');
+                const files = children.filter(([name, childItem]) => childItem.type === 'file');
+
+                // Append folders first
+                for (const [childName, childItem] of folders) {
                     const childLi = createTreeItem(childName, childItem);
                     ul.appendChild(childLi);
                 }
-                
+
+                // Then append files
+                for (const [childName, childItem] of files) {
+                    const childLi = createTreeItem(childName, childItem);
+                    ul.appendChild(childLi);
+                }
+
                 // 点击文件夹展开/折叠
                 folderSpan.addEventListener('click', () => {
-                    console.log('Folder clicked:', name);
-                    console.log('Before toggle - classList:', folderSpan.classList.toString());
-                    console.log('Before toggle - ul display:', ul.style.display);
-                    folderSpan.classList.toggle('open'); // Simply toggle the 'open' class
-                    console.log('After toggle - classList:', folderSpan.classList.toString());
-                    console.log('After toggle - ul display:', ul.style.display);
+                    const isOpen = folderSpan.classList.toggle('open');
+                    ul.style.display = isOpen ? 'block' : 'none';
                 });
             } else if (item.type === 'file') {
                 // 文件节点
@@ -349,11 +348,13 @@
         
         // 加载Markdown文件
         async function loadMarkdownFile(filePath) {
+            // 确保文件路径正确，添加 _post 目录前缀
+            const fullPath = '../_post/' + filePath;
             const contentElement = document.getElementById('markdown-content');
             contentElement.innerHTML = '<div class="loading">加载中...</div>';
             
             try {
-                const response = await fetch(filePath + '?' + new Date().getTime());
+                const response = await fetch(fullPath + '?' + new Date().getTime());
                 if (response.ok) {
                     const markdown = await response.text();
                     // 使用marked.js渲染Markdown
