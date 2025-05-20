@@ -237,7 +237,7 @@
             
             // 在本地开发环境中，你可以使用fetch API来获取文件列表
             try {
-                const response = await fetch('../_post/file-list.json');
+                const response = await fetch('post/file-list.json');
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
@@ -348,8 +348,8 @@
         
         // 加载Markdown文件
         async function loadMarkdownFile(filePath) {
-            // 确保文件路径正确，添加 _post 目录前缀
-            const fullPath = '../_post/' + filePath;
+            // 文件路径现在是相对于 blog/post 目录的
+            const fullPath = 'post/' + filePath;
             const contentElement = document.getElementById('markdown-content');
             contentElement.innerHTML = '<div class="loading">加载中...</div>';
             

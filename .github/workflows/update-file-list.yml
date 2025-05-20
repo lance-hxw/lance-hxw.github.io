@@ -28,6 +28,6 @@ jobs:
       run: |
         git config user.name github-actions
         git config user.email github-actions@github.com
-        git add _post/file-list.json
-        git commit -m "Auto: Update file-list.json" || exit 0 # Exit 0 if no changes
+        git add blog/post/file-list.json
+        git commit -m "Auto: Update blog/post/file-list.json" || exit 0 # Exit 0 if no changes
         git push

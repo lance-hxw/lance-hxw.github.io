@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const postDir = path.join(__dirname, '..', '_post');
+const postDir = path.join(__dirname, '..', 'blog', 'post');
 const outputFile = path.join(postDir, 'file-list.json');
 
 function buildFileList(dirPath) {
@@ -41,7 +41,7 @@ function buildFileList(dirPath) {
     const relativePath = path.relative(postDir, itemPath);
     result[item] = {
       type: 'file',
-      path: path.join('../_post/', relativePath).replace(/\\/g, '/') // Prepend ../_post/ and use forward slashes
+      path: relativePath.replace(/\\/g, '/') // Use path relative to blog/post
     };
   });
 
