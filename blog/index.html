@@ -274,14 +274,7 @@
                     const childLi = createTreeItem(childName, childItem);
                     rootUl.appendChild(childLi);
                     // If the item is a folder, make it open by default
-                    if (childItem.type === 'folder') {
-                        const folderSpan = childLi.querySelector('.folder');
-                        const ul = childLi.querySelector('ul');
-                        if (folderSpan && ul) {
-                            folderSpan.classList.add('open');
-                            ul.style.display = 'block';
-                        }
-                    }
+                    // 移除默认展开逻辑
                 }
             }
         }
