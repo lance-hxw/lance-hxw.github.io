@@ -5,7 +5,1076 @@
       "后端知识": {
         "type": "folder",
         "children": {
-          "000后端常识": {
+          "000 JAVA": {
+            "type": "folder",
+            "children": {
+              "JDBC": {
+                "type": "folder",
+                "children": {
+                  "JDBC事务.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/JDBC/JDBC事务.md"
+                  },
+                  "JDBC快速上手.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/JDBC/JDBC快速上手.md"
+                  },
+                  "JDBC连接池与Spring中的datasource生命周期.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/JDBC/JDBC连接池与Spring中的datasource生命周期.md"
+                  }
+                }
+              },
+              "Maven": {
+                "type": "folder",
+                "children": {
+                  "maven  生命周期管理.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/Maven/maven  生命周期管理.md"
+                  },
+                  "maven 仓库.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/Maven/maven 仓库.md"
+                  },
+                  "maven 依赖scope.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/Maven/maven 依赖scope.md"
+                  },
+                  "maven依赖管理.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/Maven/maven依赖管理.md"
+                  },
+                  "maven功能.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/Maven/maven功能.md"
+                  },
+                  "maven多模块项目.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/Maven/maven多模块项目.md"
+                  },
+                  "用maven创建一个项目.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/Maven/用maven创建一个项目.md"
+                  }
+                }
+              },
+              "Spring": {
+                "type": "folder",
+                "children": {
+                  "源代码解读": {
+                    "type": "folder",
+                    "children": {
+                      "spring-beans-factory-support.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/Spring/源代码解读/spring-beans-factory-support.md"
+                      },
+                      "spring-core-io-Resource.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/Spring/源代码解读/spring-core-io-Resource.md"
+                      },
+                      "spring-core-io-ResourceReader.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/Spring/源代码解读/spring-core-io-ResourceReader.md"
+                      },
+                      "spring-metadata-annotationMetadata.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/Spring/源代码解读/spring-metadata-annotationMetadata.md"
+                      },
+                      "spring-metadata-metadataReader.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/Spring/源代码解读/spring-metadata-metadataReader.md"
+                      }
+                    }
+                  },
+                  "AOP.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/Spring/AOP.md"
+                  },
+                  "IoC容器.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/Spring/IoC容器.md"
+                  },
+                  "JdbcTemplate.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/Spring/JdbcTemplate.md"
+                  },
+                  "Spring Context.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/Spring/Spring Context.md"
+                  },
+                  "Spring Expression Language.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/Spring/Spring Expression Language.md"
+                  },
+                  "Spring bean的作用域与线程安全.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/Spring/Spring bean的作用域与线程安全.md"
+                  },
+                  "Spring 事务.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/Spring/Spring 事务.md"
+                  },
+                  "Spring 声明式事务.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/Spring/Spring 声明式事务.md"
+                  },
+                  "Spring启动的操作.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/Spring/Spring启动的操作.md"
+                  },
+                  "Spring注解.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/Spring/Spring注解.md"
+                  },
+                  "Spring自定义注解.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/Spring/Spring自定义注解.md"
+                  },
+                  "Untitled.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/Spring/Untitled.md"
+                  },
+                  "bean 的属性.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/Spring/bean 的属性.md"
+                  },
+                  "spring对循环依赖的处理.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/Spring/spring对循环依赖的处理.md"
+                  },
+                  "事务失效.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/Spring/事务失效.md"
+                  },
+                  "动态代理-DESKTOP-T161DKL.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/Spring/动态代理-DESKTOP-T161DKL.md"
+                  }
+                }
+              },
+              "SpringBoot": {
+                "type": "folder",
+                "children": {
+                  "Spring Boot快速上手.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/SpringBoot/Spring Boot快速上手.md"
+                  },
+                  "Spring Cache.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/SpringBoot/Spring Cache.md"
+                  },
+                  "Spring Request Scope Vs java Thread-local Vs .....md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/SpringBoot/Spring Request Scope Vs java Thread-local Vs .....md"
+                  },
+                  "Spring Task.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/SpringBoot/Spring Task.md"
+                  },
+                  "Spring boot bug.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/SpringBoot/Spring boot bug.md"
+                  },
+                  "SpringBoot注解.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/SpringBoot/SpringBoot注解.md"
+                  },
+                  "Springboot 杂记.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/SpringBoot/Springboot 杂记.md"
+                  },
+                  "Springboot自动配置.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/SpringBoot/Springboot自动配置.md"
+                  },
+                  "spring boot starter.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/SpringBoot/spring boot starter.md"
+                  },
+                  "加载配置文件.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/SpringBoot/加载配置文件.md"
+                  }
+                }
+              },
+              "SpringMVC": {
+                "type": "folder",
+                "children": {
+                  "DispatcherServelet.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/SpringMVC/DispatcherServelet.md"
+                  },
+                  "HandlerInterceptor 接口.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/SpringMVC/HandlerInterceptor 接口.md"
+                  },
+                  "HttpMessageConverter.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/SpringMVC/HttpMessageConverter.md"
+                  },
+                  "Spring MVC分层.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/SpringMVC/Spring MVC分层.md"
+                  },
+                  "WebMVC configuration.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/SpringMVC/WebMVC configuration.md"
+                  },
+                  "处理一个请求的全过程.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/SpringMVC/处理一个请求的全过程.md"
+                  }
+                }
+              },
+              "java体操练习题": {
+                "type": "folder",
+                "children": {
+                  "类型排序.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java体操练习题/类型排序.md"
+                  }
+                }
+              },
+              "java八股": {
+                "type": "folder",
+                "children": {
+                  "CompletableFuture.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/CompletableFuture.md"
+                  },
+                  "JVM-DESKTOP-T161DKL.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/JVM-DESKTOP-T161DKL.md"
+                  },
+                  "JVM.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/JVM.md"
+                  },
+                  "Java对象头 MarkWord.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/Java对象头 MarkWord.md"
+                  },
+                  "ThreadLocal-DESKTOP-T161DKL.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/ThreadLocal-DESKTOP-T161DKL.md"
+                  },
+                  "ThreadLocal.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/ThreadLocal.md"
+                  },
+                  "arraylist优化.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/arraylist优化.md"
+                  },
+                  "class文件内容.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/class文件内容.md"
+                  },
+                  "jar，war包.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/jar，war包.md"
+                  },
+                  "java GC-DESKTOP-T161DKL.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java GC-DESKTOP-T161DKL.md"
+                  },
+                  "java GC.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java GC.md"
+                  },
+                  "java JMM和进程通讯.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java JMM和进程通讯.md"
+                  },
+                  "java System类.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java System类.md"
+                  },
+                  "java app 访问本地目录.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java app 访问本地目录.md"
+                  },
+                  "java fork & join.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java fork & join.md"
+                  },
+                  "java map-DESKTOP-T161DKL.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java map-DESKTOP-T161DKL.md"
+                  },
+                  "java map.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java map.md"
+                  },
+                  "java this参数绑定.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java this参数绑定.md"
+                  },
+                  "java 内存模型.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java 内存模型.md"
+                  },
+                  "java 函数式接口-DESKTOP-T161DKL.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java 函数式接口-DESKTOP-T161DKL.md"
+                  },
+                  "java 函数式接口.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java 函数式接口.md"
+                  },
+                  "java 动态线程池.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java 动态线程池.md"
+                  },
+                  "java 反射-DESKTOP-T161DKL.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java 反射-DESKTOP-T161DKL.md"
+                  },
+                  "java 反射.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java 反射.md"
+                  },
+                  "java 基础类型值，转型和辅助方法.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java 基础类型值，转型和辅助方法.md"
+                  },
+                  "java 序列化-DESKTOP-T161DKL.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java 序列化-DESKTOP-T161DKL.md"
+                  },
+                  "java 序列化.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java 序列化.md"
+                  },
+                  "java 异常处理 1.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java 异常处理 1.md"
+                  },
+                  "java 异常处理-DESKTOP-T161DKL.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java 异常处理-DESKTOP-T161DKL.md"
+                  },
+                  "java 异常处理.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java 异常处理.md"
+                  },
+                  "java 方法引用.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java 方法引用.md"
+                  },
+                  "java 枚举 Enum.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java 枚举 Enum.md"
+                  },
+                  "java 版本.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java 版本.md"
+                  },
+                  "java 线程池-DESKTOP-T161DKL.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java 线程池-DESKTOP-T161DKL.md"
+                  },
+                  "java 线程池.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java 线程池.md"
+                  },
+                  "java 语法查漏杂记.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java 语法查漏杂记.md"
+                  },
+                  "java 链式调用.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java 链式调用.md"
+                  },
+                  "java 集合.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java 集合.md"
+                  },
+                  "java 项目部署和发布.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java 项目部署和发布.md"
+                  },
+                  "jdk工具.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/jdk工具.md"
+                  },
+                  "juc包-DESKTOP-T161DKL.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/juc包-DESKTOP-T161DKL.md"
+                  },
+                  "juc包.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/juc包.md"
+                  },
+                  "jvm 调优相关参数.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/jvm 调优相关参数.md"
+                  },
+                  "rethinking java基础.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/rethinking java基础.md"
+                  },
+                  "swagger.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/swagger.md"
+                  },
+                  "synchronized-DESKTOP-T161DKL.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/synchronized-DESKTOP-T161DKL.md"
+                  },
+                  "synchronized.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/synchronized.md"
+                  },
+                  "网络高并发IO-DESKTOP-T161DKL.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/网络高并发IO-DESKTOP-T161DKL.md"
+                  },
+                  "网络高并发IO.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/网络高并发IO.md"
+                  }
+                }
+              },
+              "java实战": {
+                "type": "folder",
+                "children": {
+                  "动态代理": {
+                    "type": "folder",
+                    "children": {
+                      "java 反射常用方法.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/动态代理/java 反射常用方法.md"
+                      },
+                      "java具体如何实现动态代理.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/动态代理/java具体如何实现动态代理.md"
+                      }
+                    }
+                  },
+                  "手撕设计模式": {
+                    "type": "folder",
+                    "children": {
+                      "单例模式.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/手撕设计模式/单例模式.md"
+                      },
+                      "装饰器.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/手撕设计模式/装饰器.md"
+                      },
+                      "观察者.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/手撕设计模式/观察者.md"
+                      },
+                      "责任链.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/手撕设计模式/责任链.md"
+                      }
+                    }
+                  },
+                  "排序算法": {
+                    "type": "folder",
+                    "children": {
+                      "堆排序.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/排序算法/堆排序.md"
+                      },
+                      "归并 与 多路归并.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/排序算法/归并 与 多路归并.md"
+                      },
+                      "快排和topk.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/排序算法/快排和topk.md"
+                      }
+                    }
+                  },
+                  "线程池": {
+                    "type": "folder",
+                    "children": {
+                      "InterruptException.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/线程池/InterruptException.md"
+                      },
+                      "Object的wait和notify.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/线程池/Object的wait和notify.md"
+                      },
+                      "Thread类.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/线程池/Thread类.md"
+                      },
+                      "Untitled 1.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/线程池/Untitled 1.md"
+                      },
+                      "Untitled.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/线程池/Untitled.md"
+                      },
+                      "juc同步工具.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/线程池/juc同步工具.md"
+                      },
+                      "juc的CountDownLatch 和 barrior.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/线程池/juc的CountDownLatch 和 barrior.md"
+                      },
+                      "juc的LockSupport.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/线程池/juc的LockSupport.md"
+                      },
+                      "juc的condition.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/线程池/juc的condition.md"
+                      },
+                      "使用原子变量.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/线程池/使用原子变量.md"
+                      },
+                      "手撕：10个线程等待锁.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/线程池/手撕：10个线程等待锁.md"
+                      },
+                      "手撕：ABCABC.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/线程池/手撕：ABCABC.md"
+                      },
+                      "手撕：两个线程交替打印.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/线程池/手撕：两个线程交替打印.md"
+                      },
+                      "手撕：线程安全计数器.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/线程池/手撕：线程安全计数器.md"
+                      },
+                      "线程池类关系.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/线程池/线程池类关系.md"
+                      }
+                    }
+                  },
+                  "AQS实现.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java实战/AQS实现.md"
+                  },
+                  "CGLibrary实现.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java实战/CGLibrary实现.md"
+                  },
+                  "Class类常用方法.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java实战/Class类常用方法.md"
+                  },
+                  "ExecutorService.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java实战/ExecutorService.md"
+                  },
+                  "HashMap.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java实战/HashMap.md"
+                  },
+                  "JDK动态代理实现.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java实战/JDK动态代理实现.md"
+                  },
+                  "Objects 和Object的区别.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java实战/Objects 和Object的区别.md"
+                  },
+                  "Object类， 与实战.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java实战/Object类， 与实战.md"
+                  },
+                  "java NIO.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java实战/java NIO.md"
+                  },
+                  "java io.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java实战/java io.md"
+                  },
+                  "java stl使用.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java实战/java stl使用.md"
+                  },
+                  "java 反射.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java实战/java 反射.md"
+                  },
+                  "java 常用api.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java实战/java 常用api.md"
+                  },
+                  "java 泛型.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java实战/java 泛型.md"
+                  },
+                  "原子类使用.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java实战/原子类使用.md"
+                  },
+                  "如何使用ws.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java实战/如何使用ws.md"
+                  },
+                  "定时任务.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java实战/定时任务.md"
+                  },
+                  "手撕数组题.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java实战/手撕数组题.md"
+                  },
+                  "手撕：单例模式.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java实战/手撕：单例模式.md"
+                  },
+                  "线程安全计数器.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java实战/线程安全计数器.md"
+                  },
+                  "链表相关.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java实战/链表相关.md"
+                  },
+                  "高并发乐观锁.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java实战/高并发乐观锁.md"
+                  }
+                }
+              },
+              "java常用包": {
+                "type": "folder",
+                "children": {
+                  "HttpClient.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java常用包/HttpClient.md"
+                  },
+                  "collections.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java常用包/collections.md"
+                  }
+                }
+              },
+              "mybatis": {
+                "type": "folder",
+                "children": {
+                  "mybatis 语法杂记.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/mybatis/mybatis 语法杂记.md"
+                  },
+                  "mybatis 返回自增id.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/mybatis/mybatis 返回自增id.md"
+                  },
+                  "mybatis预编译占位符与字符串替换.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/mybatis/mybatis预编译占位符与字符串替换.md"
+                  },
+                  "使用mybatis.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/mybatis/使用mybatis.md"
+                  }
+                }
+              },
+              "DDD.md": {
+                "type": "file",
+                "path": "后端知识/000 JAVA/DDD.md"
+              },
+              "JUnit.md": {
+                "type": "file",
+                "path": "后端知识/000 JAVA/JUnit.md"
+              },
+              "OSGi.md": {
+                "type": "file",
+                "path": "后端知识/000 JAVA/OSGi.md"
+              },
+              "Object.notify().md": {
+                "type": "file",
+                "path": "后端知识/000 JAVA/Object.notify().md"
+              },
+              "Ref..md": {
+                "type": "file",
+                "path": "后端知识/000 JAVA/Ref..md"
+              },
+              "SPI.md": {
+                "type": "file",
+                "path": "后端知识/000 JAVA/SPI.md"
+              },
+              "Spring Security-DESKTOP-T161DKL.md": {
+                "type": "file",
+                "path": "后端知识/000 JAVA/Spring Security-DESKTOP-T161DKL.md"
+              },
+              "Spring Security.md": {
+                "type": "file",
+                "path": "后端知识/000 JAVA/Spring Security.md"
+              },
+              "Untitled.md": {
+                "type": "file",
+                "path": "后端知识/000 JAVA/Untitled.md"
+              },
+              "apifox杂记.md": {
+                "type": "file",
+                "path": "后端知识/000 JAVA/apifox杂记.md"
+              },
+              "java acm模式io.md": {
+                "type": "file",
+                "path": "后端知识/000 JAVA/java acm模式io.md"
+              },
+              "java 多线程实战杂记.md": {
+                "type": "file",
+                "path": "后端知识/000 JAVA/java 多线程实战杂记.md"
+              },
+              "java 进程间通讯.md": {
+                "type": "file",
+                "path": "后端知识/000 JAVA/java 进程间通讯.md"
+              },
+              "java类型擦除机制.md": {
+                "type": "file",
+                "path": "后端知识/000 JAVA/java类型擦除机制.md"
+              },
+              "jwt.md": {
+                "type": "file",
+                "path": "后端知识/000 JAVA/jwt.md"
+              },
+              "orm 对象-关系映射.md": {
+                "type": "file",
+                "path": "后端知识/000 JAVA/orm 对象-关系映射.md"
+              },
+              "postgresql实战.md": {
+                "type": "file",
+                "path": "后端知识/000 JAVA/postgresql实战.md"
+              },
+              "指令重排对多线程的影响.md": {
+                "type": "file",
+                "path": "后端知识/000 JAVA/指令重排对多线程的影响.md"
+              },
+              "环境配置.md": {
+                "type": "file",
+                "path": "后端知识/000 JAVA/环境配置.md"
+              },
+              "缓存问题.md": {
+                "type": "file",
+                "path": "后端知识/000 JAVA/缓存问题.md"
+              }
+            }
+          },
+          "001 golang": {
+            "type": "folder",
+            "children": {
+              "container": {
+                "type": "folder",
+                "children": {
+                  "container包.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/container/container包.md"
+                  },
+                  "heap.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/container/heap.md"
+                  },
+                  "list 双向链表.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/container/list 双向链表.md"
+                  },
+                  "自己实现，基于slice.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/container/自己实现，基于slice.md"
+                  }
+                }
+              },
+              "go 并发编程": {
+                "type": "folder",
+                "children": {
+                  "channel": {
+                    "type": "folder",
+                    "children": {
+                      "chan 深入.md": {
+                        "type": "file",
+                        "path": "后端知识/001 golang/go 并发编程/channel/chan 深入.md"
+                      },
+                      "chan.md": {
+                        "type": "file",
+                        "path": "后端知识/001 golang/go 并发编程/channel/chan.md"
+                      },
+                      "select.md": {
+                        "type": "file",
+                        "path": "后端知识/001 golang/go 并发编程/channel/select.md"
+                      }
+                    }
+                  },
+                  "goroutine": {
+                    "type": "folder",
+                    "children": {
+                      "协程.md": {
+                        "type": "file",
+                        "path": "后端知识/001 golang/go 并发编程/goroutine/协程.md"
+                      },
+                      "同步工具.md": {
+                        "type": "file",
+                        "path": "后端知识/001 golang/go 并发编程/goroutine/同步工具.md"
+                      },
+                      "调度器.md": {
+                        "type": "file",
+                        "path": "后端知识/001 golang/go 并发编程/goroutine/调度器.md"
+                      }
+                    }
+                  }
+                }
+              },
+              "golang八股": {
+                "type": "folder",
+                "children": {
+                  "GC.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/golang八股/GC.md"
+                  }
+                }
+              },
+              "go实现设计模式": {
+                "type": "folder",
+                "children": {
+                  "单例.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/go实现设计模式/单例.md"
+                  },
+                  "工厂.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/go实现设计模式/工厂.md"
+                  },
+                  "责任链.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/go实现设计模式/责任链.md"
+                  }
+                }
+              },
+              "mod": {
+                "type": "folder",
+                "children": {
+                  "go mod与vendor.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/mod/go mod与vendor.md"
+                  },
+                  "list.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/mod/list.md"
+                  },
+                  "tidy.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/mod/tidy.md"
+                  },
+                  "使用本地的vendor.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/mod/使用本地的vendor.md"
+                  }
+                }
+              },
+              "从java转go快速上手": {
+                "type": "folder",
+                "children": {
+                  "go依赖注入？.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/从java转go快速上手/go依赖注入？.md"
+                  },
+                  "基本语法.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/从java转go快速上手/基本语法.md"
+                  },
+                  "常用包.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/从java转go快速上手/常用包.md"
+                  },
+                  "环境配置.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/从java转go快速上手/环境配置.md"
+                  }
+                }
+              },
+              "基本类型操作": {
+                "type": "folder",
+                "children": {
+                  "map.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本类型操作/map.md"
+                  },
+                  "slice.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本类型操作/slice.md"
+                  },
+                  "string.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本类型操作/string.md"
+                  },
+                  "数组.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本类型操作/数组.md"
+                  }
+                }
+              },
+              "基本语法": {
+                "type": "folder",
+                "children": {
+                  "Untitled 1.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本语法/Untitled 1.md"
+                  },
+                  "const和枚举.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本语法/const和枚举.md"
+                  },
+                  "error.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本语法/error.md"
+                  },
+                  "golang 语言风格.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本语法/golang 语言风格.md"
+                  },
+                  "interface{}.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本语法/interface{}.md"
+                  },
+                  "make.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本语法/make.md"
+                  },
+                  "new.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本语法/new.md"
+                  },
+                  "package.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本语法/package.md"
+                  },
+                  "range遍历.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本语法/range遍历.md"
+                  },
+                  "receiver.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本语法/receiver.md"
+                  },
+                  "switch.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本语法/switch.md"
+                  },
+                  "type struct到底在干嘛.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本语法/type struct到底在干嘛.md"
+                  },
+                  "type.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本语法/type.md"
+                  },
+                  "函数定义与返回值.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本语法/函数定义与返回值.md"
+                  },
+                  "变量作用域.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本语法/变量作用域.md"
+                  },
+                  "变量声明.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本语法/变量声明.md"
+                  },
+                  "复合字面量.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本语法/复合字面量.md"
+                  },
+                  "定义函数类型.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本语法/定义函数类型.md"
+                  },
+                  "指针.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本语法/指针.md"
+                  },
+                  "接口值.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本语法/接口值.md"
+                  },
+                  "控制流.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本语法/控制流.md"
+                  },
+                  "比较.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本语法/比较.md"
+                  },
+                  "类型判断.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本语法/类型判断.md"
+                  },
+                  "结构体标签.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本语法/结构体标签.md"
+                  },
+                  "赋值.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本语法/赋值.md"
+                  },
+                  "零值.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/基本语法/零值.md"
+                  }
+                }
+              },
+              "defer.md": {
+                "type": "file",
+                "path": "后端知识/001 golang/defer.md"
+              },
+              "net-context.md": {
+                "type": "file",
+                "path": "后端知识/001 golang/net-context.md"
+              },
+              "time.Ticker.md": {
+                "type": "file",
+                "path": "后端知识/001 golang/time.Ticker.md"
+              },
+              "反射.md": {
+                "type": "file",
+                "path": "后端知识/001 golang/反射.md"
+              },
+              "多态.md": {
+                "type": "file",
+                "path": "后端知识/001 golang/多态.md"
+              },
+              "杂技.md": {
+                "type": "file",
+                "path": "后端知识/001 golang/杂技.md"
+              },
+              "泛型.md": {
+                "type": "file",
+                "path": "后端知识/001 golang/泛型.md"
+              },
+              "面向对象与函数式.md": {
+                "type": "file",
+                "path": "后端知识/001 golang/面向对象与函数式.md"
+              }
+            }
+          },
+          "003 python": {
+            "type": "folder",
+            "children": {
+              "包管理工具 uv.md": {
+                "type": "file",
+                "path": "后端知识/003 python/包管理工具 uv.md"
+              }
+            }
+          },
+          "004 erlang": {
+            "type": "folder",
+            "children": {
+              "rabbit 基于 erlang.md": {
+                "type": "file",
+                "path": "后端知识/004 erlang/rabbit 基于 erlang.md"
+              }
+            }
+          },
+          "010后端常识": {
             "type": "folder",
             "children": {
               "URL": {
@@ -13,49 +1082,49 @@
                 "children": {
                   "嵌套url.md": {
                     "type": "file",
-                    "path": "后端知识/000后端常识/URL/嵌套url.md"
+                    "path": "后端知识/010后端常识/URL/嵌套url.md"
                   }
                 }
               },
               "MIME类型.md": {
                 "type": "file",
-                "path": "后端知识/000后端常识/MIME类型.md"
+                "path": "后端知识/010后端常识/MIME类型.md"
               },
               "token控制唯一性.md": {
                 "type": "file",
-                "path": "后端知识/000后端常识/token控制唯一性.md"
+                "path": "后端知识/010后端常识/token控制唯一性.md"
               },
               "web开发.md": {
                 "type": "file",
-                "path": "后端知识/000后端常识/web开发.md"
+                "path": "后端知识/010后端常识/web开发.md"
               },
               "分页查询.md": {
                 "type": "file",
-                "path": "后端知识/000后端常识/分页查询.md"
+                "path": "后端知识/010后端常识/分页查询.md"
               },
               "参数校验.md": {
                 "type": "file",
-                "path": "后端知识/000后端常识/参数校验.md"
+                "path": "后端知识/010后端常识/参数校验.md"
               },
               "异常处理层级.md": {
                 "type": "file",
-                "path": "后端知识/000后端常识/异常处理层级.md"
+                "path": "后端知识/010后端常识/异常处理层级.md"
               },
               "接口参数.md": {
                 "type": "file",
-                "path": "后端知识/000后端常识/接口参数.md"
+                "path": "后端知识/010后端常识/接口参数.md"
               },
               "日志规范.md": {
                 "type": "file",
-                "path": "后端知识/000后端常识/日志规范.md"
+                "path": "后端知识/010后端常识/日志规范.md"
               },
               "零信任.md": {
                 "type": "file",
-                "path": "后端知识/000后端常识/零信任.md"
+                "path": "后端知识/010后端常识/零信任.md"
               }
             }
           },
-          "001设计模式": {
+          "011设计模式": {
             "type": "folder",
             "children": {
               "设计模式": {
@@ -66,27 +1135,27 @@
                     "children": {
                       "Builder-应对复杂参数创建过程.md": {
                         "type": "file",
-                        "path": "后端知识/001设计模式/设计模式/创建模式/Builder-应对复杂参数创建过程.md"
+                        "path": "后端知识/011设计模式/设计模式/创建模式/Builder-应对复杂参数创建过程.md"
                       },
                       "单例-封装全局信息-DESKTOP-T161DKL.md": {
                         "type": "file",
-                        "path": "后端知识/001设计模式/设计模式/创建模式/单例-封装全局信息-DESKTOP-T161DKL.md"
+                        "path": "后端知识/011设计模式/设计模式/创建模式/单例-封装全局信息-DESKTOP-T161DKL.md"
                       },
                       "单例-封装全局信息.md": {
                         "type": "file",
-                        "path": "后端知识/001设计模式/设计模式/创建模式/单例-封装全局信息.md"
+                        "path": "后端知识/011设计模式/设计模式/创建模式/单例-封装全局信息.md"
                       },
                       "原型-通过copy创建新对象.md": {
                         "type": "file",
-                        "path": "后端知识/001设计模式/设计模式/创建模式/原型-通过copy创建新对象.md"
+                        "path": "后端知识/011设计模式/设计模式/创建模式/原型-通过copy创建新对象.md"
                       },
                       "工厂方法-封装创建过程.md": {
                         "type": "file",
-                        "path": "后端知识/001设计模式/设计模式/创建模式/工厂方法-封装创建过程.md"
+                        "path": "后端知识/011设计模式/设计模式/创建模式/工厂方法-封装创建过程.md"
                       },
                       "抽象工厂-封装一组产品的共性创建过程.md": {
                         "type": "file",
-                        "path": "后端知识/001设计模式/设计模式/创建模式/抽象工厂-封装一组产品的共性创建过程.md"
+                        "path": "后端知识/011设计模式/设计模式/创建模式/抽象工厂-封装一组产品的共性创建过程.md"
                       }
                     }
                   },
@@ -95,31 +1164,31 @@
                     "children": {
                       "Adapter-Wrapper.md": {
                         "type": "file",
-                        "path": "后端知识/001设计模式/设计模式/结构模式/Adapter-Wrapper.md"
+                        "path": "后端知识/011设计模式/设计模式/结构模式/Adapter-Wrapper.md"
                       },
                       "Facade.md": {
                         "type": "file",
-                        "path": "后端知识/001设计模式/设计模式/结构模式/Facade.md"
+                        "path": "后端知识/011设计模式/设计模式/结构模式/Facade.md"
                       },
                       "Flyweight.md": {
                         "type": "file",
-                        "path": "后端知识/001设计模式/设计模式/结构模式/Flyweight.md"
+                        "path": "后端知识/011设计模式/设计模式/结构模式/Flyweight.md"
                       },
                       "Proxy.md": {
                         "type": "file",
-                        "path": "后端知识/001设计模式/设计模式/结构模式/Proxy.md"
+                        "path": "后端知识/011设计模式/设计模式/结构模式/Proxy.md"
                       },
                       "桥接模式-避免继承中的子类爆炸.md": {
                         "type": "file",
-                        "path": "后端知识/001设计模式/设计模式/结构模式/桥接模式-避免继承中的子类爆炸.md"
+                        "path": "后端知识/011设计模式/设计模式/结构模式/桥接模式-避免继承中的子类爆炸.md"
                       },
                       "组合模型.md": {
                         "type": "file",
-                        "path": "后端知识/001设计模式/设计模式/结构模式/组合模型.md"
+                        "path": "后端知识/011设计模式/设计模式/结构模式/组合模型.md"
                       },
                       "装饰器-功能组合复用.md": {
                         "type": "file",
-                        "path": "后端知识/001设计模式/设计模式/结构模式/装饰器-功能组合复用.md"
+                        "path": "后端知识/011设计模式/设计模式/结构模式/装饰器-功能组合复用.md"
                       }
                     }
                   },
@@ -128,49 +1197,49 @@
                     "children": {
                       "State.md": {
                         "type": "file",
-                        "path": "后端知识/001设计模式/设计模式/行为模式/State.md"
+                        "path": "后端知识/011设计模式/设计模式/行为模式/State.md"
                       },
                       "中介模式.md": {
                         "type": "file",
-                        "path": "后端知识/001设计模式/设计模式/行为模式/中介模式.md"
+                        "path": "后端知识/011设计模式/设计模式/行为模式/中介模式.md"
                       },
                       "命令.md": {
                         "type": "file",
-                        "path": "后端知识/001设计模式/设计模式/行为模式/命令.md"
+                        "path": "后端知识/011设计模式/设计模式/行为模式/命令.md"
                       },
                       "备忘录.md": {
                         "type": "file",
-                        "path": "后端知识/001设计模式/设计模式/行为模式/备忘录.md"
+                        "path": "后端知识/011设计模式/设计模式/行为模式/备忘录.md"
                       },
                       "策略模式.md": {
                         "type": "file",
-                        "path": "后端知识/001设计模式/设计模式/行为模式/策略模式.md"
+                        "path": "后端知识/011设计模式/设计模式/行为模式/策略模式.md"
                       },
                       "观察者模式.md": {
                         "type": "file",
-                        "path": "后端知识/001设计模式/设计模式/行为模式/观察者模式.md"
+                        "path": "后端知识/011设计模式/设计模式/行为模式/观察者模式.md"
                       },
                       "解释器.md": {
                         "type": "file",
-                        "path": "后端知识/001设计模式/设计模式/行为模式/解释器.md"
+                        "path": "后端知识/011设计模式/设计模式/行为模式/解释器.md"
                       },
                       "责任链.md": {
                         "type": "file",
-                        "path": "后端知识/001设计模式/设计模式/行为模式/责任链.md"
+                        "path": "后端知识/011设计模式/设计模式/行为模式/责任链.md"
                       },
                       "责任链（过滤，拦截器）.md": {
                         "type": "file",
-                        "path": "后端知识/001设计模式/设计模式/行为模式/责任链（过滤，拦截器）.md"
+                        "path": "后端知识/011设计模式/设计模式/行为模式/责任链（过滤，拦截器）.md"
                       },
                       "迭代器.md": {
                         "type": "file",
-                        "path": "后端知识/001设计模式/设计模式/行为模式/迭代器.md"
+                        "path": "后端知识/011设计模式/设计模式/行为模式/迭代器.md"
                       }
                     }
                   },
                   "依赖注入DI和控制反转IoC.md": {
                     "type": "file",
-                    "path": "后端知识/001设计模式/设计模式/依赖注入DI和控制反转IoC.md"
+                    "path": "后端知识/011设计模式/设计模式/依赖注入DI和控制反转IoC.md"
                   }
                 }
               },
@@ -179,35 +1248,35 @@
                 "children": {
                   "可观测性.md": {
                     "type": "file",
-                    "path": "后端知识/001设计模式/设计模式-微服务/可观测性.md"
+                    "path": "后端知识/011设计模式/设计模式-微服务/可观测性.md"
                   },
                   "可靠性(容错).md": {
                     "type": "file",
-                    "path": "后端知识/001设计模式/设计模式-微服务/可靠性(容错).md"
+                    "path": "后端知识/011设计模式/设计模式-微服务/可靠性(容错).md"
                   },
                   "安全.md": {
                     "type": "file",
-                    "path": "后端知识/001设计模式/设计模式-微服务/安全.md"
+                    "path": "后端知识/011设计模式/设计模式-微服务/安全.md"
                   },
                   "数据管理.md": {
                     "type": "file",
-                    "path": "后端知识/001设计模式/设计模式-微服务/数据管理.md"
+                    "path": "后端知识/011设计模式/设计模式-微服务/数据管理.md"
                   },
                   "服务拆分.md": {
                     "type": "file",
-                    "path": "后端知识/001设计模式/设计模式-微服务/服务拆分.md"
+                    "path": "后端知识/011设计模式/设计模式-微服务/服务拆分.md"
                   },
                   "服务集成.md": {
                     "type": "file",
-                    "path": "后端知识/001设计模式/设计模式-微服务/服务集成.md"
+                    "path": "后端知识/011设计模式/设计模式-微服务/服务集成.md"
                   },
                   "通讯.md": {
                     "type": "file",
-                    "path": "后端知识/001设计模式/设计模式-微服务/通讯.md"
+                    "path": "后端知识/011设计模式/设计模式-微服务/通讯.md"
                   },
                   "部署.md": {
                     "type": "file",
-                    "path": "后端知识/001设计模式/设计模式-微服务/部署.md"
+                    "path": "后端知识/011设计模式/设计模式-微服务/部署.md"
                   }
                 }
               }
@@ -1224,1075 +2293,6 @@
               "长文本存储.md": {
                 "type": "file",
                 "path": "后端知识/Untitled/长文本存储.md"
-              }
-            }
-          },
-          "_00 JAVA": {
-            "type": "folder",
-            "children": {
-              "JDBC": {
-                "type": "folder",
-                "children": {
-                  "JDBC事务.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/JDBC/JDBC事务.md"
-                  },
-                  "JDBC快速上手.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/JDBC/JDBC快速上手.md"
-                  },
-                  "JDBC连接池与Spring中的datasource生命周期.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/JDBC/JDBC连接池与Spring中的datasource生命周期.md"
-                  }
-                }
-              },
-              "Maven": {
-                "type": "folder",
-                "children": {
-                  "maven  生命周期管理.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/Maven/maven  生命周期管理.md"
-                  },
-                  "maven 仓库.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/Maven/maven 仓库.md"
-                  },
-                  "maven 依赖scope.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/Maven/maven 依赖scope.md"
-                  },
-                  "maven依赖管理.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/Maven/maven依赖管理.md"
-                  },
-                  "maven功能.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/Maven/maven功能.md"
-                  },
-                  "maven多模块项目.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/Maven/maven多模块项目.md"
-                  },
-                  "用maven创建一个项目.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/Maven/用maven创建一个项目.md"
-                  }
-                }
-              },
-              "Spring": {
-                "type": "folder",
-                "children": {
-                  "源代码解读": {
-                    "type": "folder",
-                    "children": {
-                      "spring-beans-factory-support.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/Spring/源代码解读/spring-beans-factory-support.md"
-                      },
-                      "spring-core-io-Resource.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/Spring/源代码解读/spring-core-io-Resource.md"
-                      },
-                      "spring-core-io-ResourceReader.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/Spring/源代码解读/spring-core-io-ResourceReader.md"
-                      },
-                      "spring-metadata-annotationMetadata.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/Spring/源代码解读/spring-metadata-annotationMetadata.md"
-                      },
-                      "spring-metadata-metadataReader.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/Spring/源代码解读/spring-metadata-metadataReader.md"
-                      }
-                    }
-                  },
-                  "AOP.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/Spring/AOP.md"
-                  },
-                  "IoC容器.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/Spring/IoC容器.md"
-                  },
-                  "JdbcTemplate.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/Spring/JdbcTemplate.md"
-                  },
-                  "Spring Context.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/Spring/Spring Context.md"
-                  },
-                  "Spring Expression Language.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/Spring/Spring Expression Language.md"
-                  },
-                  "Spring bean的作用域与线程安全.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/Spring/Spring bean的作用域与线程安全.md"
-                  },
-                  "Spring 事务.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/Spring/Spring 事务.md"
-                  },
-                  "Spring 声明式事务.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/Spring/Spring 声明式事务.md"
-                  },
-                  "Spring启动的操作.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/Spring/Spring启动的操作.md"
-                  },
-                  "Spring注解.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/Spring/Spring注解.md"
-                  },
-                  "Spring自定义注解.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/Spring/Spring自定义注解.md"
-                  },
-                  "Untitled.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/Spring/Untitled.md"
-                  },
-                  "bean 的属性.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/Spring/bean 的属性.md"
-                  },
-                  "spring对循环依赖的处理.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/Spring/spring对循环依赖的处理.md"
-                  },
-                  "事务失效.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/Spring/事务失效.md"
-                  },
-                  "动态代理-DESKTOP-T161DKL.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/Spring/动态代理-DESKTOP-T161DKL.md"
-                  }
-                }
-              },
-              "SpringBoot": {
-                "type": "folder",
-                "children": {
-                  "Spring Boot快速上手.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/SpringBoot/Spring Boot快速上手.md"
-                  },
-                  "Spring Cache.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/SpringBoot/Spring Cache.md"
-                  },
-                  "Spring Request Scope Vs java Thread-local Vs .....md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/SpringBoot/Spring Request Scope Vs java Thread-local Vs .....md"
-                  },
-                  "Spring Task.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/SpringBoot/Spring Task.md"
-                  },
-                  "Spring boot bug.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/SpringBoot/Spring boot bug.md"
-                  },
-                  "SpringBoot注解.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/SpringBoot/SpringBoot注解.md"
-                  },
-                  "Springboot 杂记.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/SpringBoot/Springboot 杂记.md"
-                  },
-                  "Springboot自动配置.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/SpringBoot/Springboot自动配置.md"
-                  },
-                  "spring boot starter.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/SpringBoot/spring boot starter.md"
-                  },
-                  "加载配置文件.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/SpringBoot/加载配置文件.md"
-                  }
-                }
-              },
-              "SpringMVC": {
-                "type": "folder",
-                "children": {
-                  "DispatcherServelet.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/SpringMVC/DispatcherServelet.md"
-                  },
-                  "HandlerInterceptor 接口.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/SpringMVC/HandlerInterceptor 接口.md"
-                  },
-                  "HttpMessageConverter.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/SpringMVC/HttpMessageConverter.md"
-                  },
-                  "Spring MVC分层.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/SpringMVC/Spring MVC分层.md"
-                  },
-                  "WebMVC configuration.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/SpringMVC/WebMVC configuration.md"
-                  },
-                  "处理一个请求的全过程.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/SpringMVC/处理一个请求的全过程.md"
-                  }
-                }
-              },
-              "java体操练习题": {
-                "type": "folder",
-                "children": {
-                  "类型排序.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java体操练习题/类型排序.md"
-                  }
-                }
-              },
-              "java八股": {
-                "type": "folder",
-                "children": {
-                  "CompletableFuture.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/CompletableFuture.md"
-                  },
-                  "JVM-DESKTOP-T161DKL.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/JVM-DESKTOP-T161DKL.md"
-                  },
-                  "JVM.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/JVM.md"
-                  },
-                  "Java对象头 MarkWord.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/Java对象头 MarkWord.md"
-                  },
-                  "ThreadLocal-DESKTOP-T161DKL.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/ThreadLocal-DESKTOP-T161DKL.md"
-                  },
-                  "ThreadLocal.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/ThreadLocal.md"
-                  },
-                  "arraylist优化.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/arraylist优化.md"
-                  },
-                  "class文件内容.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/class文件内容.md"
-                  },
-                  "jar，war包.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/jar，war包.md"
-                  },
-                  "java GC-DESKTOP-T161DKL.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java GC-DESKTOP-T161DKL.md"
-                  },
-                  "java GC.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java GC.md"
-                  },
-                  "java JMM和进程通讯.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java JMM和进程通讯.md"
-                  },
-                  "java System类.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java System类.md"
-                  },
-                  "java app 访问本地目录.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java app 访问本地目录.md"
-                  },
-                  "java fork & join.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java fork & join.md"
-                  },
-                  "java map-DESKTOP-T161DKL.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java map-DESKTOP-T161DKL.md"
-                  },
-                  "java map.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java map.md"
-                  },
-                  "java this参数绑定.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java this参数绑定.md"
-                  },
-                  "java 内存模型.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java 内存模型.md"
-                  },
-                  "java 函数式接口-DESKTOP-T161DKL.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java 函数式接口-DESKTOP-T161DKL.md"
-                  },
-                  "java 函数式接口.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java 函数式接口.md"
-                  },
-                  "java 动态线程池.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java 动态线程池.md"
-                  },
-                  "java 反射-DESKTOP-T161DKL.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java 反射-DESKTOP-T161DKL.md"
-                  },
-                  "java 反射.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java 反射.md"
-                  },
-                  "java 基础类型值，转型和辅助方法.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java 基础类型值，转型和辅助方法.md"
-                  },
-                  "java 序列化-DESKTOP-T161DKL.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java 序列化-DESKTOP-T161DKL.md"
-                  },
-                  "java 序列化.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java 序列化.md"
-                  },
-                  "java 异常处理 1.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java 异常处理 1.md"
-                  },
-                  "java 异常处理-DESKTOP-T161DKL.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java 异常处理-DESKTOP-T161DKL.md"
-                  },
-                  "java 异常处理.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java 异常处理.md"
-                  },
-                  "java 方法引用.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java 方法引用.md"
-                  },
-                  "java 枚举 Enum.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java 枚举 Enum.md"
-                  },
-                  "java 版本.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java 版本.md"
-                  },
-                  "java 线程池-DESKTOP-T161DKL.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java 线程池-DESKTOP-T161DKL.md"
-                  },
-                  "java 线程池.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java 线程池.md"
-                  },
-                  "java 语法查漏杂记.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java 语法查漏杂记.md"
-                  },
-                  "java 链式调用.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java 链式调用.md"
-                  },
-                  "java 集合.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java 集合.md"
-                  },
-                  "java 项目部署和发布.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/java 项目部署和发布.md"
-                  },
-                  "jdk工具.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/jdk工具.md"
-                  },
-                  "juc包-DESKTOP-T161DKL.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/juc包-DESKTOP-T161DKL.md"
-                  },
-                  "juc包.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/juc包.md"
-                  },
-                  "jvm 调优相关参数.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/jvm 调优相关参数.md"
-                  },
-                  "rethinking java基础.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/rethinking java基础.md"
-                  },
-                  "swagger.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/swagger.md"
-                  },
-                  "synchronized-DESKTOP-T161DKL.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/synchronized-DESKTOP-T161DKL.md"
-                  },
-                  "synchronized.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/synchronized.md"
-                  },
-                  "网络高并发IO-DESKTOP-T161DKL.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/网络高并发IO-DESKTOP-T161DKL.md"
-                  },
-                  "网络高并发IO.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java八股/网络高并发IO.md"
-                  }
-                }
-              },
-              "java实战": {
-                "type": "folder",
-                "children": {
-                  "动态代理": {
-                    "type": "folder",
-                    "children": {
-                      "java 反射常用方法.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/java实战/动态代理/java 反射常用方法.md"
-                      },
-                      "java具体如何实现动态代理.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/java实战/动态代理/java具体如何实现动态代理.md"
-                      }
-                    }
-                  },
-                  "手撕设计模式": {
-                    "type": "folder",
-                    "children": {
-                      "单例模式.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/java实战/手撕设计模式/单例模式.md"
-                      },
-                      "装饰器.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/java实战/手撕设计模式/装饰器.md"
-                      },
-                      "观察者.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/java实战/手撕设计模式/观察者.md"
-                      },
-                      "责任链.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/java实战/手撕设计模式/责任链.md"
-                      }
-                    }
-                  },
-                  "排序算法": {
-                    "type": "folder",
-                    "children": {
-                      "堆排序.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/java实战/排序算法/堆排序.md"
-                      },
-                      "归并 与 多路归并.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/java实战/排序算法/归并 与 多路归并.md"
-                      },
-                      "快排和topk.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/java实战/排序算法/快排和topk.md"
-                      }
-                    }
-                  },
-                  "线程池": {
-                    "type": "folder",
-                    "children": {
-                      "InterruptException.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/java实战/线程池/InterruptException.md"
-                      },
-                      "Object的wait和notify.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/java实战/线程池/Object的wait和notify.md"
-                      },
-                      "Thread类.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/java实战/线程池/Thread类.md"
-                      },
-                      "Untitled 1.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/java实战/线程池/Untitled 1.md"
-                      },
-                      "Untitled.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/java实战/线程池/Untitled.md"
-                      },
-                      "juc同步工具.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/java实战/线程池/juc同步工具.md"
-                      },
-                      "juc的CountDownLatch 和 barrior.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/java实战/线程池/juc的CountDownLatch 和 barrior.md"
-                      },
-                      "juc的LockSupport.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/java实战/线程池/juc的LockSupport.md"
-                      },
-                      "juc的condition.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/java实战/线程池/juc的condition.md"
-                      },
-                      "使用原子变量.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/java实战/线程池/使用原子变量.md"
-                      },
-                      "手撕：10个线程等待锁.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/java实战/线程池/手撕：10个线程等待锁.md"
-                      },
-                      "手撕：ABCABC.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/java实战/线程池/手撕：ABCABC.md"
-                      },
-                      "手撕：两个线程交替打印.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/java实战/线程池/手撕：两个线程交替打印.md"
-                      },
-                      "手撕：线程安全计数器.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/java实战/线程池/手撕：线程安全计数器.md"
-                      },
-                      "线程池类关系.md": {
-                        "type": "file",
-                        "path": "后端知识/_00 JAVA/java实战/线程池/线程池类关系.md"
-                      }
-                    }
-                  },
-                  "AQS实现.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java实战/AQS实现.md"
-                  },
-                  "CGLibrary实现.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java实战/CGLibrary实现.md"
-                  },
-                  "Class类常用方法.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java实战/Class类常用方法.md"
-                  },
-                  "ExecutorService.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java实战/ExecutorService.md"
-                  },
-                  "HashMap.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java实战/HashMap.md"
-                  },
-                  "JDK动态代理实现.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java实战/JDK动态代理实现.md"
-                  },
-                  "Objects 和Object的区别.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java实战/Objects 和Object的区别.md"
-                  },
-                  "Object类， 与实战.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java实战/Object类， 与实战.md"
-                  },
-                  "java NIO.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java实战/java NIO.md"
-                  },
-                  "java io.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java实战/java io.md"
-                  },
-                  "java stl使用.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java实战/java stl使用.md"
-                  },
-                  "java 反射.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java实战/java 反射.md"
-                  },
-                  "java 常用api.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java实战/java 常用api.md"
-                  },
-                  "java 泛型.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java实战/java 泛型.md"
-                  },
-                  "原子类使用.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java实战/原子类使用.md"
-                  },
-                  "如何使用ws.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java实战/如何使用ws.md"
-                  },
-                  "定时任务.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java实战/定时任务.md"
-                  },
-                  "手撕数组题.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java实战/手撕数组题.md"
-                  },
-                  "手撕：单例模式.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java实战/手撕：单例模式.md"
-                  },
-                  "线程安全计数器.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java实战/线程安全计数器.md"
-                  },
-                  "链表相关.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java实战/链表相关.md"
-                  },
-                  "高并发乐观锁.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java实战/高并发乐观锁.md"
-                  }
-                }
-              },
-              "java常用包": {
-                "type": "folder",
-                "children": {
-                  "HttpClient.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java常用包/HttpClient.md"
-                  },
-                  "collections.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/java常用包/collections.md"
-                  }
-                }
-              },
-              "mybatis": {
-                "type": "folder",
-                "children": {
-                  "mybatis 语法杂记.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/mybatis/mybatis 语法杂记.md"
-                  },
-                  "mybatis 返回自增id.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/mybatis/mybatis 返回自增id.md"
-                  },
-                  "mybatis预编译占位符与字符串替换.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/mybatis/mybatis预编译占位符与字符串替换.md"
-                  },
-                  "使用mybatis.md": {
-                    "type": "file",
-                    "path": "后端知识/_00 JAVA/mybatis/使用mybatis.md"
-                  }
-                }
-              },
-              "DDD.md": {
-                "type": "file",
-                "path": "后端知识/_00 JAVA/DDD.md"
-              },
-              "JUnit.md": {
-                "type": "file",
-                "path": "后端知识/_00 JAVA/JUnit.md"
-              },
-              "OSGi.md": {
-                "type": "file",
-                "path": "后端知识/_00 JAVA/OSGi.md"
-              },
-              "Object.notify().md": {
-                "type": "file",
-                "path": "后端知识/_00 JAVA/Object.notify().md"
-              },
-              "Ref..md": {
-                "type": "file",
-                "path": "后端知识/_00 JAVA/Ref..md"
-              },
-              "SPI.md": {
-                "type": "file",
-                "path": "后端知识/_00 JAVA/SPI.md"
-              },
-              "Spring Security-DESKTOP-T161DKL.md": {
-                "type": "file",
-                "path": "后端知识/_00 JAVA/Spring Security-DESKTOP-T161DKL.md"
-              },
-              "Spring Security.md": {
-                "type": "file",
-                "path": "后端知识/_00 JAVA/Spring Security.md"
-              },
-              "Untitled.md": {
-                "type": "file",
-                "path": "后端知识/_00 JAVA/Untitled.md"
-              },
-              "apifox杂记.md": {
-                "type": "file",
-                "path": "后端知识/_00 JAVA/apifox杂记.md"
-              },
-              "java acm模式io.md": {
-                "type": "file",
-                "path": "后端知识/_00 JAVA/java acm模式io.md"
-              },
-              "java 多线程实战杂记.md": {
-                "type": "file",
-                "path": "后端知识/_00 JAVA/java 多线程实战杂记.md"
-              },
-              "java 进程间通讯.md": {
-                "type": "file",
-                "path": "后端知识/_00 JAVA/java 进程间通讯.md"
-              },
-              "java类型擦除机制.md": {
-                "type": "file",
-                "path": "后端知识/_00 JAVA/java类型擦除机制.md"
-              },
-              "jwt.md": {
-                "type": "file",
-                "path": "后端知识/_00 JAVA/jwt.md"
-              },
-              "orm 对象-关系映射.md": {
-                "type": "file",
-                "path": "后端知识/_00 JAVA/orm 对象-关系映射.md"
-              },
-              "postgresql实战.md": {
-                "type": "file",
-                "path": "后端知识/_00 JAVA/postgresql实战.md"
-              },
-              "指令重排对多线程的影响.md": {
-                "type": "file",
-                "path": "后端知识/_00 JAVA/指令重排对多线程的影响.md"
-              },
-              "环境配置.md": {
-                "type": "file",
-                "path": "后端知识/_00 JAVA/环境配置.md"
-              },
-              "缓存问题.md": {
-                "type": "file",
-                "path": "后端知识/_00 JAVA/缓存问题.md"
-              }
-            }
-          },
-          "_01 golang": {
-            "type": "folder",
-            "children": {
-              "container": {
-                "type": "folder",
-                "children": {
-                  "container包.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/container/container包.md"
-                  },
-                  "heap.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/container/heap.md"
-                  },
-                  "list 双向链表.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/container/list 双向链表.md"
-                  },
-                  "自己实现，基于slice.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/container/自己实现，基于slice.md"
-                  }
-                }
-              },
-              "go 并发编程": {
-                "type": "folder",
-                "children": {
-                  "channel": {
-                    "type": "folder",
-                    "children": {
-                      "chan 深入.md": {
-                        "type": "file",
-                        "path": "后端知识/_01 golang/go 并发编程/channel/chan 深入.md"
-                      },
-                      "chan.md": {
-                        "type": "file",
-                        "path": "后端知识/_01 golang/go 并发编程/channel/chan.md"
-                      },
-                      "select.md": {
-                        "type": "file",
-                        "path": "后端知识/_01 golang/go 并发编程/channel/select.md"
-                      }
-                    }
-                  },
-                  "goroutine": {
-                    "type": "folder",
-                    "children": {
-                      "协程.md": {
-                        "type": "file",
-                        "path": "后端知识/_01 golang/go 并发编程/goroutine/协程.md"
-                      },
-                      "同步工具.md": {
-                        "type": "file",
-                        "path": "后端知识/_01 golang/go 并发编程/goroutine/同步工具.md"
-                      },
-                      "调度器.md": {
-                        "type": "file",
-                        "path": "后端知识/_01 golang/go 并发编程/goroutine/调度器.md"
-                      }
-                    }
-                  }
-                }
-              },
-              "golang八股": {
-                "type": "folder",
-                "children": {
-                  "GC.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/golang八股/GC.md"
-                  }
-                }
-              },
-              "go实现设计模式": {
-                "type": "folder",
-                "children": {
-                  "单例.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/go实现设计模式/单例.md"
-                  },
-                  "工厂.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/go实现设计模式/工厂.md"
-                  },
-                  "责任链.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/go实现设计模式/责任链.md"
-                  }
-                }
-              },
-              "mod": {
-                "type": "folder",
-                "children": {
-                  "go mod与vendor.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/mod/go mod与vendor.md"
-                  },
-                  "list.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/mod/list.md"
-                  },
-                  "tidy.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/mod/tidy.md"
-                  },
-                  "使用本地的vendor.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/mod/使用本地的vendor.md"
-                  }
-                }
-              },
-              "从java转go快速上手": {
-                "type": "folder",
-                "children": {
-                  "go依赖注入？.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/从java转go快速上手/go依赖注入？.md"
-                  },
-                  "基本语法.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/从java转go快速上手/基本语法.md"
-                  },
-                  "常用包.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/从java转go快速上手/常用包.md"
-                  },
-                  "环境配置.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/从java转go快速上手/环境配置.md"
-                  }
-                }
-              },
-              "基本类型操作": {
-                "type": "folder",
-                "children": {
-                  "map.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本类型操作/map.md"
-                  },
-                  "slice.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本类型操作/slice.md"
-                  },
-                  "string.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本类型操作/string.md"
-                  },
-                  "数组.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本类型操作/数组.md"
-                  }
-                }
-              },
-              "基本语法": {
-                "type": "folder",
-                "children": {
-                  "Untitled 1.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本语法/Untitled 1.md"
-                  },
-                  "const和枚举.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本语法/const和枚举.md"
-                  },
-                  "error.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本语法/error.md"
-                  },
-                  "golang 语言风格.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本语法/golang 语言风格.md"
-                  },
-                  "interface{}.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本语法/interface{}.md"
-                  },
-                  "make.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本语法/make.md"
-                  },
-                  "new.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本语法/new.md"
-                  },
-                  "package.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本语法/package.md"
-                  },
-                  "range遍历.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本语法/range遍历.md"
-                  },
-                  "receiver.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本语法/receiver.md"
-                  },
-                  "switch.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本语法/switch.md"
-                  },
-                  "type struct到底在干嘛.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本语法/type struct到底在干嘛.md"
-                  },
-                  "type.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本语法/type.md"
-                  },
-                  "函数定义与返回值.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本语法/函数定义与返回值.md"
-                  },
-                  "变量作用域.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本语法/变量作用域.md"
-                  },
-                  "变量声明.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本语法/变量声明.md"
-                  },
-                  "复合字面量.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本语法/复合字面量.md"
-                  },
-                  "定义函数类型.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本语法/定义函数类型.md"
-                  },
-                  "指针.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本语法/指针.md"
-                  },
-                  "接口值.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本语法/接口值.md"
-                  },
-                  "控制流.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本语法/控制流.md"
-                  },
-                  "比较.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本语法/比较.md"
-                  },
-                  "类型判断.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本语法/类型判断.md"
-                  },
-                  "结构体标签.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本语法/结构体标签.md"
-                  },
-                  "赋值.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本语法/赋值.md"
-                  },
-                  "零值.md": {
-                    "type": "file",
-                    "path": "后端知识/_01 golang/基本语法/零值.md"
-                  }
-                }
-              },
-              "defer.md": {
-                "type": "file",
-                "path": "后端知识/_01 golang/defer.md"
-              },
-              "net-context.md": {
-                "type": "file",
-                "path": "后端知识/_01 golang/net-context.md"
-              },
-              "time.Ticker.md": {
-                "type": "file",
-                "path": "后端知识/_01 golang/time.Ticker.md"
-              },
-              "反射.md": {
-                "type": "file",
-                "path": "后端知识/_01 golang/反射.md"
-              },
-              "多态.md": {
-                "type": "file",
-                "path": "后端知识/_01 golang/多态.md"
-              },
-              "杂技.md": {
-                "type": "file",
-                "path": "后端知识/_01 golang/杂技.md"
-              },
-              "泛型.md": {
-                "type": "file",
-                "path": "后端知识/_01 golang/泛型.md"
-              },
-              "面向对象与函数式.md": {
-                "type": "file",
-                "path": "后端知识/_01 golang/面向对象与函数式.md"
-              }
-            }
-          },
-          "_03 python": {
-            "type": "folder",
-            "children": {
-              "包管理工具 uv.md": {
-                "type": "file",
-                "path": "后端知识/_03 python/包管理工具 uv.md"
-              }
-            }
-          },
-          "_04 erlang": {
-            "type": "folder",
-            "children": {
-              "rabbit 基于 erlang.md": {
-                "type": "file",
-                "path": "后端知识/_04 erlang/rabbit 基于 erlang.md"
               }
             }
           },
