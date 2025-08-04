@@ -1,0 +1,3 @@
+在run一个容器时, 可以定义一个ENTRYPOINT, 然后可以在docker run 镜像名 后面继续加参数, 这些参数会被当成E N T R Y P O I N T的参数, 在启动时灵活修改行为
+如:
+docker run minio server /data ...

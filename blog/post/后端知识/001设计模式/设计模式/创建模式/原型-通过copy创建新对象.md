@@ -1,0 +1,2 @@
+Prototype
+只有只存值的才能直接复制, 一般实现个clone或者copy方法就行

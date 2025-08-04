@@ -1,0 +1,26 @@
+- mysql: 不完全遵守sql标准, 为了性能和易用性, 允许违反标准
+- postgresql: 完全遵守sql, 支持高级sql功能
+
+### sql上的区别
+- pg中没有:IF NOT EXISTS
+- pg中不支持USE来选择数据库
+- mysql中会用 \` 当表名列名的标志符号,  postgre中使用""
+	- 这类符号主要是为了防止保留字冲突, 和处理特殊字符, 并且能保留大小写敏感.
+- mysql使用 AUTO_INCREMENT指定为主键列自动生成递增值, postgre使用SERIAL或者BIGSERIAL
+	- bigserial是64bit signed int, serial是32bit
+		- serial会自动创建一个"序列", 名字是"table_name_colum_name_seq", 可以直接对这个序列名操作
+	- pg中, 不能在创建表时指定从几开始递增, 但是可以在创建后使用:ALTER SEQUENCE "address_book_id_seq" RESTART WITH 2;定义
+- COMMENT: mysql中可以在列中直接使用, 但pg中, COMMENT on COLUMN需要当独立语句执行
+	- comment不是sql中的一部分, 是各自实现的
+	- comment和sql中的--完全不同, 是在数据库中可见的
+	- [PG中添加和查询注释comment-云社区-华为云](https://bbs.huaweicloud.com/blogs/348803)
+	- [如何在PostgreSQL中使用COMMENT - 开发技术 - 亿速云](https://www.yisu.com/jc/372034.html)
+	- COMMENT ON TABLE address_book IS '地址簿'; 需要这样定义, 而不是mysql中直接写列后面, 注意不要写create
+- pg默认支持unicode, mysql中collate等需要调整
+- TINYINT: mysql中的TINYINT(1)在pg中一般用BOOLEAN替代
+- DEFAULT CHARSET和ENGINE是mysql特有, pg不需要
+- UNIQUE 和UNIQUE KEY: mysql中这两个都一样, KEY是INDEX的同义词, pg中, 只要用UNIQUE或者CONSTRAINT定义唯一约束
+	- 在pg中, UNIQUE会自动创建constraint, 不需要自己写索引, 除非有特殊需求, 需要CREATE UNIQUE INDEX
+	- 即: mysql中并非为了唯一性约束而是为了加速查询的索引还是要手动迁移到pg, 唯一性约束的直接用UNIQUE
+- datetime类型和timestamp类型
+- 

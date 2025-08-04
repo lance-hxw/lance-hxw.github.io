@@ -2,61 +2,2316 @@
   "_post": {
     "type": "folder",
     "children": {
-      "NoSQL": {
+      "后端知识": {
         "type": "folder",
         "children": {
-          "mongodb": {
+          "000后端常识": {
             "type": "folder",
             "children": {
-              "$expr.md": {
-                "type": "file",
-                "path": "NoSQL/mongodb/$expr.md"
+              "URL": {
+                "type": "folder",
+                "children": {
+                  "嵌套url.md": {
+                    "type": "file",
+                    "path": "后端知识/000后端常识/URL/嵌套url.md"
+                  }
+                }
               },
-              "bson.md": {
+              "MIME类型.md": {
                 "type": "file",
-                "path": "NoSQL/mongodb/bson.md"
+                "path": "后端知识/000后端常识/MIME类型.md"
               },
-              "go 与 mongo.md": {
+              "token控制唯一性.md": {
                 "type": "file",
-                "path": "NoSQL/mongodb/go 与 mongo.md"
+                "path": "后端知识/000后端常识/token控制唯一性.md"
               },
-              "go中mongo crud.md": {
+              "web开发.md": {
                 "type": "file",
-                "path": "NoSQL/mongodb/go中mongo crud.md"
+                "path": "后端知识/000后端常识/web开发.md"
               },
-              "事务.md": {
+              "分页查询.md": {
                 "type": "file",
-                "path": "NoSQL/mongodb/事务.md"
+                "path": "后端知识/000后端常识/分页查询.md"
               },
-              "排序和限制.md": {
+              "参数校验.md": {
                 "type": "file",
-                "path": "NoSQL/mongodb/排序和限制.md"
+                "path": "后端知识/000后端常识/参数校验.md"
               },
-              "更新语法.md": {
+              "异常处理层级.md": {
                 "type": "file",
-                "path": "NoSQL/mongodb/更新语法.md"
+                "path": "后端知识/000后端常识/异常处理层级.md"
               },
-              "查询语法.md": {
+              "接口参数.md": {
                 "type": "file",
-                "path": "NoSQL/mongodb/查询语法.md"
+                "path": "后端知识/000后端常识/接口参数.md"
               },
-              "索引操作.md": {
+              "日志规范.md": {
                 "type": "file",
-                "path": "NoSQL/mongodb/索引操作.md"
+                "path": "后端知识/000后端常识/日志规范.md"
               },
-              "聚合操作.md": {
+              "零信任.md": {
                 "type": "file",
-                "path": "NoSQL/mongodb/聚合操作.md"
+                "path": "后端知识/000后端常识/零信任.md"
               }
             }
           },
-          "NoSQL介绍.md": {
-            "type": "file",
-            "path": "NoSQL/NoSQL介绍.md"
+          "001设计模式": {
+            "type": "folder",
+            "children": {
+              "设计模式": {
+                "type": "folder",
+                "children": {
+                  "创建模式": {
+                    "type": "folder",
+                    "children": {
+                      "Builder-应对复杂参数创建过程.md": {
+                        "type": "file",
+                        "path": "后端知识/001设计模式/设计模式/创建模式/Builder-应对复杂参数创建过程.md"
+                      },
+                      "单例-封装全局信息-DESKTOP-T161DKL.md": {
+                        "type": "file",
+                        "path": "后端知识/001设计模式/设计模式/创建模式/单例-封装全局信息-DESKTOP-T161DKL.md"
+                      },
+                      "单例-封装全局信息.md": {
+                        "type": "file",
+                        "path": "后端知识/001设计模式/设计模式/创建模式/单例-封装全局信息.md"
+                      },
+                      "原型-通过copy创建新对象.md": {
+                        "type": "file",
+                        "path": "后端知识/001设计模式/设计模式/创建模式/原型-通过copy创建新对象.md"
+                      },
+                      "工厂方法-封装创建过程.md": {
+                        "type": "file",
+                        "path": "后端知识/001设计模式/设计模式/创建模式/工厂方法-封装创建过程.md"
+                      },
+                      "抽象工厂-封装一组产品的共性创建过程.md": {
+                        "type": "file",
+                        "path": "后端知识/001设计模式/设计模式/创建模式/抽象工厂-封装一组产品的共性创建过程.md"
+                      }
+                    }
+                  },
+                  "结构模式": {
+                    "type": "folder",
+                    "children": {
+                      "Adapter-Wrapper.md": {
+                        "type": "file",
+                        "path": "后端知识/001设计模式/设计模式/结构模式/Adapter-Wrapper.md"
+                      },
+                      "Facade.md": {
+                        "type": "file",
+                        "path": "后端知识/001设计模式/设计模式/结构模式/Facade.md"
+                      },
+                      "Flyweight.md": {
+                        "type": "file",
+                        "path": "后端知识/001设计模式/设计模式/结构模式/Flyweight.md"
+                      },
+                      "Proxy.md": {
+                        "type": "file",
+                        "path": "后端知识/001设计模式/设计模式/结构模式/Proxy.md"
+                      },
+                      "桥接模式-避免继承中的子类爆炸.md": {
+                        "type": "file",
+                        "path": "后端知识/001设计模式/设计模式/结构模式/桥接模式-避免继承中的子类爆炸.md"
+                      },
+                      "组合模型.md": {
+                        "type": "file",
+                        "path": "后端知识/001设计模式/设计模式/结构模式/组合模型.md"
+                      },
+                      "装饰器-功能组合复用.md": {
+                        "type": "file",
+                        "path": "后端知识/001设计模式/设计模式/结构模式/装饰器-功能组合复用.md"
+                      }
+                    }
+                  },
+                  "行为模式": {
+                    "type": "folder",
+                    "children": {
+                      "State.md": {
+                        "type": "file",
+                        "path": "后端知识/001设计模式/设计模式/行为模式/State.md"
+                      },
+                      "中介模式.md": {
+                        "type": "file",
+                        "path": "后端知识/001设计模式/设计模式/行为模式/中介模式.md"
+                      },
+                      "命令.md": {
+                        "type": "file",
+                        "path": "后端知识/001设计模式/设计模式/行为模式/命令.md"
+                      },
+                      "备忘录.md": {
+                        "type": "file",
+                        "path": "后端知识/001设计模式/设计模式/行为模式/备忘录.md"
+                      },
+                      "策略模式.md": {
+                        "type": "file",
+                        "path": "后端知识/001设计模式/设计模式/行为模式/策略模式.md"
+                      },
+                      "观察者模式.md": {
+                        "type": "file",
+                        "path": "后端知识/001设计模式/设计模式/行为模式/观察者模式.md"
+                      },
+                      "解释器.md": {
+                        "type": "file",
+                        "path": "后端知识/001设计模式/设计模式/行为模式/解释器.md"
+                      },
+                      "责任链.md": {
+                        "type": "file",
+                        "path": "后端知识/001设计模式/设计模式/行为模式/责任链.md"
+                      },
+                      "责任链（过滤，拦截器）.md": {
+                        "type": "file",
+                        "path": "后端知识/001设计模式/设计模式/行为模式/责任链（过滤，拦截器）.md"
+                      },
+                      "迭代器.md": {
+                        "type": "file",
+                        "path": "后端知识/001设计模式/设计模式/行为模式/迭代器.md"
+                      }
+                    }
+                  },
+                  "依赖注入DI和控制反转IoC.md": {
+                    "type": "file",
+                    "path": "后端知识/001设计模式/设计模式/依赖注入DI和控制反转IoC.md"
+                  }
+                }
+              },
+              "设计模式-微服务": {
+                "type": "folder",
+                "children": {
+                  "可观测性.md": {
+                    "type": "file",
+                    "path": "后端知识/001设计模式/设计模式-微服务/可观测性.md"
+                  },
+                  "可靠性(容错).md": {
+                    "type": "file",
+                    "path": "后端知识/001设计模式/设计模式-微服务/可靠性(容错).md"
+                  },
+                  "安全.md": {
+                    "type": "file",
+                    "path": "后端知识/001设计模式/设计模式-微服务/安全.md"
+                  },
+                  "数据管理.md": {
+                    "type": "file",
+                    "path": "后端知识/001设计模式/设计模式-微服务/数据管理.md"
+                  },
+                  "服务拆分.md": {
+                    "type": "file",
+                    "path": "后端知识/001设计模式/设计模式-微服务/服务拆分.md"
+                  },
+                  "服务集成.md": {
+                    "type": "file",
+                    "path": "后端知识/001设计模式/设计模式-微服务/服务集成.md"
+                  },
+                  "通讯.md": {
+                    "type": "file",
+                    "path": "后端知识/001设计模式/设计模式-微服务/通讯.md"
+                  },
+                  "部署.md": {
+                    "type": "file",
+                    "path": "后端知识/001设计模式/设计模式-微服务/部署.md"
+                  }
+                }
+              }
+            }
           },
-          "mongoDB.md": {
+          "100数据系统-存储": {
+            "type": "folder",
+            "children": {
+              "mongodb": {
+                "type": "folder",
+                "children": {
+                  "$expr.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/mongodb/$expr.md"
+                  },
+                  "bson.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/mongodb/bson.md"
+                  },
+                  "go 与 mongo.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/mongodb/go 与 mongo.md"
+                  },
+                  "go中mongo crud.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/mongodb/go中mongo crud.md"
+                  },
+                  "mongo explain.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/mongodb/mongo explain.md"
+                  },
+                  "mongo ttl索引.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/mongodb/mongo ttl索引.md"
+                  },
+                  "mongo 部分索引.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/mongodb/mongo 部分索引.md"
+                  },
+                  "事务.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/mongodb/事务.md"
+                  },
+                  "排序和限制.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/mongodb/排序和限制.md"
+                  },
+                  "更新语法.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/mongodb/更新语法.md"
+                  },
+                  "查询语法.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/mongodb/查询语法.md"
+                  },
+                  "索引操作.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/mongodb/索引操作.md"
+                  },
+                  "聚合操作.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/mongodb/聚合操作.md"
+                  }
+                }
+              },
+              "关系型数据库": {
+                "type": "folder",
+                "children": {
+                  "SQL与数据库": {
+                    "type": "folder",
+                    "children": {
+                      "SQL语法": {
+                        "type": "folder",
+                        "children": {
+                          "sql系统函数,内置函数.md": {
+                            "type": "file",
+                            "path": "后端知识/100数据系统-存储/关系型数据库/SQL与数据库/SQL语法/sql系统函数,内置函数.md"
+                          },
+                          "事务,并发,隔离.md": {
+                            "type": "file",
+                            "path": "后端知识/100数据系统-存储/关系型数据库/SQL与数据库/SQL语法/事务,并发,隔离.md"
+                          },
+                          "基本语法.md": {
+                            "type": "file",
+                            "path": "后端知识/100数据系统-存储/关系型数据库/SQL与数据库/SQL语法/基本语法.md"
+                          },
+                          "外键约束.md": {
+                            "type": "file",
+                            "path": "后端知识/100数据系统-存储/关系型数据库/SQL与数据库/SQL语法/外键约束.md"
+                          },
+                          "子查询.md": {
+                            "type": "file",
+                            "path": "后端知识/100数据系统-存储/关系型数据库/SQL与数据库/SQL语法/子查询.md"
+                          },
+                          "语法查漏补缺.md": {
+                            "type": "file",
+                            "path": "后端知识/100数据系统-存储/关系型数据库/SQL与数据库/SQL语法/语法查漏补缺.md"
+                          },
+                          "连接.md": {
+                            "type": "file",
+                            "path": "后端知识/100数据系统-存储/关系型数据库/SQL与数据库/SQL语法/连接.md"
+                          }
+                        }
+                      },
+                      "mysql 数据类型.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/SQL与数据库/mysql 数据类型.md"
+                      }
+                    }
+                  },
+                  "ShardingSphere实战": {
+                    "type": "folder",
+                    "children": {
+                      "bugs.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/ShardingSphere实战/bugs.md"
+                      },
+                      "配置读写分离.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/ShardingSphere实战/配置读写分离.md"
+                      }
+                    }
+                  },
+                  "mysql": {
+                    "type": "folder",
+                    "children": {
+                      "mysql 事务.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/mysql/mysql 事务.md"
+                      },
+                      "mysql 优化.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/mysql/mysql 优化.md"
+                      },
+                      "mysql 出现的问题.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/mysql/mysql 出现的问题.md"
+                      },
+                      "mysql 变量.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/mysql/mysql 变量.md"
+                      },
+                      "mysql 基础.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/mysql/mysql 基础.md"
+                      },
+                      "mysql 存储引擎.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/mysql/mysql 存储引擎.md"
+                      },
+                      "mysql 性能分析.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/mysql/mysql 性能分析.md"
+                      },
+                      "mysql 数据类型.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/mysql/mysql 数据类型.md"
+                      },
+                      "mysql 日志.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/mysql/mysql 日志.md"
+                      },
+                      "mysql 架构-DESKTOP-T161DKL.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/mysql/mysql 架构-DESKTOP-T161DKL.md"
+                      },
+                      "mysql 架构.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/mysql/mysql 架构.md"
+                      },
+                      "mysql 索引.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/mysql/mysql 索引.md"
+                      },
+                      "mysql 锁-DESKTOP-T161DKL.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/mysql/mysql 锁-DESKTOP-T161DKL.md"
+                      },
+                      "mysql 锁.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/mysql/mysql 锁.md"
+                      },
+                      "mysql面试题.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/mysql/mysql面试题.md"
+                      },
+                      "mysql， 上什么锁.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/mysql/mysql， 上什么锁.md"
+                      },
+                      "一条update语句的全流程.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/mysql/一条update语句的全流程.md"
+                      },
+                      "当前读.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/mysql/当前读.md"
+                      }
+                    }
+                  },
+                  "mysql实战": {
+                    "type": "folder",
+                    "children": {
+                      "mysql 用户管理.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/mysql实战/mysql 用户管理.md"
+                      },
+                      "mysql 配置主从.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/mysql实战/mysql 配置主从.md"
+                      }
+                    }
+                  },
+                  "MySQL 索引失效.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/关系型数据库/MySQL 索引失效.md"
+                  },
+                  "mysql mySam.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/关系型数据库/mysql mySam.md"
+                  },
+                  "mysql和postgresql的一些区别.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/关系型数据库/mysql和postgresql的一些区别.md"
+                  },
+                  "mysql面试题.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/关系型数据库/mysql面试题.md"
+                  },
+                  "postgres 特殊问题.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/关系型数据库/postgres 特殊问题.md"
+                  },
+                  "主键和唯一键.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/关系型数据库/主键和唯一键.md"
+                  },
+                  "分库分表场景.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/关系型数据库/分库分表场景.md"
+                  },
+                  "通用实践.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/关系型数据库/通用实践.md"
+                  }
+                }
+              },
+              "列存": {
+                "type": "folder",
+                "children": {
+                  "列存的特点.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/列存/列存的特点.md"
+                  }
+                }
+              },
+              "列族存储": {
+                "type": "folder",
+                "children": {
+                  "hbase.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/列族存储/hbase.md"
+                  },
+                  "列族和列存的区别.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/列族存储/列族和列存的区别.md"
+                  }
+                }
+              },
+              "对象存储": {
+                "type": "folder",
+                "children": {
+                  "Minio原理.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/对象存储/Minio原理.md"
+                  },
+                  "使用MinIO搭建对象存储服务.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/对象存储/使用MinIO搭建对象存储服务.md"
+                  },
+                  "在SpringBoot中使用AWS S3 SDK.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/对象存储/在SpringBoot中使用AWS S3 SDK.md"
+                  },
+                  "对象存储服务.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/对象存储/对象存储服务.md"
+                  }
+                }
+              },
+              "数仓": {
+                "type": "folder",
+                "children": {
+                  "clickhouse.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/数仓/clickhouse.md"
+                  }
+                }
+              },
+              "Dynamo-style.md": {
+                "type": "file",
+                "path": "后端知识/100数据系统-存储/Dynamo-style.md"
+              },
+              "ceph(块存储, 对象存储).md": {
+                "type": "file",
+                "path": "后端知识/100数据系统-存储/ceph(块存储, 对象存储).md"
+              }
+            }
+          },
+          "101数据系统-缓存": {
+            "type": "folder",
+            "children": {
+              "Redis": {
+                "type": "folder",
+                "children": {
+                  "Q-对象序列化方式.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/Redis/Q-对象序列化方式.md"
+                  },
+                  "Q-数据类型保持一致的最佳实践.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/Redis/Q-数据类型保持一致的最佳实践.md"
+                  },
+                  "Redis.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/Redis/Redis.md"
+                  },
+                  "Untitled.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/Redis/Untitled.md"
+                  },
+                  "Zset相关-DESKTOP-T161DKL.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/Redis/Zset相关-DESKTOP-T161DKL.md"
+                  },
+                  "Zset相关.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/Redis/Zset相关.md"
+                  },
+                  "redis list.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/Redis/redis list.md"
+                  },
+                  "redis pipline.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/Redis/redis pipline.md"
+                  },
+                  "redis 发布订阅.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/Redis/redis 发布订阅.md"
+                  },
+                  "redis 场景题.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/Redis/redis 场景题.md"
+                  },
+                  "redis 对象存储方案.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/Redis/redis 对象存储方案.md"
+                  },
+                  "redis 底层数据结构.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/Redis/redis 底层数据结构.md"
+                  },
+                  "redis 持久化.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/Redis/redis 持久化.md"
+                  },
+                  "redis 的 Hash.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/Redis/redis 的 Hash.md"
+                  },
+                  "redis 的 String.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/Redis/redis 的 String.md"
+                  },
+                  "redis 的LRU实现.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/Redis/redis 的LRU实现.md"
+                  },
+                  "redis 线程模型： redis使用单线程-DESKTOP-T161DKL.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/Redis/redis 线程模型： redis使用单线程-DESKTOP-T161DKL.md"
+                  },
+                  "redis 线程模型： redis使用单线程.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/Redis/redis 线程模型： redis使用单线程.md"
+                  },
+                  "redis 缓存淘汰和过期删除.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/Redis/redis 缓存淘汰和过期删除.md"
+                  },
+                  "redis 集群.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/Redis/redis 集群.md"
+                  },
+                  "redission.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/Redis/redission.md"
+                  },
+                  "redis事件循环.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/Redis/redis事件循环.md"
+                  },
+                  "redis事务.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/Redis/redis事务.md"
+                  },
+                  "redis和mysql一致性问题.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/Redis/redis和mysql一致性问题.md"
+                  },
+                  "缓存问题.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/Redis/缓存问题.md"
+                  }
+                }
+              },
+              "TTL的意义.md": {
+                "type": "file",
+                "path": "后端知识/101数据系统-缓存/TTL的意义.md"
+              },
+              "分页查询缓存.md": {
+                "type": "file",
+                "path": "后端知识/101数据系统-缓存/分页查询缓存.md"
+              },
+              "删还是改缓存.md": {
+                "type": "file",
+                "path": "后端知识/101数据系统-缓存/删还是改缓存.md"
+              },
+              "双重检查.md": {
+                "type": "file",
+                "path": "后端知识/101数据系统-缓存/双重检查.md"
+              },
+              "多级缓存.md": {
+                "type": "file",
+                "path": "后端知识/101数据系统-缓存/多级缓存.md"
+              },
+              "提前续期+分布式锁.md": {
+                "type": "file",
+                "path": "后端知识/101数据系统-缓存/提前续期+分布式锁.md"
+              },
+              "旁路缓存.md": {
+                "type": "file",
+                "path": "后端知识/101数据系统-缓存/旁路缓存.md"
+              },
+              "缓存击穿.md": {
+                "type": "file",
+                "path": "后端知识/101数据系统-缓存/缓存击穿.md"
+              }
+            }
+          },
+          "102数据系统-消息队列": {
+            "type": "folder",
+            "children": {
+              "Kafka": {
+                "type": "folder",
+                "children": {
+                  "kafka ISR.md": {
+                    "type": "file",
+                    "path": "后端知识/102数据系统-消息队列/Kafka/kafka ISR.md"
+                  },
+                  "kafka broker 可靠性保证.md": {
+                    "type": "file",
+                    "path": "后端知识/102数据系统-消息队列/Kafka/kafka broker 可靠性保证.md"
+                  },
+                  "kafka 上报offset.md": {
+                    "type": "file",
+                    "path": "后端知识/102数据系统-消息队列/Kafka/kafka 上报offset.md"
+                  },
+                  "kafka 元信息.md": {
+                    "type": "file",
+                    "path": "后端知识/102数据系统-消息队列/Kafka/kafka 元信息.md"
+                  },
+                  "kafka 分区 与消费者组.md": {
+                    "type": "file",
+                    "path": "后端知识/102数据系统-消息队列/Kafka/kafka 分区 与消费者组.md"
+                  },
+                  "kafka 快速上手.md": {
+                    "type": "file",
+                    "path": "后端知识/102数据系统-消息队列/Kafka/kafka 快速上手.md"
+                  },
+                  "kafka 消息投递.md": {
+                    "type": "file",
+                    "path": "后端知识/102数据系统-消息队列/Kafka/kafka 消息投递.md"
+                  },
+                  "kafka 路由.md": {
+                    "type": "file",
+                    "path": "后端知识/102数据系统-消息队列/Kafka/kafka 路由.md"
+                  },
+                  "kafka.md": {
+                    "type": "file",
+                    "path": "后端知识/102数据系统-消息队列/Kafka/kafka.md"
+                  },
+                  "kafka与zk.md": {
+                    "type": "file",
+                    "path": "后端知识/102数据系统-消息队列/Kafka/kafka与zk.md"
+                  }
+                }
+              },
+              "RabbitM Q": {
+                "type": "folder",
+                "children": {
+                  "rabbit mq 服务架构.md": {
+                    "type": "file",
+                    "path": "后端知识/102数据系统-消息队列/RabbitM Q/rabbit mq 服务架构.md"
+                  },
+                  "rabbit mq消息投递过程.md": {
+                    "type": "file",
+                    "path": "后端知识/102数据系统-消息队列/RabbitM Q/rabbit mq消息投递过程.md"
+                  },
+                  "rabbitmq 可靠性保证.md": {
+                    "type": "file",
+                    "path": "后端知识/102数据系统-消息队列/RabbitM Q/rabbitmq 可靠性保证.md"
+                  },
+                  "rabbitmq 集群.md": {
+                    "type": "file",
+                    "path": "后端知识/102数据系统-消息队列/RabbitM Q/rabbitmq 集群.md"
+                  }
+                }
+              },
+              "DLQ死信队列.md": {
+                "type": "file",
+                "path": "后端知识/102数据系统-消息队列/DLQ死信队列.md"
+              },
+              "MQ消息处理的 at least once.md": {
+                "type": "file",
+                "path": "后端知识/102数据系统-消息队列/MQ消息处理的 at least once.md"
+              },
+              "MQ消息处理的 顺序性.md": {
+                "type": "file",
+                "path": "后端知识/102数据系统-消息队列/MQ消息处理的 顺序性.md"
+              },
+              "MQ消息处理的幂等性与消息重复.md": {
+                "type": "file",
+                "path": "后端知识/102数据系统-消息队列/MQ消息处理的幂等性与消息重复.md"
+              },
+              "MQ的性能指标.md": {
+                "type": "file",
+                "path": "后端知识/102数据系统-消息队列/MQ的性能指标.md"
+              },
+              "MQ选型.md": {
+                "type": "file",
+                "path": "后端知识/102数据系统-消息队列/MQ选型.md"
+              },
+              "mq.index.md": {
+                "type": "file",
+                "path": "后端知识/102数据系统-消息队列/mq.index.md"
+              },
+              "rocketMQ.md": {
+                "type": "file",
+                "path": "后端知识/102数据系统-消息队列/rocketMQ.md"
+              },
+              "消息积压.md": {
+                "type": "file",
+                "path": "后端知识/102数据系统-消息队列/消息积压.md"
+              },
+              "消息系统两大流派.md": {
+                "type": "file",
+                "path": "后端知识/102数据系统-消息队列/消息系统两大流派.md"
+              }
+            }
+          },
+          "103数据系统-搜索引擎": {
+            "type": "folder",
+            "children": {
+              "elasticsearch": {
+                "type": "folder",
+                "children": {
+                  "ES向量检索支持情况.md": {
+                    "type": "file",
+                    "path": "后端知识/103数据系统-搜索引擎/elasticsearch/ES向量检索支持情况.md"
+                  },
+                  "_source的影响.md": {
+                    "type": "file",
+                    "path": "后端知识/103数据系统-搜索引擎/elasticsearch/_source的影响.md"
+                  },
+                  "doc values.md": {
+                    "type": "file",
+                    "path": "后端知识/103数据系统-搜索引擎/elasticsearch/doc values.md"
+                  },
+                  "es内存占用.md": {
+                    "type": "file",
+                    "path": "后端知识/103数据系统-搜索引擎/elasticsearch/es内存占用.md"
+                  },
+                  "update.md": {
+                    "type": "file",
+                    "path": "后端知识/103数据系统-搜索引擎/elasticsearch/update.md"
+                  },
+                  "一个索引对应的文件.md": {
+                    "type": "file",
+                    "path": "后端知识/103数据系统-搜索引擎/elasticsearch/一个索引对应的文件.md"
+                  },
+                  "基于倒排索引的index构建.md": {
+                    "type": "file",
+                    "path": "后端知识/103数据系统-搜索引擎/elasticsearch/基于倒排索引的index构建.md"
+                  },
+                  "基于向量搜索.md": {
+                    "type": "file",
+                    "path": "后端知识/103数据系统-搜索引擎/elasticsearch/基于向量搜索.md"
+                  },
+                  "基本概念.md": {
+                    "type": "file",
+                    "path": "后端知识/103数据系统-搜索引擎/elasticsearch/基本概念.md"
+                  },
+                  "索引存储结构.md": {
+                    "type": "file",
+                    "path": "后端知识/103数据系统-搜索引擎/elasticsearch/索引存储结构.md"
+                  }
+                }
+              },
+              "搜索": {
+                "type": "folder",
+                "children": {
+                  "搜索效果评估.md": {
+                    "type": "file",
+                    "path": "后端知识/103数据系统-搜索引擎/搜索/搜索效果评估.md"
+                  }
+                }
+              },
+              "BM25.md": {
+                "type": "file",
+                "path": "后端知识/103数据系统-搜索引擎/BM25.md"
+              }
+            }
+          },
+          "104数据系统-流式处理": {
+            "type": "folder",
+            "children": {
+              "storm.md": {
+                "type": "file",
+                "path": "后端知识/104数据系统-流式处理/storm.md"
+              }
+            }
+          },
+          "105数据系统-元数据与协调器": {
+            "type": "folder",
+            "children": {
+              "Nacos": {
+                "type": "folder",
+                "children": {
+                  "Distro协议.md": {
+                    "type": "file",
+                    "path": "后端知识/105数据系统-元数据与协调器/Nacos/Distro协议.md"
+                  },
+                  "Raft协议与raft集群.md": {
+                    "type": "file",
+                    "path": "后端知识/105数据系统-元数据与协调器/Nacos/Raft协议与raft集群.md"
+                  },
+                  "如何部署.md": {
+                    "type": "file",
+                    "path": "后端知识/105数据系统-元数据与协调器/Nacos/如何部署.md"
+                  }
+                }
+              },
+              "ZooKeeper": {
+                "type": "folder",
+                "children": {
+                  "zk 临时节点如何自动消失.md": {
+                    "type": "file",
+                    "path": "后端知识/105数据系统-元数据与协调器/ZooKeeper/zk 临时节点如何自动消失.md"
+                  },
+                  "zookeeper.md": {
+                    "type": "file",
+                    "path": "后端知识/105数据系统-元数据与协调器/ZooKeeper/zookeeper.md"
+                  },
+                  "使用zk.md": {
+                    "type": "file",
+                    "path": "后端知识/105数据系统-元数据与协调器/ZooKeeper/使用zk.md"
+                  }
+                }
+              },
+              "consul.md": {
+                "type": "file",
+                "path": "后端知识/105数据系统-元数据与协调器/consul.md"
+              }
+            }
+          },
+          "200分布式系统": {
+            "type": "folder",
+            "children": {
+              "分布式一致性": {
+                "type": "folder",
+                "children": {
+                  "gossip.md": {
+                    "type": "file",
+                    "path": "后端知识/200分布式系统/分布式一致性/gossip.md"
+                  }
+                }
+              },
+              "时钟": {
+                "type": "folder",
+                "children": {
+                  "NTP.md": {
+                    "type": "file",
+                    "path": "后端知识/200分布式系统/时钟/NTP.md"
+                  },
+                  "版本向量.md": {
+                    "type": "file",
+                    "path": "后端知识/200分布式系统/时钟/版本向量.md"
+                  },
+                  "逻辑时钟与物理时钟.md": {
+                    "type": "file",
+                    "path": "后端知识/200分布式系统/时钟/逻辑时钟与物理时钟.md"
+                  },
+                  "逻辑时钟的应用场景.md": {
+                    "type": "file",
+                    "path": "后端知识/200分布式系统/时钟/逻辑时钟的应用场景.md"
+                  }
+                }
+              },
+              "share nothing.md": {
+                "type": "file",
+                "path": "后端知识/200分布式系统/share nothing.md"
+              },
+              "主从同步的链式复制.md": {
+                "type": "file",
+                "path": "后端知识/200分布式系统/主从同步的链式复制.md"
+              },
+              "分布式系统.md": {
+                "type": "file",
+                "path": "后端知识/200分布式系统/分布式系统.md"
+              },
+              "断路器.md": {
+                "type": "file",
+                "path": "后端知识/200分布式系统/断路器.md"
+              }
+            }
+          },
+          "201数据库事务": {
+            "type": "folder",
+            "children": {
+              "2PL 两阶段锁.md": {
+                "type": "file",
+                "path": "后端知识/201数据库事务/2PL 两阶段锁.md"
+              },
+              "ANSI SQL-92.md": {
+                "type": "file",
+                "path": "后端知识/201数据库事务/ANSI SQL-92.md"
+              },
+              "skew.md": {
+                "type": "file",
+                "path": "后端知识/201数据库事务/skew.md"
+              },
+              "并发控制与数据库异象.md": {
+                "type": "file",
+                "path": "后端知识/201数据库事务/并发控制与数据库异象.md"
+              },
+              "快照隔离SI 与 Write Skew.md": {
+                "type": "file",
+                "path": "后端知识/201数据库事务/快照隔离SI 与 Write Skew.md"
+              },
+              "混乱之源InnoDB的特殊性.md": {
+                "type": "file",
+                "path": "后端知识/201数据库事务/混乱之源InnoDB的特殊性.md"
+              },
+              "长短 SX 锁.md": {
+                "type": "file",
+                "path": "后端知识/201数据库事务/长短 SX 锁.md"
+              }
+            }
+          },
+          "202 并发模型": {
+            "type": "folder",
+            "children": {
+              "actor 与 分布式actor.md": {
+                "type": "file",
+                "path": "后端知识/202 并发模型/actor 与 分布式actor.md"
+              }
+            }
+          },
+          "300 devops": {
+            "type": "folder",
+            "children": {
+              "Git": {
+                "type": "folder",
+                "children": {
+                  "HEAD.md": {
+                    "type": "file",
+                    "path": "后端知识/300 devops/Git/HEAD.md"
+                  },
+                  "SemVer.md": {
+                    "type": "file",
+                    "path": "后端知识/300 devops/Git/SemVer.md"
+                  },
+                  "git conventional commits.md": {
+                    "type": "file",
+                    "path": "后端知识/300 devops/Git/git conventional commits.md"
+                  },
+                  "git fetch.md": {
+                    "type": "file",
+                    "path": "后端知识/300 devops/Git/git fetch.md"
+                  },
+                  "git flow.md": {
+                    "type": "file",
+                    "path": "后端知识/300 devops/Git/git flow.md"
+                  },
+                  "git rebase.md": {
+                    "type": "file",
+                    "path": "后端知识/300 devops/Git/git rebase.md"
+                  },
+                  "git reset.md": {
+                    "type": "file",
+                    "path": "后端知识/300 devops/Git/git reset.md"
+                  },
+                  "git stash.md": {
+                    "type": "file",
+                    "path": "后端知识/300 devops/Git/git stash.md"
+                  },
+                  "git 合并commit.md": {
+                    "type": "file",
+                    "path": "后端知识/300 devops/Git/git 合并commit.md"
+                  },
+                  "git 基本概念.md": {
+                    "type": "file",
+                    "path": "后端知识/300 devops/Git/git 基本概念.md"
+                  },
+                  "git_breaking_change.md": {
+                    "type": "file",
+                    "path": "后端知识/300 devops/Git/git_breaking_change.md"
+                  },
+                  "git_hooks.md": {
+                    "type": "file",
+                    "path": "后端知识/300 devops/Git/git_hooks.md"
+                  },
+                  "git的sshkey处理.md": {
+                    "type": "file",
+                    "path": "后端知识/300 devops/Git/git的sshkey处理.md"
+                  },
+                  "git简写.md": {
+                    "type": "file",
+                    "path": "后端知识/300 devops/Git/git简写.md"
+                  },
+                  "origin：远程仓库默认名.md": {
+                    "type": "file",
+                    "path": "后端知识/300 devops/Git/origin：远程仓库默认名.md"
+                  },
+                  "文件状态.md": {
+                    "type": "file",
+                    "path": "后端知识/300 devops/Git/文件状态.md"
+                  },
+                  "本地和远程分支.md": {
+                    "type": "file",
+                    "path": "后端知识/300 devops/Git/本地和远程分支.md"
+                  },
+                  "范围符号.md": {
+                    "type": "file",
+                    "path": "后端知识/300 devops/Git/范围符号.md"
+                  }
+                }
+              },
+              "可观测性": {
+                "type": "folder",
+                "children": {
+                  "grafana.md": {
+                    "type": "file",
+                    "path": "后端知识/300 devops/可观测性/grafana.md"
+                  },
+                  "jaeger.md": {
+                    "type": "file",
+                    "path": "后端知识/300 devops/可观测性/jaeger.md"
+                  },
+                  "prometheus.md": {
+                    "type": "file",
+                    "path": "后端知识/300 devops/可观测性/prometheus.md"
+                  },
+                  "zipkin.md": {
+                    "type": "file",
+                    "path": "后端知识/300 devops/可观测性/zipkin.md"
+                  }
+                }
+              },
+              "devops 简介.md": {
+                "type": "file",
+                "path": "后端知识/300 devops/devops 简介.md"
+              }
+            }
+          },
+          "301容器化": {
+            "type": "folder",
+            "children": {
+              "K8s": {
+                "type": "folder",
+                "children": {
+                  "简介.md": {
+                    "type": "file",
+                    "path": "后端知识/301容器化/K8s/简介.md"
+                  }
+                }
+              },
+              "docker": {
+                "type": "folder",
+                "children": {
+                  "K8S.md": {
+                    "type": "file",
+                    "path": "后端知识/301容器化/docker/K8S.md"
+                  },
+                  "docker ENTRYPOINT和CMD参数.md": {
+                    "type": "file",
+                    "path": "后端知识/301容器化/docker/docker ENTRYPOINT和CMD参数.md"
+                  },
+                  "docker secrets.md": {
+                    "type": "file",
+                    "path": "后端知识/301容器化/docker/docker secrets.md"
+                  },
+                  "docker volume.md": {
+                    "type": "file",
+                    "path": "后端知识/301容器化/docker/docker volume.md"
+                  },
+                  "docker 运行策略与模式.md": {
+                    "type": "file",
+                    "path": "后端知识/301容器化/docker/docker 运行策略与模式.md"
+                  },
+                  "docker 隔离性.md": {
+                    "type": "file",
+                    "path": "后端知识/301容器化/docker/docker 隔离性.md"
+                  },
+                  "docker-compose.md": {
+                    "type": "file",
+                    "path": "后端知识/301容器化/docker/docker-compose.md"
+                  },
+                  "docker.md": {
+                    "type": "file",
+                    "path": "后端知识/301容器化/docker/docker.md"
+                  }
+                }
+              },
+              "k3s.md": {
+                "type": "file",
+                "path": "后端知识/301容器化/k3s.md"
+              }
+            }
+          },
+          "302本地代理": {
+            "type": "folder",
+            "children": {
+              "caddy.md": {
+                "type": "file",
+                "path": "后端知识/302本地代理/caddy.md"
+              }
+            }
+          },
+          "900编码协议": {
+            "type": "folder",
+            "children": {
+              "文本编码协议.md": {
+                "type": "file",
+                "path": "后端知识/900编码协议/文本编码协议.md"
+              },
+              "视频编码协议.md": {
+                "type": "file",
+                "path": "后端知识/900编码协议/视频编码协议.md"
+              }
+            }
+          },
+          "901网络通讯协议": {
+            "type": "folder",
+            "children": {
+              "MQTT.md": {
+                "type": "file",
+                "path": "后端知识/901网络通讯协议/MQTT.md"
+              }
+            }
+          },
+          "L7负载均衡中间件": {
+            "type": "folder",
+            "children": {
+              "nginx": {
+                "type": "folder",
+                "children": {
+                  "conf文件配置和编写.md": {
+                    "type": "file",
+                    "path": "后端知识/L7负载均衡中间件/nginx/conf文件配置和编写.md"
+                  },
+                  "nginx实战.md": {
+                    "type": "file",
+                    "path": "后端知识/L7负载均衡中间件/nginx/nginx实战.md"
+                  }
+                }
+              },
+              "traefik": {
+                "type": "folder",
+                "children": {
+                  "traefik.md": {
+                    "type": "file",
+                    "path": "后端知识/L7负载均衡中间件/traefik/traefik.md"
+                  }
+                }
+              }
+            }
+          },
+          "Untitled": {
+            "type": "folder",
+            "children": {
+              "Lookup join.md": {
+                "type": "file",
+                "path": "后端知识/Untitled/Lookup join.md"
+              },
+              "TLS终结.md": {
+                "type": "file",
+                "path": "后端知识/Untitled/TLS终结.md"
+              },
+              "unicode.md": {
+                "type": "file",
+                "path": "后端知识/Untitled/unicode.md"
+              },
+              "写放大问题.md": {
+                "type": "file",
+                "path": "后端知识/Untitled/写放大问题.md"
+              },
+              "系统设计：端到端原则.md": {
+                "type": "file",
+                "path": "后端知识/Untitled/系统设计：端到端原则.md"
+              },
+              "长文本存储.md": {
+                "type": "file",
+                "path": "后端知识/Untitled/长文本存储.md"
+              }
+            }
+          },
+          "_00 JAVA": {
+            "type": "folder",
+            "children": {
+              "JDBC": {
+                "type": "folder",
+                "children": {
+                  "JDBC事务.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/JDBC/JDBC事务.md"
+                  },
+                  "JDBC快速上手.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/JDBC/JDBC快速上手.md"
+                  },
+                  "JDBC连接池与Spring中的datasource生命周期.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/JDBC/JDBC连接池与Spring中的datasource生命周期.md"
+                  }
+                }
+              },
+              "Maven": {
+                "type": "folder",
+                "children": {
+                  "maven  生命周期管理.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/Maven/maven  生命周期管理.md"
+                  },
+                  "maven 仓库.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/Maven/maven 仓库.md"
+                  },
+                  "maven 依赖scope.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/Maven/maven 依赖scope.md"
+                  },
+                  "maven依赖管理.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/Maven/maven依赖管理.md"
+                  },
+                  "maven功能.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/Maven/maven功能.md"
+                  },
+                  "maven多模块项目.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/Maven/maven多模块项目.md"
+                  },
+                  "用maven创建一个项目.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/Maven/用maven创建一个项目.md"
+                  }
+                }
+              },
+              "Spring": {
+                "type": "folder",
+                "children": {
+                  "源代码解读": {
+                    "type": "folder",
+                    "children": {
+                      "spring-beans-factory-support.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/Spring/源代码解读/spring-beans-factory-support.md"
+                      },
+                      "spring-core-io-Resource.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/Spring/源代码解读/spring-core-io-Resource.md"
+                      },
+                      "spring-core-io-ResourceReader.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/Spring/源代码解读/spring-core-io-ResourceReader.md"
+                      },
+                      "spring-metadata-annotationMetadata.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/Spring/源代码解读/spring-metadata-annotationMetadata.md"
+                      },
+                      "spring-metadata-metadataReader.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/Spring/源代码解读/spring-metadata-metadataReader.md"
+                      }
+                    }
+                  },
+                  "AOP.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/Spring/AOP.md"
+                  },
+                  "IoC容器.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/Spring/IoC容器.md"
+                  },
+                  "JdbcTemplate.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/Spring/JdbcTemplate.md"
+                  },
+                  "Spring Context.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/Spring/Spring Context.md"
+                  },
+                  "Spring Expression Language.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/Spring/Spring Expression Language.md"
+                  },
+                  "Spring bean的作用域与线程安全.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/Spring/Spring bean的作用域与线程安全.md"
+                  },
+                  "Spring 事务.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/Spring/Spring 事务.md"
+                  },
+                  "Spring 声明式事务.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/Spring/Spring 声明式事务.md"
+                  },
+                  "Spring启动的操作.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/Spring/Spring启动的操作.md"
+                  },
+                  "Spring注解.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/Spring/Spring注解.md"
+                  },
+                  "Spring自定义注解.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/Spring/Spring自定义注解.md"
+                  },
+                  "Untitled.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/Spring/Untitled.md"
+                  },
+                  "bean 的属性.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/Spring/bean 的属性.md"
+                  },
+                  "spring对循环依赖的处理.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/Spring/spring对循环依赖的处理.md"
+                  },
+                  "事务失效.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/Spring/事务失效.md"
+                  },
+                  "动态代理-DESKTOP-T161DKL.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/Spring/动态代理-DESKTOP-T161DKL.md"
+                  }
+                }
+              },
+              "SpringBoot": {
+                "type": "folder",
+                "children": {
+                  "Spring Boot快速上手.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/SpringBoot/Spring Boot快速上手.md"
+                  },
+                  "Spring Cache.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/SpringBoot/Spring Cache.md"
+                  },
+                  "Spring Request Scope Vs java Thread-local Vs .....md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/SpringBoot/Spring Request Scope Vs java Thread-local Vs .....md"
+                  },
+                  "Spring Task.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/SpringBoot/Spring Task.md"
+                  },
+                  "Spring boot bug.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/SpringBoot/Spring boot bug.md"
+                  },
+                  "SpringBoot注解.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/SpringBoot/SpringBoot注解.md"
+                  },
+                  "Springboot 杂记.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/SpringBoot/Springboot 杂记.md"
+                  },
+                  "Springboot自动配置.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/SpringBoot/Springboot自动配置.md"
+                  },
+                  "spring boot starter.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/SpringBoot/spring boot starter.md"
+                  },
+                  "加载配置文件.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/SpringBoot/加载配置文件.md"
+                  }
+                }
+              },
+              "SpringMVC": {
+                "type": "folder",
+                "children": {
+                  "DispatcherServelet.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/SpringMVC/DispatcherServelet.md"
+                  },
+                  "HandlerInterceptor 接口.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/SpringMVC/HandlerInterceptor 接口.md"
+                  },
+                  "HttpMessageConverter.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/SpringMVC/HttpMessageConverter.md"
+                  },
+                  "Spring MVC分层.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/SpringMVC/Spring MVC分层.md"
+                  },
+                  "WebMVC configuration.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/SpringMVC/WebMVC configuration.md"
+                  },
+                  "处理一个请求的全过程.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/SpringMVC/处理一个请求的全过程.md"
+                  }
+                }
+              },
+              "java体操练习题": {
+                "type": "folder",
+                "children": {
+                  "类型排序.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java体操练习题/类型排序.md"
+                  }
+                }
+              },
+              "java八股": {
+                "type": "folder",
+                "children": {
+                  "CompletableFuture.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/CompletableFuture.md"
+                  },
+                  "JVM-DESKTOP-T161DKL.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/JVM-DESKTOP-T161DKL.md"
+                  },
+                  "JVM.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/JVM.md"
+                  },
+                  "Java对象头 MarkWord.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/Java对象头 MarkWord.md"
+                  },
+                  "ThreadLocal-DESKTOP-T161DKL.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/ThreadLocal-DESKTOP-T161DKL.md"
+                  },
+                  "ThreadLocal.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/ThreadLocal.md"
+                  },
+                  "arraylist优化.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/arraylist优化.md"
+                  },
+                  "class文件内容.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/class文件内容.md"
+                  },
+                  "jar，war包.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/jar，war包.md"
+                  },
+                  "java GC-DESKTOP-T161DKL.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java GC-DESKTOP-T161DKL.md"
+                  },
+                  "java GC.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java GC.md"
+                  },
+                  "java JMM和进程通讯.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java JMM和进程通讯.md"
+                  },
+                  "java System类.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java System类.md"
+                  },
+                  "java app 访问本地目录.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java app 访问本地目录.md"
+                  },
+                  "java fork & join.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java fork & join.md"
+                  },
+                  "java map-DESKTOP-T161DKL.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java map-DESKTOP-T161DKL.md"
+                  },
+                  "java map.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java map.md"
+                  },
+                  "java this参数绑定.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java this参数绑定.md"
+                  },
+                  "java 内存模型.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java 内存模型.md"
+                  },
+                  "java 函数式接口-DESKTOP-T161DKL.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java 函数式接口-DESKTOP-T161DKL.md"
+                  },
+                  "java 函数式接口.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java 函数式接口.md"
+                  },
+                  "java 动态线程池.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java 动态线程池.md"
+                  },
+                  "java 反射-DESKTOP-T161DKL.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java 反射-DESKTOP-T161DKL.md"
+                  },
+                  "java 反射.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java 反射.md"
+                  },
+                  "java 基础类型值，转型和辅助方法.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java 基础类型值，转型和辅助方法.md"
+                  },
+                  "java 序列化-DESKTOP-T161DKL.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java 序列化-DESKTOP-T161DKL.md"
+                  },
+                  "java 序列化.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java 序列化.md"
+                  },
+                  "java 异常处理 1.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java 异常处理 1.md"
+                  },
+                  "java 异常处理-DESKTOP-T161DKL.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java 异常处理-DESKTOP-T161DKL.md"
+                  },
+                  "java 异常处理.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java 异常处理.md"
+                  },
+                  "java 方法引用.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java 方法引用.md"
+                  },
+                  "java 枚举 Enum.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java 枚举 Enum.md"
+                  },
+                  "java 版本.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java 版本.md"
+                  },
+                  "java 线程池-DESKTOP-T161DKL.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java 线程池-DESKTOP-T161DKL.md"
+                  },
+                  "java 线程池.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java 线程池.md"
+                  },
+                  "java 语法查漏杂记.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java 语法查漏杂记.md"
+                  },
+                  "java 链式调用.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java 链式调用.md"
+                  },
+                  "java 集合.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java 集合.md"
+                  },
+                  "java 项目部署和发布.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/java 项目部署和发布.md"
+                  },
+                  "jdk工具.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/jdk工具.md"
+                  },
+                  "juc包-DESKTOP-T161DKL.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/juc包-DESKTOP-T161DKL.md"
+                  },
+                  "juc包.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/juc包.md"
+                  },
+                  "jvm 调优相关参数.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/jvm 调优相关参数.md"
+                  },
+                  "rethinking java基础.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/rethinking java基础.md"
+                  },
+                  "swagger.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/swagger.md"
+                  },
+                  "synchronized-DESKTOP-T161DKL.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/synchronized-DESKTOP-T161DKL.md"
+                  },
+                  "synchronized.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/synchronized.md"
+                  },
+                  "网络高并发IO-DESKTOP-T161DKL.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/网络高并发IO-DESKTOP-T161DKL.md"
+                  },
+                  "网络高并发IO.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java八股/网络高并发IO.md"
+                  }
+                }
+              },
+              "java实战": {
+                "type": "folder",
+                "children": {
+                  "动态代理": {
+                    "type": "folder",
+                    "children": {
+                      "java 反射常用方法.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/java实战/动态代理/java 反射常用方法.md"
+                      },
+                      "java具体如何实现动态代理.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/java实战/动态代理/java具体如何实现动态代理.md"
+                      }
+                    }
+                  },
+                  "手撕设计模式": {
+                    "type": "folder",
+                    "children": {
+                      "单例模式.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/java实战/手撕设计模式/单例模式.md"
+                      },
+                      "装饰器.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/java实战/手撕设计模式/装饰器.md"
+                      },
+                      "观察者.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/java实战/手撕设计模式/观察者.md"
+                      },
+                      "责任链.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/java实战/手撕设计模式/责任链.md"
+                      }
+                    }
+                  },
+                  "排序算法": {
+                    "type": "folder",
+                    "children": {
+                      "堆排序.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/java实战/排序算法/堆排序.md"
+                      },
+                      "归并 与 多路归并.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/java实战/排序算法/归并 与 多路归并.md"
+                      },
+                      "快排和topk.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/java实战/排序算法/快排和topk.md"
+                      }
+                    }
+                  },
+                  "线程池": {
+                    "type": "folder",
+                    "children": {
+                      "InterruptException.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/java实战/线程池/InterruptException.md"
+                      },
+                      "Object的wait和notify.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/java实战/线程池/Object的wait和notify.md"
+                      },
+                      "Thread类.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/java实战/线程池/Thread类.md"
+                      },
+                      "Untitled 1.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/java实战/线程池/Untitled 1.md"
+                      },
+                      "Untitled.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/java实战/线程池/Untitled.md"
+                      },
+                      "juc同步工具.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/java实战/线程池/juc同步工具.md"
+                      },
+                      "juc的CountDownLatch 和 barrior.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/java实战/线程池/juc的CountDownLatch 和 barrior.md"
+                      },
+                      "juc的LockSupport.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/java实战/线程池/juc的LockSupport.md"
+                      },
+                      "juc的condition.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/java实战/线程池/juc的condition.md"
+                      },
+                      "使用原子变量.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/java实战/线程池/使用原子变量.md"
+                      },
+                      "手撕：10个线程等待锁.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/java实战/线程池/手撕：10个线程等待锁.md"
+                      },
+                      "手撕：ABCABC.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/java实战/线程池/手撕：ABCABC.md"
+                      },
+                      "手撕：两个线程交替打印.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/java实战/线程池/手撕：两个线程交替打印.md"
+                      },
+                      "手撕：线程安全计数器.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/java实战/线程池/手撕：线程安全计数器.md"
+                      },
+                      "线程池类关系.md": {
+                        "type": "file",
+                        "path": "后端知识/_00 JAVA/java实战/线程池/线程池类关系.md"
+                      }
+                    }
+                  },
+                  "AQS实现.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java实战/AQS实现.md"
+                  },
+                  "CGLibrary实现.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java实战/CGLibrary实现.md"
+                  },
+                  "Class类常用方法.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java实战/Class类常用方法.md"
+                  },
+                  "ExecutorService.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java实战/ExecutorService.md"
+                  },
+                  "HashMap.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java实战/HashMap.md"
+                  },
+                  "JDK动态代理实现.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java实战/JDK动态代理实现.md"
+                  },
+                  "Objects 和Object的区别.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java实战/Objects 和Object的区别.md"
+                  },
+                  "Object类， 与实战.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java实战/Object类， 与实战.md"
+                  },
+                  "java NIO.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java实战/java NIO.md"
+                  },
+                  "java io.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java实战/java io.md"
+                  },
+                  "java stl使用.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java实战/java stl使用.md"
+                  },
+                  "java 反射.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java实战/java 反射.md"
+                  },
+                  "java 常用api.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java实战/java 常用api.md"
+                  },
+                  "java 泛型.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java实战/java 泛型.md"
+                  },
+                  "原子类使用.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java实战/原子类使用.md"
+                  },
+                  "如何使用ws.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java实战/如何使用ws.md"
+                  },
+                  "定时任务.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java实战/定时任务.md"
+                  },
+                  "手撕数组题.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java实战/手撕数组题.md"
+                  },
+                  "手撕：单例模式.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java实战/手撕：单例模式.md"
+                  },
+                  "线程安全计数器.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java实战/线程安全计数器.md"
+                  },
+                  "链表相关.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java实战/链表相关.md"
+                  },
+                  "高并发乐观锁.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java实战/高并发乐观锁.md"
+                  }
+                }
+              },
+              "java常用包": {
+                "type": "folder",
+                "children": {
+                  "HttpClient.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java常用包/HttpClient.md"
+                  },
+                  "collections.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/java常用包/collections.md"
+                  }
+                }
+              },
+              "mybatis": {
+                "type": "folder",
+                "children": {
+                  "mybatis 语法杂记.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/mybatis/mybatis 语法杂记.md"
+                  },
+                  "mybatis 返回自增id.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/mybatis/mybatis 返回自增id.md"
+                  },
+                  "mybatis预编译占位符与字符串替换.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/mybatis/mybatis预编译占位符与字符串替换.md"
+                  },
+                  "使用mybatis.md": {
+                    "type": "file",
+                    "path": "后端知识/_00 JAVA/mybatis/使用mybatis.md"
+                  }
+                }
+              },
+              "DDD.md": {
+                "type": "file",
+                "path": "后端知识/_00 JAVA/DDD.md"
+              },
+              "JUnit.md": {
+                "type": "file",
+                "path": "后端知识/_00 JAVA/JUnit.md"
+              },
+              "OSGi.md": {
+                "type": "file",
+                "path": "后端知识/_00 JAVA/OSGi.md"
+              },
+              "Object.notify().md": {
+                "type": "file",
+                "path": "后端知识/_00 JAVA/Object.notify().md"
+              },
+              "Ref..md": {
+                "type": "file",
+                "path": "后端知识/_00 JAVA/Ref..md"
+              },
+              "SPI.md": {
+                "type": "file",
+                "path": "后端知识/_00 JAVA/SPI.md"
+              },
+              "Spring Security-DESKTOP-T161DKL.md": {
+                "type": "file",
+                "path": "后端知识/_00 JAVA/Spring Security-DESKTOP-T161DKL.md"
+              },
+              "Spring Security.md": {
+                "type": "file",
+                "path": "后端知识/_00 JAVA/Spring Security.md"
+              },
+              "Untitled.md": {
+                "type": "file",
+                "path": "后端知识/_00 JAVA/Untitled.md"
+              },
+              "apifox杂记.md": {
+                "type": "file",
+                "path": "后端知识/_00 JAVA/apifox杂记.md"
+              },
+              "java acm模式io.md": {
+                "type": "file",
+                "path": "后端知识/_00 JAVA/java acm模式io.md"
+              },
+              "java 多线程实战杂记.md": {
+                "type": "file",
+                "path": "后端知识/_00 JAVA/java 多线程实战杂记.md"
+              },
+              "java 进程间通讯.md": {
+                "type": "file",
+                "path": "后端知识/_00 JAVA/java 进程间通讯.md"
+              },
+              "java类型擦除机制.md": {
+                "type": "file",
+                "path": "后端知识/_00 JAVA/java类型擦除机制.md"
+              },
+              "jwt.md": {
+                "type": "file",
+                "path": "后端知识/_00 JAVA/jwt.md"
+              },
+              "orm 对象-关系映射.md": {
+                "type": "file",
+                "path": "后端知识/_00 JAVA/orm 对象-关系映射.md"
+              },
+              "postgresql实战.md": {
+                "type": "file",
+                "path": "后端知识/_00 JAVA/postgresql实战.md"
+              },
+              "指令重排对多线程的影响.md": {
+                "type": "file",
+                "path": "后端知识/_00 JAVA/指令重排对多线程的影响.md"
+              },
+              "环境配置.md": {
+                "type": "file",
+                "path": "后端知识/_00 JAVA/环境配置.md"
+              },
+              "缓存问题.md": {
+                "type": "file",
+                "path": "后端知识/_00 JAVA/缓存问题.md"
+              }
+            }
+          },
+          "_01 golang": {
+            "type": "folder",
+            "children": {
+              "container": {
+                "type": "folder",
+                "children": {
+                  "container包.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/container/container包.md"
+                  },
+                  "heap.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/container/heap.md"
+                  },
+                  "list 双向链表.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/container/list 双向链表.md"
+                  },
+                  "自己实现，基于slice.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/container/自己实现，基于slice.md"
+                  }
+                }
+              },
+              "go 并发编程": {
+                "type": "folder",
+                "children": {
+                  "channel": {
+                    "type": "folder",
+                    "children": {
+                      "chan 深入.md": {
+                        "type": "file",
+                        "path": "后端知识/_01 golang/go 并发编程/channel/chan 深入.md"
+                      },
+                      "chan.md": {
+                        "type": "file",
+                        "path": "后端知识/_01 golang/go 并发编程/channel/chan.md"
+                      },
+                      "select.md": {
+                        "type": "file",
+                        "path": "后端知识/_01 golang/go 并发编程/channel/select.md"
+                      }
+                    }
+                  },
+                  "goroutine": {
+                    "type": "folder",
+                    "children": {
+                      "协程.md": {
+                        "type": "file",
+                        "path": "后端知识/_01 golang/go 并发编程/goroutine/协程.md"
+                      },
+                      "同步工具.md": {
+                        "type": "file",
+                        "path": "后端知识/_01 golang/go 并发编程/goroutine/同步工具.md"
+                      },
+                      "调度器.md": {
+                        "type": "file",
+                        "path": "后端知识/_01 golang/go 并发编程/goroutine/调度器.md"
+                      }
+                    }
+                  }
+                }
+              },
+              "golang八股": {
+                "type": "folder",
+                "children": {
+                  "GC.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/golang八股/GC.md"
+                  }
+                }
+              },
+              "go实现设计模式": {
+                "type": "folder",
+                "children": {
+                  "单例.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/go实现设计模式/单例.md"
+                  },
+                  "工厂.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/go实现设计模式/工厂.md"
+                  },
+                  "责任链.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/go实现设计模式/责任链.md"
+                  }
+                }
+              },
+              "mod": {
+                "type": "folder",
+                "children": {
+                  "go mod与vendor.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/mod/go mod与vendor.md"
+                  },
+                  "list.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/mod/list.md"
+                  },
+                  "tidy.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/mod/tidy.md"
+                  },
+                  "使用本地的vendor.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/mod/使用本地的vendor.md"
+                  }
+                }
+              },
+              "从java转go快速上手": {
+                "type": "folder",
+                "children": {
+                  "go依赖注入？.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/从java转go快速上手/go依赖注入？.md"
+                  },
+                  "基本语法.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/从java转go快速上手/基本语法.md"
+                  },
+                  "常用包.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/从java转go快速上手/常用包.md"
+                  },
+                  "环境配置.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/从java转go快速上手/环境配置.md"
+                  }
+                }
+              },
+              "基本类型操作": {
+                "type": "folder",
+                "children": {
+                  "map.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本类型操作/map.md"
+                  },
+                  "slice.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本类型操作/slice.md"
+                  },
+                  "string.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本类型操作/string.md"
+                  },
+                  "数组.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本类型操作/数组.md"
+                  }
+                }
+              },
+              "基本语法": {
+                "type": "folder",
+                "children": {
+                  "Untitled 1.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本语法/Untitled 1.md"
+                  },
+                  "const和枚举.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本语法/const和枚举.md"
+                  },
+                  "error.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本语法/error.md"
+                  },
+                  "golang 语言风格.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本语法/golang 语言风格.md"
+                  },
+                  "interface{}.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本语法/interface{}.md"
+                  },
+                  "make.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本语法/make.md"
+                  },
+                  "new.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本语法/new.md"
+                  },
+                  "package.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本语法/package.md"
+                  },
+                  "range遍历.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本语法/range遍历.md"
+                  },
+                  "receiver.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本语法/receiver.md"
+                  },
+                  "switch.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本语法/switch.md"
+                  },
+                  "type struct到底在干嘛.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本语法/type struct到底在干嘛.md"
+                  },
+                  "type.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本语法/type.md"
+                  },
+                  "函数定义与返回值.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本语法/函数定义与返回值.md"
+                  },
+                  "变量作用域.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本语法/变量作用域.md"
+                  },
+                  "变量声明.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本语法/变量声明.md"
+                  },
+                  "复合字面量.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本语法/复合字面量.md"
+                  },
+                  "定义函数类型.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本语法/定义函数类型.md"
+                  },
+                  "指针.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本语法/指针.md"
+                  },
+                  "接口值.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本语法/接口值.md"
+                  },
+                  "控制流.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本语法/控制流.md"
+                  },
+                  "比较.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本语法/比较.md"
+                  },
+                  "类型判断.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本语法/类型判断.md"
+                  },
+                  "结构体标签.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本语法/结构体标签.md"
+                  },
+                  "赋值.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本语法/赋值.md"
+                  },
+                  "零值.md": {
+                    "type": "file",
+                    "path": "后端知识/_01 golang/基本语法/零值.md"
+                  }
+                }
+              },
+              "defer.md": {
+                "type": "file",
+                "path": "后端知识/_01 golang/defer.md"
+              },
+              "net-context.md": {
+                "type": "file",
+                "path": "后端知识/_01 golang/net-context.md"
+              },
+              "time.Ticker.md": {
+                "type": "file",
+                "path": "后端知识/_01 golang/time.Ticker.md"
+              },
+              "反射.md": {
+                "type": "file",
+                "path": "后端知识/_01 golang/反射.md"
+              },
+              "多态.md": {
+                "type": "file",
+                "path": "后端知识/_01 golang/多态.md"
+              },
+              "杂技.md": {
+                "type": "file",
+                "path": "后端知识/_01 golang/杂技.md"
+              },
+              "泛型.md": {
+                "type": "file",
+                "path": "后端知识/_01 golang/泛型.md"
+              },
+              "面向对象与函数式.md": {
+                "type": "file",
+                "path": "后端知识/_01 golang/面向对象与函数式.md"
+              }
+            }
+          },
+          "_03 python": {
+            "type": "folder",
+            "children": {
+              "包管理工具 uv.md": {
+                "type": "file",
+                "path": "后端知识/_03 python/包管理工具 uv.md"
+              }
+            }
+          },
+          "_04 erlang": {
+            "type": "folder",
+            "children": {
+              "rabbit 基于 erlang.md": {
+                "type": "file",
+                "path": "后端知识/_04 erlang/rabbit 基于 erlang.md"
+              }
+            }
+          },
+          "数据传递范式": {
+            "type": "folder",
+            "children": {
+              "GraphQL.md": {
+                "type": "file",
+                "path": "后端知识/数据传递范式/GraphQL.md"
+              },
+              "传递协议.md": {
+                "type": "file",
+                "path": "后端知识/数据传递范式/传递协议.md"
+              }
+            }
+          },
+          "序列.md": {
             "type": "file",
-            "path": "NoSQL/mongoDB.md"
+            "path": "后端知识/序列.md"
           }
         }
       },
@@ -1490,100 +3745,6 @@
               "批量处理数据.md": {
                 "type": "file",
                 "path": "计算机知识/常见低质量代码/批量处理数据.md"
-              }
-            }
-          }
-        }
-      },
-      "读书": {
-        "type": "folder",
-        "children": {
-          "DDIA数据密集型应用系统设计": {
-            "type": "folder",
-            "children": {
-              "CH1数据系统": {
-                "type": "folder",
-                "children": {
-                  "3存储与查询": {
-                    "type": "folder",
-                    "children": {
-                      "3存储与检索.md": {
-                        "type": "file",
-                        "path": "读书/DDIA数据密集型应用系统设计/CH1数据系统/3存储与查询/3存储与检索.md"
-                      }
-                    }
-                  },
-                  "U1可靠,扩展,维护": {
-                    "type": "folder",
-                    "children": {
-                      "1何为数据系统.md": {
-                        "type": "file",
-                        "path": "读书/DDIA数据密集型应用系统设计/CH1数据系统/U1可靠,扩展,维护/1何为数据系统.md"
-                      }
-                    }
-                  },
-                  "U2数据模型与查询语言": {
-                    "type": "folder",
-                    "children": {
-                      "2数据模型和查询语言.md": {
-                        "type": "file",
-                        "path": "读书/DDIA数据密集型应用系统设计/CH1数据系统/U2数据模型与查询语言/2数据模型和查询语言.md"
-                      }
-                    }
-                  },
-                  "U4编码与演进": {
-                    "type": "folder",
-                    "children": {
-                      "几种数据流模型.md": {
-                        "type": "file",
-                        "path": "读书/DDIA数据密集型应用系统设计/CH1数据系统/U4编码与演进/几种数据流模型.md"
-                      }
-                    }
-                  }
-                }
-              },
-              "CH2分布式数据": {
-                "type": "folder",
-                "children": {
-                  "U8分布式场景问题": {
-                    "type": "folder",
-                    "children": {
-                      "U时钟问题.md": {
-                        "type": "file",
-                        "path": "读书/DDIA数据密集型应用系统设计/CH2分布式数据/U8分布式场景问题/U时钟问题.md"
-                      },
-                      "U知识,真相与谎言.md": {
-                        "type": "file",
-                        "path": "读书/DDIA数据密集型应用系统设计/CH2分布式数据/U8分布式场景问题/U知识,真相与谎言.md"
-                      }
-                    }
-                  },
-                  "U9一致性协议": {
-                    "type": "folder",
-                    "children": {
-                      "0脉络.md": {
-                        "type": "file",
-                        "path": "读书/DDIA数据密集型应用系统设计/CH2分布式数据/U9一致性协议/0脉络.md"
-                      },
-                      "线性一致性.md": {
-                        "type": "file",
-                        "path": "读书/DDIA数据密集型应用系统设计/CH2分布式数据/U9一致性协议/线性一致性.md"
-                      }
-                    }
-                  },
-                  "U5冗余.md": {
-                    "type": "file",
-                    "path": "读书/DDIA数据密集型应用系统设计/CH2分布式数据/U5冗余.md"
-                  }
-                }
-              },
-              "写放大问题.md": {
-                "type": "file",
-                "path": "读书/DDIA数据密集型应用系统设计/写放大问题.md"
-              },
-              "资源.md": {
-                "type": "file",
-                "path": "读书/DDIA数据密集型应用系统设计/资源.md"
               }
             }
           }
