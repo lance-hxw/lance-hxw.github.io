@@ -1,5 +1,7 @@
 # Lance的个人网站
 
+这纯ai写的
+
 这是一个基于GitHub Pages的个人网站项目，包含首页和博客功能。
 
 ## 项目结构
@@ -31,12 +33,6 @@
 
 - 编辑`index.html`和`blog/index.html`中的CSS样式
 - 或者修改`_config.yml`文件更换Jekyll主题
-
-## 本地预览
-
-由于该项目使用纯HTML和JavaScript实现，可以直接在浏览器中打开`index.html`文件进行预览。
-
-如果需要完整的GitHub Pages环境，可以安装Jekyll并运行：
 
 ```
 bundle install
