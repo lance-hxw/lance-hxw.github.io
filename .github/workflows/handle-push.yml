@@ -1,47 +1,45 @@
 name: Update JSON & Deploy Pages
 
-# 目前逻辑是, push就会触发这个update+github pages deploy, 如果file-list.json没变, 就不自动提交
 on:
   push:
     branches:
       - master
 
 permissions:
-  contents: write    # for pushing back file-list.json
-  pages: write       # for deploying GitHub Pages
-  id-token: write    # required by pages deploy action
+  contents: write   # checkout & push JSON
+  pages: write      # 发布 Pages
+  id-token: write   # deploy-pages 需要
 
 jobs:
-  update-and-deploy:
+  update-json:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-
-      - name: Install dependencies (if needed)
-        run: |
-          if [ -f package.json ]; then
-            npm install
-          fi
-
       - name: Generate file-list.json
         run: node scripts/generate-file-list.js
-
-      - name: Commit updated file-list.json
+      - name: Commit & push JSON if changed
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add blog/post/file-list.json
-          git commit -m "Auto: Update blog/post/file-list.json [skip ci]" || echo "No changes to commit"
-          git push
+          if ! git diff --quiet blog/post/file-list.json; then
+            git add blog/post/file-list.json
+            git commit -m "Auto: Update blog/post/file-list.json [skip ci]"
+            git push
+          fi
 
+  deploy-pages:
+    needs: update-json
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout latest master
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 0       # 确保拿到远端最新提交，包括刚推的 JSON
       - name: Build & Deploy GitHub Pages
         uses: actions/jekyll-build-pages@v1
