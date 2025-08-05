@@ -289,7 +289,8 @@
             
             // 在本地开发环境中，你可以使用fetch API来获取文件列表
             try {
-                const response = await fetch('post/file-list.json');
+                // 添加时间戳参数禁用缓存
+                const response = await fetch(`post/file-list.json?_t=${new Date().getTime()}`);
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
