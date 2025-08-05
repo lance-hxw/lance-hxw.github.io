@@ -1954,6 +1954,91 @@
               }
             }
           },
+          "120网络组件": {
+            "type": "folder",
+            "children": {
+              "L1物理层": {
+                "type": "folder",
+                "children": {
+                  "L1物理设备.md": {
+                    "type": "file",
+                    "path": "后端知识/120网络组件/L1物理层/L1物理设备.md"
+                  }
+                }
+              },
+              "L2数据链路层(mac)": {
+                "type": "folder",
+                "children": {
+                  "L2 设备.md": {
+                    "type": "file",
+                    "path": "后端知识/120网络组件/L2数据链路层(mac)/L2 设备.md"
+                  },
+                  "L2负载均衡.md": {
+                    "type": "file",
+                    "path": "后端知识/120网络组件/L2数据链路层(mac)/L2负载均衡.md"
+                  }
+                }
+              },
+              "L3网络层(IP)": {
+                "type": "folder",
+                "children": {
+                  "L3设备.md": {
+                    "type": "file",
+                    "path": "后端知识/120网络组件/L3网络层(IP)/L3设备.md"
+                  },
+                  "L4负载均衡的部分功能.md": {
+                    "type": "file",
+                    "path": "后端知识/120网络组件/L3网络层(IP)/L4负载均衡的部分功能.md"
+                  }
+                }
+              },
+              "L4传输层(TCP,UDP)": {
+                "type": "folder",
+                "children": {
+                  "L4负载均衡.md": {
+                    "type": "file",
+                    "path": "后端知识/120网络组件/L4传输层(TCP,UDP)/L4负载均衡.md"
+                  }
+                }
+              },
+              "L5-7 应用层": {
+                "type": "folder",
+                "children": {
+                  "L7负载均衡中间件": {
+                    "type": "folder",
+                    "children": {
+                      "nginx": {
+                        "type": "folder",
+                        "children": {
+                          "conf文件配置和编写.md": {
+                            "type": "file",
+                            "path": "后端知识/120网络组件/L5-7 应用层/L7负载均衡中间件/nginx/conf文件配置和编写.md"
+                          },
+                          "nginx实战.md": {
+                            "type": "file",
+                            "path": "后端知识/120网络组件/L5-7 应用层/L7负载均衡中间件/nginx/nginx实战.md"
+                          }
+                        }
+                      },
+                      "traefik": {
+                        "type": "folder",
+                        "children": {
+                          "traefik.md": {
+                            "type": "file",
+                            "path": "后端知识/120网络组件/L5-7 应用层/L7负载均衡中间件/traefik/traefik.md"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "应用层设备,中间件.md": {
+                    "type": "file",
+                    "path": "后端知识/120网络组件/L5-7 应用层/应用层设备,中间件.md"
+                  }
+                }
+              }
+            }
+          },
           "200分布式系统": {
             "type": "folder",
             "children": {
@@ -2221,6 +2306,10 @@
           "900编码协议": {
             "type": "folder",
             "children": {
+              "图片协议.md": {
+                "type": "file",
+                "path": "后端知识/900编码协议/图片协议.md"
+              },
               "文本编码协议.md": {
                 "type": "file",
                 "path": "后端知识/900编码协议/文本编码协议.md"
@@ -2228,6 +2317,10 @@
               "视频编码协议.md": {
                 "type": "file",
                 "path": "后端知识/900编码协议/视频编码协议.md"
+              },
+              "音频协议.md": {
+                "type": "file",
+                "path": "后端知识/900编码协议/音频协议.md"
               }
             }
           },
@@ -2237,33 +2330,6 @@
               "MQTT.md": {
                 "type": "file",
                 "path": "后端知识/901网络通讯协议/MQTT.md"
-              }
-            }
-          },
-          "L7负载均衡中间件": {
-            "type": "folder",
-            "children": {
-              "nginx": {
-                "type": "folder",
-                "children": {
-                  "conf文件配置和编写.md": {
-                    "type": "file",
-                    "path": "后端知识/L7负载均衡中间件/nginx/conf文件配置和编写.md"
-                  },
-                  "nginx实战.md": {
-                    "type": "file",
-                    "path": "后端知识/L7负载均衡中间件/nginx/nginx实战.md"
-                  }
-                }
-              },
-              "traefik": {
-                "type": "folder",
-                "children": {
-                  "traefik.md": {
-                    "type": "file",
-                    "path": "后端知识/L7负载均衡中间件/traefik/traefik.md"
-                  }
-                }
               }
             }
           },
