@@ -1,5 +1,6 @@
 name: Update JSON & Deploy Pages
 
+# 目前逻辑是, push就会触发这个update+github pages deploy, 如果file-list.json没变, 就不自动提交
 on:
   push:
     branches:
