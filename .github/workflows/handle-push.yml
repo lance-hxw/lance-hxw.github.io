@@ -1,0 +1,46 @@
+name: Update JSON & Deploy Pages
+
+on:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: write    # for pushing back file-list.json
+  pages: write       # for deploying GitHub Pages
+  id-token: write    # required by pages deploy action
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies (if needed)
+        run: |
+          if [ -f package.json ]; then
+            npm install
+          fi
+
+      - name: Generate file-list.json
+        run: node scripts/generate-file-list.js
+
+      - name: Commit updated file-list.json
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add blog/post/file-list.json
+          git commit -m "Auto: Update blog/post/file-list.json [skip ci]" || echo "No changes to commit"
+          git push
+
+      - name: Build & Deploy GitHub Pages
+        uses: actions/jekyll-build-pages@v1
