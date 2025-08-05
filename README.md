@@ -9,7 +9,7 @@
 
 ## 添加文章
 
-- 手动commit到post目录中
+- 手动commit到post目录中, 只能用这个
 - ~~或者用提供的脚本将本地目录上传到post目录~~目前不可用
 - commit后会自动生成file-list.json
 
