@@ -6,16 +6,17 @@ on:
       - master
 
 permissions:
-  contents: write   # checkout & push JSON
-  pages: write      # 发布 Pages
-  id-token: write   # deploy-pages 需要
+  contents: write   # for checkout & JSON commit
+  pages: write      # for deploying to GitHub Pages
+  id-token: write   # for deploy-pages authentication
 
 jobs:
   update-json:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
@@ -32,14 +33,34 @@ jobs:
             git push
           fi
 
-  deploy-pages:
+  build-and-deploy:
     needs: update-json
     runs-on: ubuntu-latest
     steps:
       - name: Checkout latest master
         uses: actions/checkout@v4
         with:
-          ref: master
-          fetch-depth: 0       # 确保拿到远端最新提交，包括刚推的 JSON
-      - name: Build & Deploy GitHub Pages
+          fetch-depth: 0
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build site with Jekyll
         uses: actions/jekyll-build-pages@v1
+        # builds into ./_site :contentReference[oaicite:0]{index=0}
+
+      - name: Upload build artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site  # matches jekyll-build-pages output :contentReference[oaicite:1]{index=1}
+
+  deploy-pages:
+    needs: build-and-deploy
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+        # this picks up the artifact and actually publishes it :contentReference[oaicite:2]{index=2}
