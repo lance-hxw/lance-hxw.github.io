@@ -22,3 +22,8 @@
 
 将代码推送到GitHub仓库的master分支后，GitHub Pages会自动构建并部署网站。
 
+## todo list
+
+### blog
+
+- [ ] 尽可能恢复类obsidian的\[\[]]跳转
