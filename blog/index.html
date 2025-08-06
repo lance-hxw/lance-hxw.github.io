@@ -6,6 +6,7 @@
     <title>Lance的博客</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@5.1.0/github-markdown.min.css">
     <script src="https://cdn.jsdelivr.net/npm/marked@4.2.12/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
     <style>
         * {
             margin: 0;
@@ -490,6 +491,39 @@
                     const processedMarkdown = processWikiLinks(markdown, articleMap);
                     // 使用marked.js渲染Markdown
                     contentElement.innerHTML = marked.parse(processedMarkdown);
+                    // 初始化 mermaid 图表
+                    try {
+                        // 配置 mermaid
+                        mermaid.initialize({
+                            startOnLoad: false, // 我们会手动初始化
+                            theme: 'default',
+                            securityLevel: 'loose' // 允许更多功能
+                        });
+                        // 查找所有 mermaid 图表元素
+                        const mermaidElements = contentElement.querySelectorAll('pre code.language-mermaid');
+                        console.log('Found mermaid elements:', mermaidElements.length);
+                        
+                        // 为每个 mermaid 图表元素创建图表
+                        for (let i = 0; i < mermaidElements.length; i++) {
+                            const element = mermaidElements[i];
+                            const mermaidCode = element.textContent;
+                            
+                            // 创建一个新的 div 来放置图表
+                            const mermaidDiv = document.createElement('div');
+                            mermaidDiv.className = 'mermaid';
+                            mermaidDiv.textContent = mermaidCode;
+                            
+                            // 替换原来的代码块
+                            element.parentElement.replaceWith(mermaidDiv);
+                        }
+                        
+                        // 渲染 mermaid 图表
+                        await mermaid.run({
+                            nodes: document.querySelectorAll('.mermaid')
+                        });
+                    } catch (error) {
+                        console.error('Mermaid rendering failed:', error);
+                    }
                     // 为标题添加 ID
                     addHeadingIds();
                     generateOutline();
