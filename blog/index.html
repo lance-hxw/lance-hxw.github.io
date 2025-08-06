@@ -240,6 +240,15 @@
             text-decoration: underline;
             cursor: not-allowed;
         }
+        
+        /* Section 链接样式 */
+        .wiki-link-section {
+            color: #43a047;
+        }
+        
+        .wiki-link-section:hover {
+            color: #2e7d32;
+        }
     </style>
 </head>
 <body>
@@ -316,15 +325,28 @@
         // 解析和替换 Markdown 内容中的 [[][]] 语法
         function processWikiLinks(markdown, articleMap) {
             // 使用正则表达式匹配 [[][]] 语法
-            return markdown.replace(/\[\[([^\]]+)\]\]/g, (match, title) => {
+            return markdown.replace(/\[\[([^\]]+)\]\]/g, (match, linkText) => {
+                // 检查是否包含 # 符号（section 链接）
+                const parts = linkText.split('#');
+                const title = parts[0].trim();
+                const section = parts[1] ? parts[1].trim() : null;
+                
                 // 查找对应的文章路径
-                const path = articleMap[title.trim()];
+                const path = articleMap[title];
                 if (path) {
                     // 生成链接 HTML
-                    return `<a href="?file=${encodeURIComponent(path)}" class="wiki-link">${title}</a>`;
+                    if (section) {
+                        // 生成指向特定 section 的链接
+                        // section 名称需要转换为 URL 友好的格式（小写，空格替换为连字符）
+                        const sectionId = section.toLowerCase().replace(/\s+/g, '-');
+                        return `<a href="?file=${encodeURIComponent(path)}#${sectionId}" class="wiki-link wiki-link-section">${linkText}</a>`;
+                    } else {
+                        // 生成指向文章的链接
+                        return `<a href="?file=${encodeURIComponent(path)}" class="wiki-link">${linkText}</a>`;
+                    }
                 } else {
                     // 如果找不到对应的文章，返回原始文本
-                    return `<span class="wiki-link-broken">${title}</span>`;
+                    return `<span class="wiki-link-broken">${linkText}</span>`;
                 }
             });
         }
@@ -468,6 +490,8 @@
                     const processedMarkdown = processWikiLinks(markdown, articleMap);
                     // 使用marked.js渲染Markdown
                     contentElement.innerHTML = marked.parse(processedMarkdown);
+                    // 为标题添加 ID
+                    addHeadingIds();
                     generateOutline();
                 } else {
                     contentElement.innerHTML = `<div class="error">无法加载文件: ${filePath}</div>`;
@@ -478,6 +502,18 @@
                 contentElement.innerHTML = `<div class="error">加载文件失败: ${error.message}</div>`;
                 document.getElementById('outline-nav').innerHTML = '';
             }
+        }
+        
+        // 为标题添加 ID 以便 section 链接能够正常工作
+        function addHeadingIds() {
+            const content = document.getElementById('blog-content');
+            const headings = content.querySelectorAll('h1, h2, h3, h4, h5, h6');
+            headings.forEach(heading => {
+                if (!heading.id) {
+                    // 使用标题文本生成 ID，转换为小写并用连字符替换空格
+                    heading.id = heading.textContent.toLowerCase().replace(/\s+/g, '-');
+                }
+            });
         }
 
         // 生成大纲
