@@ -4152,6 +4152,15 @@
             "type": "file",
             "path": "读书/非暴力沟通.md"
           }
+        },
+        "test": {
+          "type": "folder",
+          "children": {
+            "mermaid-test.md": {
+              "type": "file",
+              "path": "test/mermaid-test.md"
+            }
+          }
         }
       }
     }
