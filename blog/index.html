@@ -223,6 +223,23 @@
         .markdown-body .function {
             color: #6f42c1;
         }
+        
+        /* Wiki 链接样式 */
+        .wiki-link {
+            color: #1e88e5;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        
+        .wiki-link:hover {
+            color: #0d47a1;
+        }
+        
+        .wiki-link-broken {
+            color: #e53935;
+            text-decoration: underline;
+            cursor: not-allowed;
+        }
     </style>
 </head>
 <body>
@@ -249,6 +266,9 @@
         // 文件树数据结构
         let fileTree = {};
         
+        // 文章标题到文件路径的映射
+        let articleMap = {};
+        
         // 初始化
         document.addEventListener('DOMContentLoaded', async () => {
             try {
@@ -268,6 +288,46 @@
                 document.getElementById('file-tree').innerHTML = `<div class="error">加载文件列表失败</div>`;
             }
         });
+        
+        // 创建文章标题到文件路径的映射
+        function buildArticleMap(fileTree) {
+            articleMap = {}; // 重置映射
+            
+            // 遍历文件树
+            function traverse(node, path) {
+                if (node.type === 'file' && node.path.endsWith('.md')) {
+                    // 提取文件名作为文章标题（不包括 .md 扩展名）
+                    const fileName = node.path.split('/').pop();
+                    const title = fileName.substring(0, fileName.length - 3);
+                    articleMap[title] = node.path;
+                } else if (node.type === 'folder' && node.children) {
+                    for (const [name, child] of Object.entries(node.children)) {
+                        traverse(child, path + '/' + name);
+                    }
+                }
+            }
+            
+            // 从 _post 文件夹开始遍历
+            if (fileTree._post && fileTree._post.children) {
+                traverse(fileTree._post, '');
+            }
+        }
+        
+        // 解析和替换 Markdown 内容中的 [[][]] 语法
+        function processWikiLinks(markdown, articleMap) {
+            // 使用正则表达式匹配 [[][]] 语法
+            return markdown.replace(/\[\[([^\]]+)\]\]/g, (match, title) => {
+                // 查找对应的文章路径
+                const path = articleMap[title.trim()];
+                if (path) {
+                    // 生成链接 HTML
+                    return `<a href="?file=${encodeURIComponent(path)}" class="wiki-link">${title}</a>`;
+                } else {
+                    // 如果找不到对应的文章，返回原始文本
+                    return `<span class="wiki-link-broken">${title}</span>`;
+                }
+            });
+        }
         
         // 获取文件树
         async function fetchFileTree() {
@@ -295,6 +355,8 @@
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 fileTree = await response.json();
+                // 创建文章标题到文件路径的映射
+                buildArticleMap(fileTree);
             } catch (error) {
                 console.warn('获取文件列表失败，使用示例数据', error);
                 // 使用示例数据
@@ -402,8 +464,10 @@
                 const response = await fetch(fullPath + '?' + new Date().getTime());
                 if (response.ok) {
                     const markdown = await response.text();
+                    // 处理 [[][]] 语法
+                    const processedMarkdown = processWikiLinks(markdown, articleMap);
                     // 使用marked.js渲染Markdown
-                    contentElement.innerHTML = marked.parse(markdown);
+                    contentElement.innerHTML = marked.parse(processedMarkdown);
                     generateOutline();
                 } else {
                     contentElement.innerHTML = `<div class="error">无法加载文件: ${filePath}</div>`;
