@@ -143,9 +143,17 @@
                     "type": "file",
                     "path": "后端知识/000 JAVA/Spring/Untitled.md"
                   },
+                  "aop 简明介绍.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/Spring/aop 简明介绍.md"
+                  },
                   "bean 的属性.md": {
                     "type": "file",
                     "path": "后端知识/000 JAVA/Spring/bean 的属性.md"
+                  },
+                  "ioc 容器简明介绍.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/Spring/ioc 容器简明介绍.md"
                   },
                   "spring对循环依赖的处理.md": {
                     "type": "file",
@@ -206,6 +214,24 @@
                   }
                 }
               },
+              "SpringCloud": {
+                "type": "folder",
+                "children": {
+                  "是什么.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/SpringCloud/是什么.md"
+                  }
+                }
+              },
+              "SpringCloudAlibaba": {
+                "type": "folder",
+                "children": {
+                  "相比于springcloud.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/SpringCloudAlibaba/相比于springcloud.md"
+                  }
+                }
+              },
               "SpringMVC": {
                 "type": "folder",
                 "children": {
@@ -229,9 +255,17 @@
                     "type": "file",
                     "path": "后端知识/000 JAVA/SpringMVC/WebMVC configuration.md"
                   },
+                  "spring mvc是什么.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/SpringMVC/spring mvc是什么.md"
+                  },
                   "处理一个请求的全过程.md": {
                     "type": "file",
                     "path": "后端知识/000 JAVA/SpringMVC/处理一个请求的全过程.md"
+                  },
+                  "拦截器与过滤器.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/SpringMVC/拦截器与过滤器.md"
                   }
                 }
               },
@@ -283,6 +317,10 @@
                     "type": "file",
                     "path": "后端知识/000 JAVA/java八股/jar，war包.md"
                   },
+                  "java GC 附录.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java GC 附录.md"
+                  },
                   "java GC-DESKTOP-T161DKL.md": {
                     "type": "file",
                     "path": "后端知识/000 JAVA/java八股/java GC-DESKTOP-T161DKL.md"
@@ -294,6 +332,10 @@
                   "java JMM和进程通讯.md": {
                     "type": "file",
                     "path": "后端知识/000 JAVA/java八股/java JMM和进程通讯.md"
+                  },
+                  "java Object锁.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java Object锁.md"
                   },
                   "java System类.md": {
                     "type": "file",
@@ -398,6 +440,10 @@
                   "java 集合.md": {
                     "type": "file",
                     "path": "后端知识/000 JAVA/java八股/java 集合.md"
+                  },
+                  "java 静态成员.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java 静态成员.md"
                   },
                   "java 项目部署和发布.md": {
                     "type": "file",
@@ -632,6 +678,10 @@
                     "type": "file",
                     "path": "后端知识/000 JAVA/java实战/定时任务.md"
                   },
+                  "怎么用数组.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java实战/怎么用数组.md"
+                  },
                   "手撕数组题.md": {
                     "type": "file",
                     "path": "后端知识/000 JAVA/java实战/手撕数组题.md"
@@ -643,6 +693,10 @@
                   "线程安全计数器.md": {
                     "type": "file",
                     "path": "后端知识/000 JAVA/java实战/线程安全计数器.md"
+                  },
+                  "读大文件.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java实战/读大文件.md"
                   },
                   "链表相关.md": {
                     "type": "file",
@@ -839,6 +893,10 @@
                   "GC.md": {
                     "type": "file",
                     "path": "后端知识/001 golang/golang八股/GC.md"
+                  },
+                  "index.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/golang八股/index.md"
                   }
                 }
               },
@@ -1095,6 +1153,19 @@
                   }
                 }
               },
+              "日志": {
+                "type": "folder",
+                "children": {
+                  "日志处理.md": {
+                    "type": "file",
+                    "path": "后端知识/010后端常识/日志/日志处理.md"
+                  },
+                  "日志规范.md": {
+                    "type": "file",
+                    "path": "后端知识/010后端常识/日志/日志规范.md"
+                  }
+                }
+              },
               "MIME类型.md": {
                 "type": "file",
                 "path": "后端知识/010后端常识/MIME类型.md"
@@ -1114,6 +1185,10 @@
               "参数校验.md": {
                 "type": "file",
                 "path": "后端知识/010后端常识/参数校验.md"
+              },
+              "如何拒绝浏览器 缓存.md": {
+                "type": "file",
+                "path": "后端知识/010后端常识/如何拒绝浏览器 缓存.md"
               },
               "异常处理层级.md": {
                 "type": "file",
@@ -1291,9 +1366,48 @@
               }
             }
           },
+          "012 架构设计": {
+            "type": "folder",
+            "children": {
+              "SOLID原则.md": {
+                "type": "file",
+                "path": "后端知识/012 架构设计/SOLID原则.md"
+              },
+              "架构设计基本流程.md": {
+                "type": "file",
+                "path": "后端知识/012 架构设计/架构设计基本流程.md"
+              },
+              "架构设计模式.md": {
+                "type": "file",
+                "path": "后端知识/012 架构设计/架构设计模式.md"
+              }
+            }
+          },
+          "013 agent": {
+            "type": "folder",
+            "children": {
+              "prompt 要有哪些部分.md": {
+                "type": "file",
+                "path": "后端知识/013 agent/prompt 要有哪些部分.md"
+              },
+              "向量相似度.md": {
+                "type": "file",
+                "path": "后端知识/013 agent/向量相似度.md"
+              }
+            }
+          },
           "100数据系统-存储": {
             "type": "folder",
             "children": {
+              "Cassandra": {
+                "type": "folder",
+                "children": {
+                  "Cassandra.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/Cassandra/Cassandra.md"
+                  }
+                }
+              },
               "mongodb": {
                 "type": "folder",
                 "children": {
@@ -1354,6 +1468,56 @@
               "关系型数据库": {
                 "type": "folder",
                 "children": {
+                  "SQL": {
+                    "type": "folder",
+                    "children": {
+                      "SQL语法": {
+                        "type": "folder",
+                        "children": {
+                          "sql系统函数,内置函数.md": {
+                            "type": "file",
+                            "path": "后端知识/100数据系统-存储/关系型数据库/SQL/SQL语法/sql系统函数,内置函数.md"
+                          },
+                          "事务,并发,隔离.md": {
+                            "type": "file",
+                            "path": "后端知识/100数据系统-存储/关系型数据库/SQL/SQL语法/事务,并发,隔离.md"
+                          },
+                          "基本语法.md": {
+                            "type": "file",
+                            "path": "后端知识/100数据系统-存储/关系型数据库/SQL/SQL语法/基本语法.md"
+                          },
+                          "外键约束.md": {
+                            "type": "file",
+                            "path": "后端知识/100数据系统-存储/关系型数据库/SQL/SQL语法/外键约束.md"
+                          },
+                          "子查询.md": {
+                            "type": "file",
+                            "path": "后端知识/100数据系统-存储/关系型数据库/SQL/SQL语法/子查询.md"
+                          },
+                          "窗口函数.md": {
+                            "type": "file",
+                            "path": "后端知识/100数据系统-存储/关系型数据库/SQL/SQL语法/窗口函数.md"
+                          },
+                          "语法查漏补缺.md": {
+                            "type": "file",
+                            "path": "后端知识/100数据系统-存储/关系型数据库/SQL/SQL语法/语法查漏补缺.md"
+                          },
+                          "连接.md": {
+                            "type": "file",
+                            "path": "后端知识/100数据系统-存储/关系型数据库/SQL/SQL语法/连接.md"
+                          }
+                        }
+                      },
+                      "mysql 数据类型.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/SQL/mysql 数据类型.md"
+                      },
+                      "常见sql问题.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/SQL/常见sql问题.md"
+                      }
+                    }
+                  },
                   "SQL与数据库": {
                     "type": "folder",
                     "children": {
@@ -1424,6 +1588,10 @@
                         "type": "file",
                         "path": "后端知识/100数据系统-存储/关系型数据库/mysql/mysql 出现的问题.md"
                       },
+                      "mysql 前缀索引.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/mysql/mysql 前缀索引.md"
+                      },
                       "mysql 变量.md": {
                         "type": "file",
                         "path": "后端知识/100数据系统-存储/关系型数据库/mysql/mysql 变量.md"
@@ -1468,6 +1636,10 @@
                         "type": "file",
                         "path": "后端知识/100数据系统-存储/关系型数据库/mysql/mysql 锁.md"
                       },
+                      "mysql执行顺序.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/mysql/mysql执行顺序.md"
+                      },
                       "mysql面试题.md": {
                         "type": "file",
                         "path": "后端知识/100数据系统-存储/关系型数据库/mysql/mysql面试题.md"
@@ -1483,6 +1655,14 @@
                       "当前读.md": {
                         "type": "file",
                         "path": "后端知识/100数据系统-存储/关系型数据库/mysql/当前读.md"
+                      },
+                      "未命名.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/mysql/未命名.md"
+                      },
+                      "索引下推.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/mysql/索引下推.md"
                       }
                     }
                   },
@@ -1499,9 +1679,22 @@
                       }
                     }
                   },
+                  "rethinking mysql": {
+                    "type": "folder",
+                    "children": {
+                      "事务与隔离级别.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/rethinking mysql/事务与隔离级别.md"
+                      }
+                    }
+                  },
                   "MySQL 索引失效.md": {
                     "type": "file",
                     "path": "后端知识/100数据系统-存储/关系型数据库/MySQL 索引失效.md"
+                  },
+                  "in 和exists.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/关系型数据库/in 和exists.md"
                   },
                   "mysql mySam.md": {
                     "type": "file",
@@ -1570,6 +1763,10 @@
                     "type": "file",
                     "path": "后端知识/100数据系统-存储/对象存储/在SpringBoot中使用AWS S3 SDK.md"
                   },
+                  "客户端直接上传oss并同步服务端事件.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/对象存储/客户端直接上传oss并同步服务端事件.md"
+                  },
                   "对象存储服务.md": {
                     "type": "file",
                     "path": "后端知识/100数据系统-存储/对象存储/对象存储服务.md"
@@ -1582,6 +1779,10 @@
                   "clickhouse.md": {
                     "type": "file",
                     "path": "后端知识/100数据系统-存储/数仓/clickhouse.md"
+                  },
+                  "etl.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/数仓/etl.md"
                   }
                 }
               },
@@ -1592,15 +1793,49 @@
               "ceph(块存储, 对象存储).md": {
                 "type": "file",
                 "path": "后端知识/100数据系统-存储/ceph(块存储, 对象存储).md"
+              },
+              "spring 事务.md": {
+                "type": "file",
+                "path": "后端知识/100数据系统-存储/spring 事务.md"
+              },
+              "数据定期删除.md": {
+                "type": "file",
+                "path": "后端知识/100数据系统-存储/数据定期删除.md"
               }
             }
           },
           "101数据系统-缓存": {
             "type": "folder",
             "children": {
+              "Memcache": {
+                "type": "folder",
+                "children": {
+                  "index.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/Memcache/index.md"
+                  }
+                }
+              },
               "Redis": {
                 "type": "folder",
                 "children": {
+                  "Redis数据结构底层实现": {
+                    "type": "folder",
+                    "children": {
+                      "SDS 简单动态字符串.md": {
+                        "type": "file",
+                        "path": "后端知识/101数据系统-缓存/Redis/Redis数据结构底层实现/SDS 简单动态字符串.md"
+                      },
+                      "双端List, QuickList, ZipList和ListPack-DESKTOP-T161DKL.md": {
+                        "type": "file",
+                        "path": "后端知识/101数据系统-缓存/Redis/Redis数据结构底层实现/双端List, QuickList, ZipList和ListPack-DESKTOP-T161DKL.md"
+                      },
+                      "双端List, QuickList, ZipList和ListPack.md": {
+                        "type": "file",
+                        "path": "后端知识/101数据系统-缓存/Redis/Redis数据结构底层实现/双端List, QuickList, ZipList和ListPack.md"
+                      }
+                    }
+                  },
                   "Q-对象序列化方式.md": {
                     "type": "file",
                     "path": "后端知识/101数据系统-缓存/Redis/Q-对象序列化方式.md"
@@ -1734,6 +1969,10 @@
               "缓存击穿.md": {
                 "type": "file",
                 "path": "后端知识/101数据系统-缓存/缓存击穿.md"
+              },
+              "缓存更新策略.md": {
+                "type": "file",
+                "path": "后端知识/101数据系统-缓存/缓存更新策略.md"
               }
             }
           },
@@ -1788,9 +2027,17 @@
               "RabbitM Q": {
                 "type": "folder",
                 "children": {
+                  "rabbit mq 延迟队列.md": {
+                    "type": "file",
+                    "path": "后端知识/102数据系统-消息队列/RabbitM Q/rabbit mq 延迟队列.md"
+                  },
                   "rabbit mq 服务架构.md": {
                     "type": "file",
                     "path": "后端知识/102数据系统-消息队列/RabbitM Q/rabbit mq 服务架构.md"
+                  },
+                  "rabbit mq 消息路由.md": {
+                    "type": "file",
+                    "path": "后端知识/102数据系统-消息队列/RabbitM Q/rabbit mq 消息路由.md"
                   },
                   "rabbit mq消息投递过程.md": {
                     "type": "file",
@@ -1830,6 +2077,10 @@
                 "type": "file",
                 "path": "后端知识/102数据系统-消息队列/MQ选型.md"
               },
+              "kafka和rabbit mq选型.md": {
+                "type": "file",
+                "path": "后端知识/102数据系统-消息队列/kafka和rabbit mq选型.md"
+              },
               "mq.index.md": {
                 "type": "file",
                 "path": "后端知识/102数据系统-消息队列/mq.index.md"
@@ -1837,6 +2088,10 @@
               "rocketMQ.md": {
                 "type": "file",
                 "path": "后端知识/102数据系统-消息队列/rocketMQ.md"
+              },
+              "延迟队列.md": {
+                "type": "file",
+                "path": "后端知识/102数据系统-消息队列/延迟队列.md"
               },
               "消息积压.md": {
                 "type": "file",
@@ -1866,9 +2121,21 @@
                     "type": "file",
                     "path": "后端知识/103数据系统-搜索引擎/elasticsearch/doc values.md"
                   },
+                  "es 深度分页问题.md": {
+                    "type": "file",
+                    "path": "后端知识/103数据系统-搜索引擎/elasticsearch/es 深度分页问题.md"
+                  },
+                  "es 索引结构.md": {
+                    "type": "file",
+                    "path": "后端知识/103数据系统-搜索引擎/elasticsearch/es 索引结构.md"
+                  },
                   "es内存占用.md": {
                     "type": "file",
                     "path": "后端知识/103数据系统-搜索引擎/elasticsearch/es内存占用.md"
+                  },
+                  "es读写性能， 与mysql对比.md": {
+                    "type": "file",
+                    "path": "后端知识/103数据系统-搜索引擎/elasticsearch/es读写性能， 与mysql对比.md"
                   },
                   "update.md": {
                     "type": "file",
@@ -1896,6 +2163,27 @@
                   }
                 }
               },
+              "lucene": {
+                "type": "folder",
+                "children": {
+                  "doc values.md": {
+                    "type": "file",
+                    "path": "后端知识/103数据系统-搜索引擎/lucene/doc values.md"
+                  },
+                  "lucene 存储结构.md": {
+                    "type": "file",
+                    "path": "后端知识/103数据系统-搜索引擎/lucene/lucene 存储结构.md"
+                  },
+                  "倒排索引实现：FST tree.md": {
+                    "type": "file",
+                    "path": "后端知识/103数据系统-搜索引擎/lucene/倒排索引实现：FST tree.md"
+                  },
+                  "索引存储结构.md": {
+                    "type": "file",
+                    "path": "后端知识/103数据系统-搜索引擎/lucene/索引存储结构.md"
+                  }
+                }
+              },
               "搜索": {
                 "type": "folder",
                 "children": {
@@ -1914,6 +2202,10 @@
           "104数据系统-流式处理": {
             "type": "folder",
             "children": {
+              "cdc.md": {
+                "type": "file",
+                "path": "后端知识/104数据系统-流式处理/cdc.md"
+              },
               "storm.md": {
                 "type": "file",
                 "path": "后端知识/104数据系统-流式处理/storm.md"
@@ -2007,6 +2299,10 @@
                   "L4负载均衡.md": {
                     "type": "file",
                     "path": "后端知识/120网络组件/L4传输层(TCP,UDP)/L4负载均衡.md"
+                  },
+                  "工作在传输层的netty.md": {
+                    "type": "file",
+                    "path": "后端知识/120网络组件/L4传输层(TCP,UDP)/工作在传输层的netty.md"
                   }
                 }
               },
@@ -2057,6 +2353,14 @@
                   "gossip.md": {
                     "type": "file",
                     "path": "后端知识/200分布式系统/分布式一致性/gossip.md"
+                  },
+                  "mq与分布式事务.md": {
+                    "type": "file",
+                    "path": "后端知识/200分布式系统/分布式一致性/mq与分布式事务.md"
+                  },
+                  "分布式事务.md": {
+                    "type": "file",
+                    "path": "后端知识/200分布式系统/分布式一致性/分布式事务.md"
                   }
                 }
               },
@@ -2138,6 +2442,23 @@
               "actor 与 分布式actor.md": {
                 "type": "file",
                 "path": "后端知识/202 并发模型/actor 与 分布式actor.md"
+              }
+            }
+          },
+          "203 微服务": {
+            "type": "folder",
+            "children": {
+              "service mesh.md": {
+                "type": "file",
+                "path": "后端知识/203 微服务/service mesh.md"
+              },
+              "什么是微服务.md": {
+                "type": "file",
+                "path": "后端知识/203 微服务/什么是微服务.md"
+              },
+              "微服务组件.md": {
+                "type": "file",
+                "path": "后端知识/203 微服务/微服务组件.md"
               }
             }
           },
@@ -2312,6 +2633,20 @@
               }
             }
           },
+          "401 音视频处理": {
+            "type": "folder",
+            "children": {
+              "ffmpeg": {
+                "type": "folder",
+                "children": {
+                  "ffmpeg.md": {
+                    "type": "file",
+                    "path": "后端知识/401 音视频处理/ffmpeg/ffmpeg.md"
+                  }
+                }
+              }
+            }
+          },
           "900编码协议": {
             "type": "folder",
             "children": {
@@ -2339,6 +2674,27 @@
               "MQTT.md": {
                 "type": "file",
                 "path": "后端知识/901网络通讯协议/MQTT.md"
+              },
+              "http 长连接.md": {
+                "type": "file",
+                "path": "后端知识/901网络通讯协议/http 长连接.md"
+              }
+            }
+          },
+          "902数据传递范式": {
+            "type": "folder",
+            "children": {
+              "GraphQL.md": {
+                "type": "file",
+                "path": "后端知识/902数据传递范式/GraphQL.md"
+              },
+              "传递协议.md": {
+                "type": "file",
+                "path": "后端知识/902数据传递范式/传递协议.md"
+              },
+              "对比双向通讯方式.md": {
+                "type": "file",
+                "path": "后端知识/902数据传递范式/对比双向通讯方式.md"
               }
             }
           },
@@ -2383,6 +2739,10 @@
                 "path": "后端知识/数据传递范式/传递协议.md"
               }
             }
+          },
+          "501.md": {
+            "type": "file",
+            "path": "后端知识/501.md"
           },
           "序列.md": {
             "type": "file",
