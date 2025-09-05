@@ -10,7 +10,7 @@
 map的key可以是任何非空对象，只要实现了hashcode和equals
 常见类型有：
 - string，integer等包装类
-- 自定义且重写了hashcode和equals
+- 自定义且重写了hashcode和equals， 这两个必须一起， java规定了equals相当必须hashcode相等
 - 枚举类型
 - 日期，如LocalDate， Date
 - 文件， 如file

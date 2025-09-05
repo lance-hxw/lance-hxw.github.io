@@ -10,7 +10,7 @@
 map的key可以是任何非空对象，只要实现了hashcode和equals
 常见类型有：
 - string，integer等包装类
-- 自定义且重写了hashcode和equals
+- 自定义且重写了hashcode和equals， java规定equal必定hashcode相等
 - 枚举类型
 - 日期，如LocalDate， Date
 - 文件， 如file
@@ -19,9 +19,21 @@ treemap要求实现comparable接口或者提供comparator
 
 ## 使用数组作为key
 此时会对数组hash，所以相同的数组结果可能也不同，此时一般转string进去当key
+
+## 其他map实现的key null情况
+
+HashMap都是最多一个
+IdentityHashMap用\==来判断， 可以有多个null
+
+其他都不支持null key
+
+特别的：
+- 并发map， 不支持null value
+- hashTable， 不支持nullvalue
+
 # 有序map
 有对应SortedMap接口，具体实现有TreeMap等
-## treemap
+## treemap [[#Tree map]]
 - 按键排序的红黑树
 - 默认用键类型的自然顺序（comparable），可以自定义comparator
 ## LinkedHashMap
@@ -85,9 +97,14 @@ treemap是一整颗树
 # map.compute
 #TODO 
 
+# hashTable
+继承自Dictionary抽象类，其他map都是map接口
+是一个老实现， 不允许null key/value
+- 线程安全， 用synchronized修饰各个方法， 有性能损失
+目前基本被concurrentHashMap替代
 # Tree map
 有序， 键不能null， 红黑树，线程不安全
-除了SortedMap功能歪，还支持NavigableMap
+除了SortedMap功能外，还支持NavigableMap
 主要api
 - firstEntry
 - lastEntry

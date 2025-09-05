@@ -45,8 +45,17 @@ ZADD set_name s1 member1 s2 member2
 ```
 其数据结构为一个名叫set_name的有序集合, 里面成员带有分数
 ##  实现一个排行榜
-- 使用ZADD添加元素
+- 使用ZADD添加元素 zadd setname score value
 - 使用ZINCRBY 加分
 - 使用ZSCORE查询集合中某个元素的分数
 - 获取top k : ZREVRANGE setname 0 2 withscores: 切片, 倒序
 	- zrangebyscore可以根据分数的值切片
+### trick
+- 默认用升序
+	- 需要最高分， 用ZREVRANGE
+- 清理
+	- ZREMRANGEBYRANK， 直接删除得分最低的玩家
+- 有ZINCRBY更新
+- 大规模排行榜
+	- 使用ZRANGE分页加载
+- 持久化： 使用redis的持久化， 或者结合数据库

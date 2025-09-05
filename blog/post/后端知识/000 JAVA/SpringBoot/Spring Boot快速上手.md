@@ -8,3 +8,5 @@ Spring Framework主要包括:
 - 集成JMS, JavaMail, JMX, 缓存等其他模块
 而Spring boot更是直接变成了一个样板demo, 只要修改功能就能运行.
 
+
+相比于spring， sb就是让spring变得更加易用， 能更快， 更方便的开发app

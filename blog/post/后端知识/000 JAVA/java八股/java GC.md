@@ -1,3 +1,4 @@
+[[JVM]]
 释放不被引用的对象,一般在如下场景触发:
 - 内存不足, heap不足,自动回收
 - 手动请求, 即调用System.gc()或者Runtime.getRuntime.gc()
@@ -52,6 +53,13 @@ CMS, 并行, 老年代, 目标是最短回收停顿(STW), 响应速度优先
 ## G1 : 全heap, 复制+标记整理, 响应速度优先
 不产生碎片 高响应
 他弱化了分代的概念，而是使用分区
+- 一个region一般1-32MB， 是2的幂
+- 一般是把heap划分成2048个左右region
+- 可以手动设置
+	- region越多， 碎片多
+		- survivor，humongous等划分不合理
+	- region越少， reset多， 额外开销大
+		- 预测成本高
 最常用
 他将整个heap都分成区， 然后再分给不同的年代， 也不固定每个代大小，可以动态分配划分。
 GC时直接全heap进行， 不过是先对给新生代的区进行
@@ -130,6 +138,53 @@ cms： 低延迟， 老年代， 允许碎片化
 g1: 大内存， 碎片敏感， 停顿和吞吐均衡。
 	停顿可控
 
+# G1的stw预测
+
+每次gc后对相关region保存：
+- 存活数据大小
+- 引用关系（remembered set ）大小
+- 上次回收时间
+
+然后得出一个这个region需要耗时
+
+## remember set
+
+RSet是各种有分代概念的GC中引入的跨代追踪引用的结构（G1引入
+
+主要用于避免在GC时扫描整个堆
+
+比如youngGC的时候， 如果没用RSet， 就需要同时扫描全heap的对象， 看引用关系
+
+但是RSet可以 按region建立， 记录来自其他region指向他的引用， 此时回收某一个region的时候， 直接不需要扫描外部了， 直接看Rset
+
+rset的更新：
+- 在进行对象引用赋值的时候， 会利用写屏障检查是否发生了跨region引用
+- 这个会用一个card table标记整个heap
+	- card和region是并行的区域划分
+- 发现一个card脏了后， 就更新对应region
+
+## 有几种region
+
+young： minor GC
+- eden region
+	- TLAB
+- survivor region
+old：mixed /fullgc
+- old region
+大对象相关 mixed /fullgc
+- humongous region
+	- 其实是连续多个region组成的串， 回收的时候要整个串回收， 需要特殊处理， 回收成本高
+	- 超过region大小一半就是大对象
+特殊
+- archive region ：不回收
+	- 类共享数据之类的， 只读， 不参与gc
+- free region： 空闲
+
+## 如何选择回收哪些region
+
+根据垃圾比例排序
+然后按高到低逐个加入Cset（collection set， 回收集合）
+同时累加， 如果累加到接近预期停顿， 就终止
 
 # meta space GC
 如Class卸载， 这种不是GC管理的， 是classloader之类的回收机制完成的， 是jvm通过加载器生命周期进行的。

@@ -26,11 +26,22 @@ juc中的Lock是非监视器锁，见[[juc包#Lock接口]]
 # 不同级别的jvm优化措施
 在使用synchronized时，jvm会根据线程竞争情况自动选择不同的锁机制。这个是jvm优化，不需要手动指定。
 但是可以用参数：-XX：+UseBiasedLocking，启用禁用偏向锁
+
+synchronized信息是记录在 对象头的mark word中的， 在锁升级过程中，
+到轻量级锁时：
+markword中的对象hashcode， gc年龄等会被保存或者迁移到线程栈的lock record中， 然后cas讲对象头的markword 指向lock record的指针
+
+到重量级锁时， markword会变成一个指向monitor的指针， 在monitor中， 同样有原始的markword
+
+特别的， 对于hashcode， 如果没调用过就不保存， 否则需要保存
 ## 无锁
 刚创建， 没有被竞争，不上锁
 ## 偏向锁
 一个线程第一次获取一个对象的锁时，就倾向与将这个对象给这个线程，记录在对象头中。此时如果一直是这个线程申请这个锁，就直接进入，不需要原子操作。
 如果出现竞争，就升级
+
+此时markword 保存线程id +epoch + GC年龄
+- epoch是一个全局增的东西， 相当于版本号， 递增后， 该偏向锁对不上epoch就会失效
 ## 轻量级锁
 通过CAS操作在对象头中设置锁记录， 其他线程自旋，不用阻塞
 ## 重量级锁
