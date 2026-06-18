@@ -70,6 +70,24 @@
               "Spring": {
                 "type": "folder",
                 "children": {
+                  "Spring 模板方法": {
+                    "type": "folder",
+                    "children": {
+                      "xxxTemplate.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/Spring/Spring 模板方法/xxxTemplate.md"
+                      }
+                    }
+                  },
+                  "动态代理": {
+                    "type": "folder",
+                    "children": {
+                      "动态代理 生效失效.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/Spring/动态代理/动态代理 生效失效.md"
+                      }
+                    }
+                  },
                   "源代码解读": {
                     "type": "folder",
                     "children": {
@@ -147,6 +165,10 @@
                     "type": "file",
                     "path": "后端知识/000 JAVA/Spring/aop 简明介绍.md"
                   },
+                  "autowired 优先级.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/Spring/autowired 优先级.md"
+                  },
                   "bean 的属性.md": {
                     "type": "file",
                     "path": "后端知识/000 JAVA/Spring/bean 的属性.md"
@@ -154,6 +176,10 @@
                   "ioc 容器简明介绍.md": {
                     "type": "file",
                     "path": "后端知识/000 JAVA/Spring/ioc 容器简明介绍.md"
+                  },
+                  "spring bean 生命周期.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/Spring/spring bean 生命周期.md"
                   },
                   "spring对循环依赖的处理.md": {
                     "type": "file",
@@ -266,6 +292,15 @@
                   "拦截器与过滤器.md": {
                     "type": "file",
                     "path": "后端知识/000 JAVA/SpringMVC/拦截器与过滤器.md"
+                  }
+                }
+              },
+              "java 编程环境": {
+                "type": "folder",
+                "children": {
+                  "基本java环境.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java 编程环境/基本java环境.md"
                   }
                 }
               },
@@ -401,6 +436,14 @@
                     "type": "file",
                     "path": "后端知识/000 JAVA/java八股/java 异常处理 1.md"
                   },
+                  "java 异常处理 2 try-catch.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java 异常处理 2 try-catch.md"
+                  },
+                  "java 异常处理 finally.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java 异常处理 finally.md"
+                  },
                   "java 异常处理-DESKTOP-T161DKL.md": {
                     "type": "file",
                     "path": "后端知识/000 JAVA/java八股/java 异常处理-DESKTOP-T161DKL.md"
@@ -408,6 +451,10 @@
                   "java 异常处理.md": {
                     "type": "file",
                     "path": "后端知识/000 JAVA/java八股/java 异常处理.md"
+                  },
+                  "java 指令重排.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java 指令重排.md"
                   },
                   "java 方法引用.md": {
                     "type": "file",
@@ -420,6 +467,10 @@
                   "java 版本.md": {
                     "type": "file",
                     "path": "后端知识/000 JAVA/java八股/java 版本.md"
+                  },
+                  "java 线程池 实战.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/java 线程池 实战.md"
                   },
                   "java 线程池-DESKTOP-T161DKL.md": {
                     "type": "file",
@@ -481,6 +532,10 @@
                     "type": "file",
                     "path": "后端知识/000 JAVA/java八股/synchronized.md"
                   },
+                  "线程安全集合.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java八股/线程安全集合.md"
+                  },
                   "网络高并发IO-DESKTOP-T161DKL.md": {
                     "type": "file",
                     "path": "后端知识/000 JAVA/java八股/网络高并发IO-DESKTOP-T161DKL.md"
@@ -504,6 +559,75 @@
                       "java具体如何实现动态代理.md": {
                         "type": "file",
                         "path": "后端知识/000 JAVA/java实战/动态代理/java具体如何实现动态代理.md"
+                      }
+                    }
+                  },
+                  "并发与线程池": {
+                    "type": "folder",
+                    "children": {
+                      "InterruptException.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/并发与线程池/InterruptException.md"
+                      },
+                      "Object的wait和notify.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/并发与线程池/Object的wait和notify.md"
+                      },
+                      "Thread类.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/并发与线程池/Thread类.md"
+                      },
+                      "Untitled 1.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/并发与线程池/Untitled 1.md"
+                      },
+                      "Untitled.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/并发与线程池/Untitled.md"
+                      },
+                      "juc同步工具.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/并发与线程池/juc同步工具.md"
+                      },
+                      "juc的CountDownLatch 和 barrior.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/并发与线程池/juc的CountDownLatch 和 barrior.md"
+                      },
+                      "juc的LockSupport.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/并发与线程池/juc的LockSupport.md"
+                      },
+                      "juc的condition.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/并发与线程池/juc的condition.md"
+                      },
+                      "使用原子变量.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/并发与线程池/使用原子变量.md"
+                      },
+                      "手撕：10个线程等待锁.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/并发与线程池/手撕：10个线程等待锁.md"
+                      },
+                      "手撕：ABCABC.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/并发与线程池/手撕：ABCABC.md"
+                      },
+                      "手撕：两个线程交替打印.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/并发与线程池/手撕：两个线程交替打印.md"
+                      },
+                      "手撕：任务3依赖前两个并发任务的结果.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/并发与线程池/手撕：任务3依赖前两个并发任务的结果.md"
+                      },
+                      "手撕：线程安全计数器.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/并发与线程池/手撕：线程安全计数器.md"
+                      },
+                      "线程池类关系.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java实战/并发与线程池/线程池类关系.md"
                       }
                     }
                   },
@@ -711,6 +835,23 @@
               "java常用包": {
                 "type": "folder",
                 "children": {
+                  "java-lang": {
+                    "type": "folder",
+                    "children": {
+                      "Cloneable.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java常用包/java-lang/Cloneable.md"
+                      },
+                      "Iterable.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java常用包/java-lang/Iterable.md"
+                      },
+                      "主要接口.md": {
+                        "type": "file",
+                        "path": "后端知识/000 JAVA/java常用包/java-lang/主要接口.md"
+                      }
+                    }
+                  },
                   "HttpClient.md": {
                     "type": "file",
                     "path": "后端知识/000 JAVA/java常用包/HttpClient.md"
@@ -718,6 +859,10 @@
                   "collections.md": {
                     "type": "file",
                     "path": "后端知识/000 JAVA/java常用包/collections.md"
+                  },
+                  "properties.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/java常用包/properties.md"
                   }
                 }
               },
@@ -732,6 +877,10 @@
                     "type": "file",
                     "path": "后端知识/000 JAVA/mybatis/mybatis 返回自增id.md"
                   },
+                  "mybatis会话.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/mybatis/mybatis会话.md"
+                  },
                   "mybatis预编译占位符与字符串替换.md": {
                     "type": "file",
                     "path": "后端知识/000 JAVA/mybatis/mybatis预编译占位符与字符串替换.md"
@@ -739,6 +888,39 @@
                   "使用mybatis.md": {
                     "type": "file",
                     "path": "后端知识/000 JAVA/mybatis/使用mybatis.md"
+                  }
+                }
+              },
+              "rethinking JAVA 八股": {
+                "type": "folder",
+                "children": {
+                  "CF 编排方式.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/rethinking JAVA 八股/CF 编排方式.md"
+                  },
+                  "Untitled.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/rethinking JAVA 八股/Untitled.md"
+                  },
+                  "java 异步.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/rethinking JAVA 八股/java 异步.md"
+                  },
+                  "java 线程池.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/rethinking JAVA 八股/java 线程池.md"
+                  },
+                  "synchronized 与 monitor.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/rethinking JAVA 八股/synchronized 与 monitor.md"
+                  },
+                  "直接内存的好处.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/rethinking JAVA 八股/直接内存的好处.md"
+                  },
+                  "线程数据与生命周期.md": {
+                    "type": "file",
+                    "path": "后端知识/000 JAVA/rethinking JAVA 八股/线程数据与生命周期.md"
                   }
                 }
               },
@@ -782,6 +964,10 @@
                 "type": "file",
                 "path": "后端知识/000 JAVA/apifox杂记.md"
               },
+              "future如何获取返回值.md": {
+                "type": "file",
+                "path": "后端知识/000 JAVA/future如何获取返回值.md"
+              },
               "java acm模式io.md": {
                 "type": "file",
                 "path": "后端知识/000 JAVA/java acm模式io.md"
@@ -814,9 +1000,17 @@
                 "type": "file",
                 "path": "后端知识/000 JAVA/指令重排对多线程的影响.md"
               },
+              "接口和抽象类.md": {
+                "type": "file",
+                "path": "后端知识/000 JAVA/接口和抽象类.md"
+              },
               "环境配置.md": {
                 "type": "file",
                 "path": "后端知识/000 JAVA/环境配置.md"
+              },
+              "线程创建， runable和callable.md": {
+                "type": "file",
+                "path": "后端知识/000 JAVA/线程创建， runable和callable.md"
               },
               "缓存问题.md": {
                 "type": "file",
@@ -854,9 +1048,17 @@
                   "channel": {
                     "type": "folder",
                     "children": {
+                      "chan 值拷贝.md": {
+                        "type": "file",
+                        "path": "后端知识/001 golang/go 并发编程/channel/chan 值拷贝.md"
+                      },
                       "chan 深入.md": {
                         "type": "file",
                         "path": "后端知识/001 golang/go 并发编程/channel/chan 深入.md"
+                      },
+                      "chan 缓冲与非缓冲.md": {
+                        "type": "file",
+                        "path": "后端知识/001 golang/go 并发编程/channel/chan 缓冲与非缓冲.md"
                       },
                       "chan.md": {
                         "type": "file",
@@ -884,6 +1086,10 @@
                         "path": "后端知识/001 golang/go 并发编程/goroutine/调度器.md"
                       }
                     }
+                  },
+                  "map 并发pannic.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/go 并发编程/map 并发pannic.md"
                   }
                 }
               },
@@ -894,9 +1100,37 @@
                     "type": "file",
                     "path": "后端知识/001 golang/golang八股/GC.md"
                   },
+                  "channel.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/golang八股/channel.md"
+                  },
+                  "context.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/golang八股/context.md"
+                  },
+                  "go 与 java 区别.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/golang八股/go 与 java 区别.md"
+                  },
+                  "go 新特性.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/golang八股/go 新特性.md"
+                  },
+                  "goroutine.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/golang八股/goroutine.md"
+                  },
                   "index.md": {
                     "type": "file",
                     "path": "后端知识/001 golang/golang八股/index.md"
+                  },
+                  "make 和 new.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/golang八股/make 和 new.md"
+                  },
+                  "panic.md": {
+                    "type": "file",
+                    "path": "后端知识/001 golang/golang八股/panic.md"
                   }
                 }
               },
@@ -1097,6 +1331,10 @@
                 "type": "file",
                 "path": "后端知识/001 golang/net-context.md"
               },
+              "sleep和ticker的就别.md": {
+                "type": "file",
+                "path": "后端知识/001 golang/sleep和ticker的就别.md"
+              },
               "time.Ticker.md": {
                 "type": "file",
                 "path": "后端知识/001 golang/time.Ticker.md"
@@ -1132,12 +1370,46 @@
               }
             }
           },
-          "004 erlang": {
+          "005 多语言共性问题": {
             "type": "folder",
             "children": {
-              "rabbit 基于 erlang.md": {
+              "GC": {
+                "type": "folder",
+                "children": {
+                  "CMS 为什么失败.md": {
+                    "type": "file",
+                    "path": "后端知识/005 多语言共性问题/GC/CMS 为什么失败.md"
+                  },
+                  "GC 算法.md": {
+                    "type": "file",
+                    "path": "后端知识/005 多语言共性问题/GC/GC 算法.md"
+                  },
+                  "浮动垃圾问题.md": {
+                    "type": "file",
+                    "path": "后端知识/005 多语言共性问题/GC/浮动垃圾问题.md"
+                  },
+                  "漏标记问题.md": {
+                    "type": "file",
+                    "path": "后端知识/005 多语言共性问题/GC/漏标记问题.md"
+                  }
+                }
+              },
+              "控制流": {
+                "type": "folder",
+                "children": {
+                  "卫语句.md": {
+                    "type": "file",
+                    "path": "后端知识/005 多语言共性问题/控制流/卫语句.md"
+                  }
+                }
+              },
+              "Monad.md": {
                 "type": "file",
-                "path": "后端知识/004 erlang/rabbit 基于 erlang.md"
+                "path": "后端知识/005 多语言共性问题/Monad.md"
+              },
+              "值传递与引用传递.md": {
+                "type": "file",
+                "path": "后端知识/005 多语言共性问题/值传递与引用传递.md"
               }
             }
           },
@@ -1166,9 +1438,22 @@
                   }
                 }
               },
+              "鉴权": {
+                "type": "folder",
+                "children": {
+                  "sa-token.md": {
+                    "type": "file",
+                    "path": "后端知识/010后端常识/鉴权/sa-token.md"
+                  }
+                }
+              },
               "MIME类型.md": {
                 "type": "file",
                 "path": "后端知识/010后端常识/MIME类型.md"
+              },
+              "TODO 数据倾斜问题.md": {
+                "type": "file",
+                "path": "后端知识/010后端常识/TODO 数据倾斜问题.md"
               },
               "token控制唯一性.md": {
                 "type": "file",
@@ -1190,6 +1475,10 @@
                 "type": "file",
                 "path": "后端知识/010后端常识/如何拒绝浏览器 缓存.md"
               },
+              "审计表与字段设计.md": {
+                "type": "file",
+                "path": "后端知识/010后端常识/审计表与字段设计.md"
+              },
               "异常处理层级.md": {
                 "type": "file",
                 "path": "后端知识/010后端常识/异常处理层级.md"
@@ -1201,6 +1490,14 @@
               "日志规范.md": {
                 "type": "file",
                 "path": "后端知识/010后端常识/日志规范.md"
+              },
+              "服务幂等.md": {
+                "type": "file",
+                "path": "后端知识/010后端常识/服务幂等.md"
+              },
+              "线程死锁的表现，如何解决，什么样代码会死锁.md": {
+                "type": "file",
+                "path": "后端知识/010后端常识/线程死锁的表现，如何解决，什么样代码会死锁.md"
               },
               "零信任.md": {
                 "type": "file",
@@ -1369,6 +1666,23 @@
           "012 架构设计": {
             "type": "folder",
             "children": {
+              "DDD": {
+                "type": "folder",
+                "children": {
+                  "DDD 基本概念.md": {
+                    "type": "file",
+                    "path": "后端知识/012 架构设计/DDD/DDD 基本概念.md"
+                  },
+                  "DDD 应用.md": {
+                    "type": "file",
+                    "path": "后端知识/012 架构设计/DDD/DDD 应用.md"
+                  },
+                  "case.md": {
+                    "type": "file",
+                    "path": "后端知识/012 架构设计/DDD/case.md"
+                  }
+                }
+              },
               "SOLID原则.md": {
                 "type": "file",
                 "path": "后端知识/012 架构设计/SOLID原则.md"
@@ -1380,6 +1694,10 @@
               "架构设计模式.md": {
                 "type": "file",
                 "path": "后端知识/012 架构设计/架构设计模式.md"
+              },
+              "绞杀者模式.md": {
+                "type": "file",
+                "path": "后端知识/012 架构设计/绞杀者模式.md"
               }
             }
           },
@@ -1396,6 +1714,15 @@
               }
             }
           },
+          "014数据结构": {
+            "type": "folder",
+            "children": {
+              "索引数据结构.md": {
+                "type": "file",
+                "path": "后端知识/014数据结构/索引数据结构.md"
+              }
+            }
+          },
           "100数据系统-存储": {
             "type": "folder",
             "children": {
@@ -1405,6 +1732,15 @@
                   "Cassandra.md": {
                     "type": "file",
                     "path": "后端知识/100数据系统-存储/Cassandra/Cassandra.md"
+                  }
+                }
+              },
+              "Clickhouse": {
+                "type": "folder",
+                "children": {
+                  "基本概念.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/Clickhouse/基本概念.md"
                   }
                 }
               },
@@ -1576,6 +1912,14 @@
                   "mysql": {
                     "type": "folder",
                     "children": {
+                      "Untitled.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/mysql/Untitled.md"
+                      },
+                      "count.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/mysql/count.md"
+                      },
                       "mysql 事务.md": {
                         "type": "file",
                         "path": "后端知识/100数据系统-存储/关系型数据库/mysql/mysql 事务.md"
@@ -1669,6 +2013,10 @@
                   "mysql实战": {
                     "type": "folder",
                     "children": {
+                      "mysql 处理批量插入.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/mysql实战/mysql 处理批量插入.md"
+                      },
                       "mysql 用户管理.md": {
                         "type": "file",
                         "path": "后端知识/100数据系统-存储/关系型数据库/mysql实战/mysql 用户管理.md"
@@ -1676,6 +2024,10 @@
                       "mysql 配置主从.md": {
                         "type": "file",
                         "path": "后端知识/100数据系统-存储/关系型数据库/mysql实战/mysql 配置主从.md"
+                      },
+                      "长事务对log层面的影响.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/mysql实战/长事务对log层面的影响.md"
                       }
                     }
                   },
@@ -1685,6 +2037,14 @@
                       "事务与隔离级别.md": {
                         "type": "file",
                         "path": "后端知识/100数据系统-存储/关系型数据库/rethinking mysql/事务与隔离级别.md"
+                      },
+                      "事务执行机制.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/rethinking mysql/事务执行机制.md"
+                      },
+                      "事务隔离级别.md": {
+                        "type": "file",
+                        "path": "后端知识/100数据系统-存储/关系型数据库/rethinking mysql/事务隔离级别.md"
                       }
                     }
                   },
@@ -1711,6 +2071,10 @@
                   "postgres 特殊问题.md": {
                     "type": "file",
                     "path": "后端知识/100数据系统-存储/关系型数据库/postgres 特殊问题.md"
+                  },
+                  "sql 调优.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/关系型数据库/sql 调优.md"
                   },
                   "主键和唯一键.md": {
                     "type": "file",
@@ -1783,6 +2147,14 @@
                   "etl.md": {
                     "type": "file",
                     "path": "后端知识/100数据系统-存储/数仓/etl.md"
+                  },
+                  "数仓数据存储的特点与架构.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/数仓/数仓数据存储的特点与架构.md"
+                  },
+                  "数仓概念.md": {
+                    "type": "file",
+                    "path": "后端知识/100数据系统-存储/数仓/数仓概念.md"
                   }
                 }
               },
@@ -1794,6 +2166,10 @@
                 "type": "file",
                 "path": "后端知识/100数据系统-存储/ceph(块存储, 对象存储).md"
               },
+              "snowflake.md": {
+                "type": "file",
+                "path": "后端知识/100数据系统-存储/snowflake.md"
+              },
               "spring 事务.md": {
                 "type": "file",
                 "path": "后端知识/100数据系统-存储/spring 事务.md"
@@ -1801,6 +2177,18 @@
               "数据定期删除.md": {
                 "type": "file",
                 "path": "后端知识/100数据系统-存储/数据定期删除.md"
+              },
+              "数据库三范式.md": {
+                "type": "file",
+                "path": "后端知识/100数据系统-存储/数据库三范式.md"
+              },
+              "数据库基本概念.md": {
+                "type": "file",
+                "path": "后端知识/100数据系统-存储/数据库基本概念.md"
+              },
+              "触发器.md": {
+                "type": "file",
+                "path": "后端知识/100数据系统-存储/触发器.md"
               }
             }
           },
@@ -1916,6 +2304,10 @@
                     "type": "file",
                     "path": "后端知识/101数据系统-缓存/Redis/redis 集群.md"
                   },
+                  "redis 高可用.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/Redis/redis 高可用.md"
+                  },
                   "redission.md": {
                     "type": "file",
                     "path": "后端知识/101数据系统-缓存/Redis/redission.md"
@@ -1938,9 +2330,59 @@
                   }
                 }
               },
+              "缓存一致性": {
+                "type": "folder",
+                "children": {
+                  "Ref..md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/缓存一致性/Ref..md"
+                  },
+                  "binlog方案.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/缓存一致性/binlog方案.md"
+                  },
+                  "index.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/缓存一致性/index.md"
+                  },
+                  "基于M Q更新.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/缓存一致性/基于M Q更新.md"
+                  },
+                  "异步更新方案.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/缓存一致性/异步更新方案.md"
+                  },
+                  "逻辑过期.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/缓存一致性/逻辑过期.md"
+                  }
+                }
+              },
+              "缓存异步更新": {
+                "type": "folder",
+                "children": {
+                  "canal下游mq选择.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/缓存异步更新/canal下游mq选择.md"
+                  },
+                  "使用cdc后如何处理复杂缓存.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/缓存异步更新/使用cdc后如何处理复杂缓存.md"
+                  },
+                  "缓存重建.md": {
+                    "type": "file",
+                    "path": "后端知识/101数据系统-缓存/缓存异步更新/缓存重建.md"
+                  }
+                }
+              },
               "TTL的意义.md": {
                 "type": "file",
                 "path": "后端知识/101数据系统-缓存/TTL的意义.md"
+              },
+              "什么时候不应该用缓存.md": {
+                "type": "file",
+                "path": "后端知识/101数据系统-缓存/什么时候不应该用缓存.md"
               },
               "分页查询缓存.md": {
                 "type": "file",
@@ -1966,6 +2408,14 @@
                 "type": "file",
                 "path": "后端知识/101数据系统-缓存/旁路缓存.md"
               },
+              "旁路缓存数据一致性.md": {
+                "type": "file",
+                "path": "后端知识/101数据系统-缓存/旁路缓存数据一致性.md"
+              },
+              "缓存RCU机制.md": {
+                "type": "file",
+                "path": "后端知识/101数据系统-缓存/缓存RCU机制.md"
+              },
               "缓存击穿.md": {
                 "type": "file",
                 "path": "后端知识/101数据系统-缓存/缓存击穿.md"
@@ -1982,6 +2432,27 @@
               "Kafka": {
                 "type": "folder",
                 "children": {
+                  "kafka 实战": {
+                    "type": "folder",
+                    "children": {
+                      "kafka offset.md": {
+                        "type": "file",
+                        "path": "后端知识/102数据系统-消息队列/Kafka/kafka 实战/kafka offset.md"
+                      },
+                      "kafka rebalance.md": {
+                        "type": "file",
+                        "path": "后端知识/102数据系统-消息队列/Kafka/kafka 实战/kafka rebalance.md"
+                      },
+                      "kafka 消费.md": {
+                        "type": "file",
+                        "path": "后端知识/102数据系统-消息队列/Kafka/kafka 实战/kafka 消费.md"
+                      },
+                      "kafka 生产.md": {
+                        "type": "file",
+                        "path": "后端知识/102数据系统-消息队列/Kafka/kafka 实战/kafka 生产.md"
+                      }
+                    }
+                  },
                   "kafka ISR.md": {
                     "type": "file",
                     "path": "后端知识/102数据系统-消息队列/Kafka/kafka ISR.md"
@@ -1989,6 +2460,14 @@
                   "kafka broker 可靠性保证.md": {
                     "type": "file",
                     "path": "后端知识/102数据系统-消息队列/Kafka/kafka broker 可靠性保证.md"
+                  },
+                  "kafka broker 如何提供分区顺序性.md": {
+                    "type": "file",
+                    "path": "后端知识/102数据系统-消息队列/Kafka/kafka broker 如何提供分区顺序性.md"
+                  },
+                  "kafka rebalance.md": {
+                    "type": "file",
+                    "path": "后端知识/102数据系统-消息队列/Kafka/kafka rebalance.md"
                   },
                   "kafka 上报offset.md": {
                     "type": "file",
@@ -2006,6 +2485,10 @@
                     "type": "file",
                     "path": "后端知识/102数据系统-消息队列/Kafka/kafka 快速上手.md"
                   },
+                  "kafka 有key 无key.md": {
+                    "type": "file",
+                    "path": "后端知识/102数据系统-消息队列/Kafka/kafka 有key 无key.md"
+                  },
                   "kafka 消息投递.md": {
                     "type": "file",
                     "path": "后端知识/102数据系统-消息队列/Kafka/kafka 消息投递.md"
@@ -2021,6 +2504,14 @@
                   "kafka与zk.md": {
                     "type": "file",
                     "path": "后端知识/102数据系统-消息队列/Kafka/kafka与zk.md"
+                  },
+                  "kafka分区拓展.md": {
+                    "type": "file",
+                    "path": "后端知识/102数据系统-消息队列/Kafka/kafka分区拓展.md"
+                  },
+                  "kafka重试（可靠性保证）.md": {
+                    "type": "file",
+                    "path": "后端知识/102数据系统-消息队列/Kafka/kafka重试（可靠性保证）.md"
                   }
                 }
               },
@@ -2121,9 +2612,21 @@
                     "type": "file",
                     "path": "后端知识/103数据系统-搜索引擎/elasticsearch/doc values.md"
                   },
+                  "es ILM.md": {
+                    "type": "file",
+                    "path": "后端知识/103数据系统-搜索引擎/elasticsearch/es ILM.md"
+                  },
+                  "es 如何处理一条读.md": {
+                    "type": "file",
+                    "path": "后端知识/103数据系统-搜索引擎/elasticsearch/es 如何处理一条读.md"
+                  },
                   "es 深度分页问题.md": {
                     "type": "file",
                     "path": "后端知识/103数据系统-搜索引擎/elasticsearch/es 深度分页问题.md"
+                  },
+                  "es 索引结构 shard.md": {
+                    "type": "file",
+                    "path": "后端知识/103数据系统-搜索引擎/elasticsearch/es 索引结构 shard.md"
                   },
                   "es 索引结构.md": {
                     "type": "file",
@@ -2136,6 +2639,10 @@
                   "es读写性能， 与mysql对比.md": {
                     "type": "file",
                     "path": "后端知识/103数据系统-搜索引擎/elasticsearch/es读写性能， 与mysql对比.md"
+                  },
+                  "translog.md": {
+                    "type": "file",
+                    "path": "后端知识/103数据系统-搜索引擎/elasticsearch/translog.md"
                   },
                   "update.md": {
                     "type": "file",
@@ -2160,6 +2667,27 @@
                   "索引存储结构.md": {
                     "type": "file",
                     "path": "后端知识/103数据系统-搜索引擎/elasticsearch/索引存储结构.md"
+                  }
+                }
+              },
+              "es 实战": {
+                "type": "folder",
+                "children": {
+                  "es 冷热分层.md": {
+                    "type": "file",
+                    "path": "后端知识/103数据系统-搜索引擎/es 实战/es 冷热分层.md"
+                  },
+                  "大量插入.md": {
+                    "type": "file",
+                    "path": "后端知识/103数据系统-搜索引擎/es 实战/大量插入.md"
+                  },
+                  "如何设计mapping基础概念.md": {
+                    "type": "file",
+                    "path": "后端知识/103数据系统-搜索引擎/es 实战/如何设计mapping基础概念.md"
+                  },
+                  "如何设计mapping进阶实践.md": {
+                    "type": "file",
+                    "path": "后端知识/103数据系统-搜索引擎/es 实战/如何设计mapping进阶实践.md"
                   }
                 }
               },
@@ -2196,6 +2724,14 @@
               "BM25.md": {
                 "type": "file",
                 "path": "后端知识/103数据系统-搜索引擎/BM25.md"
+              },
+              "为什么es 不能当作OLTP事实源.md": {
+                "type": "file",
+                "path": "后端知识/103数据系统-搜索引擎/为什么es 不能当作OLTP事实源.md"
+              },
+              "如何使用es承载聚合查询.md": {
+                "type": "file",
+                "path": "后端知识/103数据系统-搜索引擎/如何使用es承载聚合查询.md"
               }
             }
           },
@@ -2252,6 +2788,15 @@
               "consul.md": {
                 "type": "file",
                 "path": "后端知识/105数据系统-元数据与协调器/consul.md"
+              }
+            }
+          },
+          "109数据系统概论": {
+            "type": "folder",
+            "children": {
+              "WAL 与 持久化.md": {
+                "type": "file",
+                "path": "后端知识/109数据系统概论/WAL 与 持久化.md"
               }
             }
           },
@@ -2358,6 +2903,10 @@
                     "type": "file",
                     "path": "后端知识/200分布式系统/分布式一致性/mq与分布式事务.md"
                   },
+                  "事务消息.md": {
+                    "type": "file",
+                    "path": "后端知识/200分布式系统/分布式一致性/事务消息.md"
+                  },
                   "分布式事务.md": {
                     "type": "file",
                     "path": "后端知识/200分布式系统/分布式一致性/分布式事务.md"
@@ -2456,116 +3005,13 @@
                 "type": "file",
                 "path": "后端知识/203 微服务/什么是微服务.md"
               },
+              "微服务优雅上下线.md": {
+                "type": "file",
+                "path": "后端知识/203 微服务/微服务优雅上下线.md"
+              },
               "微服务组件.md": {
                 "type": "file",
                 "path": "后端知识/203 微服务/微服务组件.md"
-              }
-            }
-          },
-          "300 devops": {
-            "type": "folder",
-            "children": {
-              "Git": {
-                "type": "folder",
-                "children": {
-                  "HEAD.md": {
-                    "type": "file",
-                    "path": "后端知识/300 devops/Git/HEAD.md"
-                  },
-                  "SemVer.md": {
-                    "type": "file",
-                    "path": "后端知识/300 devops/Git/SemVer.md"
-                  },
-                  "git conventional commits.md": {
-                    "type": "file",
-                    "path": "后端知识/300 devops/Git/git conventional commits.md"
-                  },
-                  "git fetch.md": {
-                    "type": "file",
-                    "path": "后端知识/300 devops/Git/git fetch.md"
-                  },
-                  "git flow.md": {
-                    "type": "file",
-                    "path": "后端知识/300 devops/Git/git flow.md"
-                  },
-                  "git rebase.md": {
-                    "type": "file",
-                    "path": "后端知识/300 devops/Git/git rebase.md"
-                  },
-                  "git reset.md": {
-                    "type": "file",
-                    "path": "后端知识/300 devops/Git/git reset.md"
-                  },
-                  "git stash.md": {
-                    "type": "file",
-                    "path": "后端知识/300 devops/Git/git stash.md"
-                  },
-                  "git 合并commit.md": {
-                    "type": "file",
-                    "path": "后端知识/300 devops/Git/git 合并commit.md"
-                  },
-                  "git 基本概念.md": {
-                    "type": "file",
-                    "path": "后端知识/300 devops/Git/git 基本概念.md"
-                  },
-                  "git_breaking_change.md": {
-                    "type": "file",
-                    "path": "后端知识/300 devops/Git/git_breaking_change.md"
-                  },
-                  "git_hooks.md": {
-                    "type": "file",
-                    "path": "后端知识/300 devops/Git/git_hooks.md"
-                  },
-                  "git的sshkey处理.md": {
-                    "type": "file",
-                    "path": "后端知识/300 devops/Git/git的sshkey处理.md"
-                  },
-                  "git简写.md": {
-                    "type": "file",
-                    "path": "后端知识/300 devops/Git/git简写.md"
-                  },
-                  "origin：远程仓库默认名.md": {
-                    "type": "file",
-                    "path": "后端知识/300 devops/Git/origin：远程仓库默认名.md"
-                  },
-                  "文件状态.md": {
-                    "type": "file",
-                    "path": "后端知识/300 devops/Git/文件状态.md"
-                  },
-                  "本地和远程分支.md": {
-                    "type": "file",
-                    "path": "后端知识/300 devops/Git/本地和远程分支.md"
-                  },
-                  "范围符号.md": {
-                    "type": "file",
-                    "path": "后端知识/300 devops/Git/范围符号.md"
-                  }
-                }
-              },
-              "可观测性": {
-                "type": "folder",
-                "children": {
-                  "grafana.md": {
-                    "type": "file",
-                    "path": "后端知识/300 devops/可观测性/grafana.md"
-                  },
-                  "jaeger.md": {
-                    "type": "file",
-                    "path": "后端知识/300 devops/可观测性/jaeger.md"
-                  },
-                  "prometheus.md": {
-                    "type": "file",
-                    "path": "后端知识/300 devops/可观测性/prometheus.md"
-                  },
-                  "zipkin.md": {
-                    "type": "file",
-                    "path": "后端知识/300 devops/可观测性/zipkin.md"
-                  }
-                }
-              },
-              "devops 简介.md": {
-                "type": "file",
-                "path": "后端知识/300 devops/devops 简介.md"
               }
             }
           },
@@ -2575,6 +3021,10 @@
               "K8s": {
                 "type": "folder",
                 "children": {
+                  "k8s服务发现.md": {
+                    "type": "file",
+                    "path": "后端知识/301容器化/K8s/k8s服务发现.md"
+                  },
                   "简介.md": {
                     "type": "file",
                     "path": "后端知识/301容器化/K8s/简介.md"
@@ -2633,17 +3083,747 @@
               }
             }
           },
-          "401 音视频处理": {
+          "404 静态资源处理": {
             "type": "folder",
             "children": {
-              "ffmpeg": {
+              "静态资源挂载.md": {
+                "type": "file",
+                "path": "后端知识/404 静态资源处理/静态资源挂载.md"
+              }
+            }
+          },
+          "405 冷热数据": {
+            "type": "folder",
+            "children": {
+              "不同层级的存储.md": {
+                "type": "file",
+                "path": "后端知识/405 冷热数据/不同层级的存储.md"
+              },
+              "冷热数据一致性.md": {
+                "type": "file",
+                "path": "后端知识/405 冷热数据/冷热数据一致性.md"
+              },
+              "冷热数据识别.md": {
+                "type": "file",
+                "path": "后端知识/405 冷热数据/冷热数据识别.md"
+              },
+              "服务端的冷热数据.md": {
+                "type": "file",
+                "path": "后端知识/405 冷热数据/服务端的冷热数据.md"
+              }
+            }
+          },
+          "500 实战, 场景与系统设计": {
+            "type": "folder",
+            "children": {
+              "weam": {
                 "type": "folder",
                 "children": {
-                  "ffmpeg.md": {
+                  "111整理": {
+                    "type": "folder",
+                    "children": {
+                      "基础组件": {
+                        "type": "folder",
+                        "children": {
+                          "httpsrv": {
+                            "type": "folder",
+                            "children": {
+                              "context.md": {
+                                "type": "file",
+                                "path": "后端知识/500 实战, 场景与系统设计/weam/111整理/基础组件/httpsrv/context.md"
+                              },
+                              "controller.md": {
+                                "type": "file",
+                                "path": "后端知识/500 实战, 场景与系统设计/weam/111整理/基础组件/httpsrv/controller.md"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "一个service.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/111整理/一个service.md"
+                      },
+                      "分布式id.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/111整理/分布式id.md"
+                      },
+                      "发帖.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/111整理/发帖.md"
+                      },
+                      "缓存设计.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/111整理/缓存设计.md"
+                      }
+                    }
+                  },
+                  "TODO": {
+                    "type": "folder",
+                    "children": {
+                      "配置活动奖励.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/TODO/配置活动奖励.md"
+                      }
+                    }
+                  },
+                  "bugs": {
+                    "type": "folder",
+                    "children": {
+                      "time.tick导致泄露.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/bugs/time.tick导致泄露.md"
+                      }
+                    }
+                  },
+                  "gateway": {
+                    "type": "folder",
+                    "children": {
+                      "两种接口编写风格.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/gateway/两种接口编写风格.md"
+                      }
+                    }
+                  },
+                  "mongo": {
+                    "type": "folder",
+                    "children": {
+                      "索引.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/mongo/索引.md"
+                      }
+                    }
+                  },
+                  "实现需求记录": {
+                    "type": "folder",
+                    "children": {
+                      "Untitled.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/实现需求记录/Untitled.md"
+                      },
+                      "block.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/实现需求记录/block.md"
+                      },
+                      "修改内容审核回调.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/实现需求记录/修改内容审核回调.md"
+                      },
+                      "搜索优化.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/实现需求记录/搜索优化.md"
+                      },
+                      "治理不可见贴.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/实现需求记录/治理不可见贴.md"
+                      },
+                      "治理来源不发私信.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/实现需求记录/治理来源不发私信.md"
+                      },
+                      "被remove发linkmsg.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/实现需求记录/被remove发linkmsg.md"
+                      },
+                      "邀请通知.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/实现需求记录/邀请通知.md"
+                      }
+                    }
+                  },
+                  "搜索功能": {
+                    "type": "folder",
+                    "children": {
+                      "search.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/搜索功能/search.md"
+                      },
+                      "目前看来.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/搜索功能/目前看来.md"
+                      }
+                    }
+                  },
+                  "用到的包": {
+                    "type": "folder",
+                    "children": {
+                      "simplejia-lc.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/用到的包/simplejia-lc.md"
+                      }
+                    }
+                  },
+                  "项目结构": {
+                    "type": "folder",
+                    "children": {
+                      "activity": {
+                        "type": "folder",
+                        "children": {
+                          "Untitled.md": {
+                            "type": "file",
+                            "path": "后端知识/500 实战, 场景与系统设计/weam/项目结构/activity/Untitled.md"
+                          },
+                          "redis：这个redis用的安全版本.md": {
+                            "type": "file",
+                            "path": "后端知识/500 实战, 场景与系统设计/weam/项目结构/activity/redis：这个redis用的安全版本.md"
+                          }
+                        }
+                      },
+                      "engine": {
+                        "type": "folder",
+                        "children": {
+                          "engine 中的api.md": {
+                            "type": "file",
+                            "path": "后端知识/500 实战, 场景与系统设计/weam/项目结构/engine/engine 中的api.md"
+                          },
+                          "weam-engine-service.md": {
+                            "type": "file",
+                            "path": "后端知识/500 实战, 场景与系统设计/weam/项目结构/engine/weam-engine-service.md"
+                          }
+                        }
+                      },
+                      "my_profile": {
+                        "type": "folder",
+                        "children": {
+                          "执行流程.md": {
+                            "type": "file",
+                            "path": "后端知识/500 实战, 场景与系统设计/weam/项目结构/my_profile/执行流程.md"
+                          },
+                          "数据.md": {
+                            "type": "file",
+                            "path": "后端知识/500 实战, 场景与系统设计/weam/项目结构/my_profile/数据.md"
+                          },
+                          "输入输出.md": {
+                            "type": "file",
+                            "path": "后端知识/500 实战, 场景与系统设计/weam/项目结构/my_profile/输入输出.md"
+                          }
+                        }
+                      },
+                      "service": {
+                        "type": "folder",
+                        "children": {
+                          "service 中的api.md": {
+                            "type": "file",
+                            "path": "后端知识/500 实战, 场景与系统设计/weam/项目结构/service/service 中的api.md"
+                          },
+                          "service-backpack.md": {
+                            "type": "file",
+                            "path": "后端知识/500 实战, 场景与系统设计/weam/项目结构/service/service-backpack.md"
+                          },
+                          "weam-service.md": {
+                            "type": "file",
+                            "path": "后端知识/500 实战, 场景与系统设计/weam/项目结构/service/weam-service.md"
+                          }
+                        }
+                      },
+                      "主推荐流": {
+                        "type": "folder",
+                        "children": {
+                          "index三个推荐.md": {
+                            "type": "file",
+                            "path": "后端知识/500 实战, 场景与系统设计/weam/项目结构/主推荐流/index三个推荐.md"
+                          },
+                          "相关代码.md": {
+                            "type": "file",
+                            "path": "后端知识/500 实战, 场景与系统设计/weam/项目结构/主推荐流/相关代码.md"
+                          }
+                        }
+                      },
+                      "Untitled.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/项目结构/Untitled.md"
+                      },
+                      "baseHeader.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/项目结构/baseHeader.md"
+                      },
+                      "category和model和action.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/项目结构/category和model和action.md"
+                      },
+                      "cdn.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/项目结构/cdn.md"
+                      },
+                      "correctDefaultWeamName.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/项目结构/correctDefaultWeamName.md"
+                      },
+                      "jobqueue与apiclient.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/项目结构/jobqueue与apiclient.md"
+                      },
+                      "new apiclient.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/项目结构/new apiclient.md"
+                      },
+                      "proto.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/项目结构/proto.md"
+                      },
+                      "参数.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/项目结构/参数.md"
+                      },
+                      "评论数据怎么组织.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/weam/项目结构/评论数据怎么组织.md"
+                      }
+                    }
+                  },
+                  "bson.md": {
                     "type": "file",
-                    "path": "后端知识/401 音视频处理/ffmpeg/ffmpeg.md"
+                    "path": "后端知识/500 实战, 场景与系统设计/weam/bson.md"
+                  },
+                  "consul.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/weam/consul.md"
+                  },
+                  "db操作.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/weam/db操作.md"
+                  },
+                  "gateway.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/weam/gateway.md"
+                  },
+                  "httpserver中的panic与恢复.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/weam/httpserver中的panic与恢复.md"
+                  },
+                  "notess.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/weam/notess.md"
+                  },
+                  "redis lua脚本限制.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/weam/redis lua脚本限制.md"
+                  },
+                  "redis 集群中hashtag带来的数据倾斜问题.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/weam/redis 集群中hashtag带来的数据倾斜问题.md"
+                  },
+                  "redis.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/weam/redis.md"
+                  },
+                  "scribe.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/weam/scribe.md"
+                  },
+                  "两个项目的区别.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/weam/两个项目的区别.md"
+                  },
+                  "依赖管理.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/weam/依赖管理.md"
+                  },
+                  "历史记录接入mq.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/weam/历史记录接入mq.md"
+                  },
+                  "发现页.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/weam/发现页.md"
+                  },
+                  "场景设计.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/weam/场景设计.md"
+                  },
+                  "异步任务框架.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/weam/异步任务框架.md"
+                  },
+                  "服务发现.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/weam/服务发现.md"
+                  },
+                  "服务调用.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/weam/服务调用.md"
+                  },
+                  "服务配置.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/weam/服务配置.md"
+                  },
+                  "测试环境.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/weam/测试环境.md"
+                  },
+                  "登录流程(涉及两个部分，涉及两个用户表）.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/weam/登录流程(涉及两个部分，涉及两个用户表）.md"
                   }
                 }
+              },
+              "业务功能": {
+                "type": "folder",
+                "children": {
+                  "业务超时.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/业务功能/业务超时.md"
+                  },
+                  "查表+写表.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/业务功能/查表+写表.md"
+                  },
+                  "点赞功能.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/业务功能/点赞功能.md"
+                  },
+                  "用户活跃状态.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/业务功能/用户活跃状态.md"
+                  }
+                }
+              },
+              "失败容错策略": {
+                "type": "folder",
+                "children": {
+                  "容错策略有：.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/失败容错策略/容错策略有：.md"
+                  }
+                }
+              },
+              "实战笔记": {
+                "type": "folder",
+                "children": {
+                  "redis场景": {
+                    "type": "folder",
+                    "children": {
+                      "hm点评.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/实战笔记/redis场景/hm点评.md"
+                      }
+                    }
+                  },
+                  "具体项目": {
+                    "type": "folder",
+                    "children": {
+                      "某某外卖-DESKTOP-T161DKL.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/实战笔记/具体项目/某某外卖-DESKTOP-T161DKL.md"
+                      },
+                      "某某外卖.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/实战笔记/具体项目/某某外卖.md"
+                      },
+                      "问卷系统-DESKTOP-T161DKL.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/实战笔记/具体项目/问卷系统-DESKTOP-T161DKL.md"
+                      },
+                      "问卷系统.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/实战笔记/具体项目/问卷系统.md"
+                      }
+                    }
+                  },
+                  "Untitled.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/实战笔记/Untitled.md"
+                  },
+                  "docker 自动打包项目, 简单web+build后端+github仓库功能, 并集成云编辑器.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/实战笔记/docker 自动打包项目, 简单web+build后端+github仓库功能, 并集成云编辑器.md"
+                  },
+                  "wx相关操作.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/实战笔记/wx相关操作.md"
+                  },
+                  "功能：冷热数据分流怎么做.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/实战笔记/功能：冷热数据分流怎么做.md"
+                  },
+                  "常见问题场景.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/实战笔记/常见问题场景.md"
+                  }
+                }
+              },
+              "常见场景": {
+                "type": "folder",
+                "children": {
+                  "分布式.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/常见场景/分布式.md"
+                  },
+                  "数据安全.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/常见场景/数据安全.md"
+                  },
+                  "数据库相关.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/常见场景/数据库相关.md"
+                  },
+                  "验证+权限.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/常见场景/验证+权限.md"
+                  },
+                  "高并发.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/常见场景/高并发.md"
+                  }
+                }
+              },
+              "推送中台": {
+                "type": "folder",
+                "children": {
+                  "Ref..md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/推送中台/Ref..md"
+                  },
+                  "index.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/推送中台/index.md"
+                  },
+                  "push优化.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/推送中台/push优化.md"
+                  },
+                  "公共信箱+个人信箱.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/推送中台/公共信箱+个人信箱.md"
+                  }
+                }
+              },
+              "系统设计": {
+                "type": "folder",
+                "children": {
+                  "System Design 基本概念.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/系统设计/System Design 基本概念.md"
+                  },
+                  "Untitled.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/系统设计/Untitled.md"
+                  },
+                  "分布式-依赖zk的应用层选主.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/系统设计/分布式-依赖zk的应用层选主.md"
+                  },
+                  "大数据： 范围查询.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/系统设计/大数据： 范围查询.md"
+                  },
+                  "大数据：top k 频繁项.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/系统设计/大数据：top k 频繁项.md"
+                  },
+                  "大数据：基数估计.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/系统设计/大数据：基数估计.md"
+                  },
+                  "大数据：频率估计.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/系统设计/大数据：频率估计.md"
+                  },
+                  "系统设计-用户浏览记录.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/系统设计/系统设计-用户浏览记录.md"
+                  },
+                  "系统设计-订单系统.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/系统设计/系统设计-订单系统.md"
+                  },
+                  "系统设计： K V存储.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/系统设计/系统设计： K V存储.md"
+                  },
+                  "系统设计：feed流（推文系统）.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/系统设计/系统设计：feed流（推文系统）.md"
+                  },
+                  "系统设计：分布式id系统设计.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/系统设计/系统设计：分布式id系统设计.md"
+                  },
+                  "系统设计：定时任务调度器.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/系统设计/系统设计：定时任务调度器.md"
+                  },
+                  "系统设计：短链接系统如何设计.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/系统设计/系统设计：短链接系统如何设计.md"
+                  },
+                  "面试：扫码登录系统如何设计.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/系统设计/面试：扫码登录系统如何设计.md"
+                  }
+                }
+              },
+              "负载均衡": {
+                "type": "folder",
+                "children": {
+                  "DNS轮询实现负载均衡.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/负载均衡/DNS轮询实现负载均衡.md"
+                  },
+                  "负载均衡策略.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/负载均衡/负载均衡策略.md"
+                  }
+                }
+              },
+              "限流策略": {
+                "type": "folder",
+                "children": {
+                  "常见策略.md": {
+                    "type": "file",
+                    "path": "后端知识/500 实战, 场景与系统设计/限流策略/常见策略.md"
+                  }
+                }
+              },
+              "项目笔记": {
+                "type": "folder",
+                "children": {
+                  "RPC项目": {
+                    "type": "folder",
+                    "children": {
+                      "real 框架.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/项目笔记/RPC项目/real 框架.md"
+                      },
+                      "具体设计：client.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/项目笔记/RPC项目/具体设计：client.md"
+                      },
+                      "具体设计：server.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/项目笔记/RPC项目/具体设计：server.md"
+                      },
+                      "具体设计：代理工厂.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/项目笔记/RPC项目/具体设计：代理工厂.md"
+                      },
+                      "具体设计：序列化算法.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/项目笔记/RPC项目/具体设计：序列化算法.md"
+                      },
+                      "具体设计：注册中心.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/项目笔记/RPC项目/具体设计：注册中心.md"
+                      },
+                      "具体设计：消息协议.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/项目笔记/RPC项目/具体设计：消息协议.md"
+                      },
+                      "具体设计：编解码器.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/项目笔记/RPC项目/具体设计：编解码器.md"
+                      },
+                      "具体设计：自动配置.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/项目笔记/RPC项目/具体设计：自动配置.md"
+                      },
+                      "具体设计：负载均衡.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/项目笔记/RPC项目/具体设计：负载均衡.md"
+                      },
+                      "单元测试.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/项目笔记/RPC项目/单元测试.md"
+                      },
+                      "框架.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/项目笔记/RPC项目/框架.md"
+                      },
+                      "测试.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/项目笔记/RPC项目/测试.md"
+                      },
+                      "项目进度.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/项目笔记/RPC项目/项目进度.md"
+                      },
+                      "（目前废弃）具体设计：Result T 类.md": {
+                        "type": "file",
+                        "path": "后端知识/500 实战, 场景与系统设计/项目笔记/RPC项目/（目前废弃）具体设计：Result T 类.md"
+                      }
+                    }
+                  }
+                }
+              },
+              "RPC.md": {
+                "type": "file",
+                "path": "后端知识/500 实战, 场景与系统设计/RPC.md"
+              },
+              "Untitled.md": {
+                "type": "file",
+                "path": "后端知识/500 实战, 场景与系统设计/Untitled.md"
+              },
+              "nginx 单点故障.md": {
+                "type": "file",
+                "path": "后端知识/500 实战, 场景与系统设计/nginx 单点故障.md"
+              },
+              "testmermaid.md": {
+                "type": "file",
+                "path": "后端知识/500 实战, 场景与系统设计/testmermaid.md"
+              },
+              "分布式id.md": {
+                "type": "file",
+                "path": "后端知识/500 实战, 场景与系统设计/分布式id.md"
+              },
+              "分布式锁.md": {
+                "type": "file",
+                "path": "后端知识/500 实战, 场景与系统设计/分布式锁.md"
+              },
+              "单点登录问题.md": {
+                "type": "file",
+                "path": "后端知识/500 实战, 场景与系统设计/单点登录问题.md"
+              },
+              "即时通讯软件架构.md": {
+                "type": "file",
+                "path": "后端知识/500 实战, 场景与系统设计/即时通讯软件架构.md"
+              },
+              "微服务.md": {
+                "type": "file",
+                "path": "后端知识/500 实战, 场景与系统设计/微服务.md"
+              },
+              "限流, 熔断, 服务降级.md": {
+                "type": "file",
+                "path": "后端知识/500 实战, 场景与系统设计/限流, 熔断, 服务降级.md"
+              },
+              "面试-url短链接服务.md": {
+                "type": "file",
+                "path": "后端知识/500 实战, 场景与系统设计/面试-url短链接服务.md"
+              },
+              "面试-大文件排序.md": {
+                "type": "file",
+                "path": "后端知识/500 实战, 场景与系统设计/面试-大文件排序.md"
+              },
+              "面试-如何实现扫码登录功能.md": {
+                "type": "file",
+                "path": "后端知识/500 实战, 场景与系统设计/面试-如何实现扫码登录功能.md"
+              },
+              "面试-抽奖系统.md": {
+                "type": "file",
+                "path": "后端知识/500 实战, 场景与系统设计/面试-抽奖系统.md"
+              },
+              "面试-排行榜.md": {
+                "type": "file",
+                "path": "后端知识/500 实战, 场景与系统设计/面试-排行榜.md"
+              },
+              "面试-用互斥锁实现读写锁.md": {
+                "type": "file",
+                "path": "后端知识/500 实战, 场景与系统设计/面试-用互斥锁实现读写锁.md"
+              },
+              "面试-秒杀场景和超卖问题.md": {
+                "type": "file",
+                "path": "后端知识/500 实战, 场景与系统设计/面试-秒杀场景和超卖问题.md"
+              },
+              "面试-表新增字段.md": {
+                "type": "file",
+                "path": "后端知识/500 实战, 场景与系统设计/面试-表新增字段.md"
+              },
+              "面试-购物场景.md": {
+                "type": "file",
+                "path": "后端知识/500 实战, 场景与系统设计/面试-购物场景.md"
+              },
+              "面试-高可用缓存系统.md": {
+                "type": "file",
+                "path": "后端知识/500 实战, 场景与系统设计/面试-高可用缓存系统.md"
               }
             }
           },
@@ -2698,6 +3878,28 @@
               }
             }
           },
+          "903工具": {
+            "type": "folder",
+            "children": {
+              "charles.md": {
+                "type": "file",
+                "path": "后端知识/903工具/charles.md"
+              },
+              "抓包工具.md": {
+                "type": "file",
+                "path": "后端知识/903工具/抓包工具.md"
+              }
+            }
+          },
+          "904IDE": {
+            "type": "folder",
+            "children": {
+              "vscode.md": {
+                "type": "file",
+                "path": "后端知识/904IDE/vscode.md"
+              }
+            }
+          },
           "Untitled": {
             "type": "folder",
             "children": {
@@ -2724,19 +3926,6 @@
               "长文本存储.md": {
                 "type": "file",
                 "path": "后端知识/Untitled/长文本存储.md"
-              }
-            }
-          },
-          "数据传递范式": {
-            "type": "folder",
-            "children": {
-              "GraphQL.md": {
-                "type": "file",
-                "path": "后端知识/数据传递范式/GraphQL.md"
-              },
-              "传递协议.md": {
-                "type": "file",
-                "path": "后端知识/数据传递范式/传递协议.md"
               }
             }
           },
