@@ -1,0 +1,12 @@
+似乎，
+account/get_verify_code
+
+其中account是category
+get_verify_code是action
+
+model是，
+服务注册的时候，client和具体服务的路径协议
+如httpapi，似乎是用于在服务注册发现的时候声明这是一个httpapi服务
+
+在这个路径协议下
+service层处理的路由都是account/httpapi/get_verify_code这种形式的

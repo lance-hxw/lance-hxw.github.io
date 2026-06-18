@@ -40,9 +40,15 @@ ZGC：低延迟，大内存
 - 内存占用
 	- 合理分配heap和metaspace空间，避免频繁GC和OOM
 ## 工具
+- jps 命令， 显示本地jvm进程
 - jstat：GC统计
-- jmap：堆分析
+	- 显示每个堆区域当前占用
+	- gc次数
+	- gc停顿等指标
+- jmap：堆分析， 生成一个堆快照dump文件或者直接查看堆信息
 - jstack： 线程快照
+	- jstack -l pid 可以发现死锁， 并根据栈信息发现根源
+	- 
 
 图形工具
 - visualVM，实时监控堆， 线程， GC
@@ -60,3 +66,10 @@ ZGC：低延迟，大内存
 ## metaspace OOM
 - 检查类加载器是不是泄露（metaspaceGC的管理者）
 - 调整metaspacesize
+
+## 短生命线程
+
+- 增大新生代
+- 增大晋升threshold
+- G1设置恰当期望停顿
+- 设置恰当TLAB

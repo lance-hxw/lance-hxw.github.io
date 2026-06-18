@@ -1,0 +1,13 @@
+h_app:
+h_av
+h_dt
+h_did
+h_nt
+h_m
+h_ch
+h_ts
+h_model
+h_pkg
+h_lang
+埋点，权限判断，推送权限设置等
+adid，idfa，device_info等广告归因id

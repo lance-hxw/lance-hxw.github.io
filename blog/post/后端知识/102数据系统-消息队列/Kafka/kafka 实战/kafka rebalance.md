@@ -1,0 +1,5 @@
+在group内进行rebalance，一个group可能处理很多个partition，每个partition只有一个consumer
+
+（group，partition，topic）的offset在组内不同的consumer间是共享的
+
+发生rebalance时，如果offset自动提交且有没有成功处理的，就会丢消息

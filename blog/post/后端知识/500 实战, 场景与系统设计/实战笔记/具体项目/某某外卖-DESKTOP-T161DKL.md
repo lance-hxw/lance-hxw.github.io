@@ -1,0 +1,66 @@
+
+
+订单防止重复:
+每次前端刷新
+## jwt
+jwt 的claims中只有员工id或者用户id，用于区分权限
+
+- 搭建环境
+	- 前端: docker-nginx+vue
+	- 后端: skytakeout
+## Day1:
+- 改md5存数据库, md5是单向的, 直接后端加密, 数据库存密文
+- 接口管理, 导入接口文档
+	- 使用YApi->ApiFox兼容
+	- 使用apifox管理环境, 设置前置url后, 方便切换环境测试
+	- 使用swagger生成和测试接口
+		- 使用knife4j , 是为javamvc集成swagger生成api文档的工具
+## Day2
+- 新增员工: 
+	- DTO, 封装前端数据
+	- mvc-管理端员工controller
+		- 依赖-管理端服务
+			- 依赖 员工mapper
+	- 存在问题
+- 员工分页查询
+	- 数据库分页查询, 用pagehelper(来自mybatis)
+- 员工crud
+- 分类crud
+## Day3
+- 使用AOP实现对各个对象的CreateUser, UpdateUser的自动填充, 切点是任何需要存此类数据到数据库的mapper
+- 文件上传功能
+	- 使用springboot的MultipartFile类接受文件对象
+	- [[使用MinIO搭建对象存储服务]]
+	- 使用的路径是http://endpoint/bucket/objname
+- dish crud
+- setmeal crud
+## Day5
+- redis
+## Day6
+- 介绍微信小程序开发
+- 部署一个小程序测试环境和后端形成调试
+- 开发微信登录
+	- 小程序前端请求wxlogin, 获取一次性授权码发给后端
+	- 后端用授权码查询用户所有信息, 用openid标识
+	- 将用户信息存表注册, 返回jwt给前端
+- 商品浏览代码crud
+## Day7
+- 缓存: 使用redis进行数据库缓存
+	- 缓存了categoryId对应的菜品信息, 就涉及了
+		- 新增菜品: 导致一个分类下改变
+		- 修改菜品: 可能导致多个分类变动
+		- 修改状态: 导致一个分类变动
+	- 缓存套餐, 使用springcache
+- 实现购物车 CRUD
+## Day8
+- 地址簿crud
+- 下单: 读取购物车, 插入订单和订单明细
+	- 这里要事务支持
+	- 想要高并发, 需要前端支持提供幂等性
+		- 或者先删购物车, 直接让其他进程报错
+			- 这相当于上锁了
+		- 上锁
+- wx支付: 做不了
+	- 提交就是支付成功状态
+- 展示订单, 注意用vo对象
+- 取消订单

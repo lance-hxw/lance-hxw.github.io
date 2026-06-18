@@ -1,0 +1,1 @@
+在adapter的mproto中进行映射

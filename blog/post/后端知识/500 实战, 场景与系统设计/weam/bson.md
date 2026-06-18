@@ -1,0 +1,2 @@
+M:map的alias
+

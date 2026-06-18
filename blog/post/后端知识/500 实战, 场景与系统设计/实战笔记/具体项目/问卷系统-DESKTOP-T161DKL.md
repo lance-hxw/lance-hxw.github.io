@@ -1,0 +1,26 @@
+- spring security
+- jwt
+
+
+## 权限系统:角色+scope
+- 用户完成信息补全和邮箱验证后获取设计者/填写者身份
+- 用户账号密码登录, 用authenticationManager进行身份验证,尝试创建UsernamePasswordA..Token,创建失败说明信息不对, 否则获取一个auth..对象
+	- 这个manager依赖于自己实现的UserDetailService,这个服务需要根据用户名去查询用户信息,得到user对象,然后将包括用户密码是否可用是否登录过期写入一个loginuser对象中给auth对象
+	- loginuser继承了userdetails
+- auth对象创建成功后, 将principal取出来还原成loginuser对象生成jwt
+- 然后将这个loginuser对象写入redis,统一登录管理
+	- 此后每次jwt登录时,就取用这个loginuser对象
+	- 每次有活动时就刷新登录对象的信息,包括过期时间
+## 设计
+一个答卷的元信息在mysql中，包括填表时间之类的，然后有一个docid其内容，答卷内容存储在mongoDB中， 是一个字典
+- 删除的时候要先删mongoDB然后删
+
+## MongoDB
+分成了三个集合，账号，问卷结构，答案
+
+- QAnswer: 问卷中题目对应的答案
+- QLogic， 文件逻辑
+- Question：题目
+mysql存了:
+- 答题记录,其中指向具体结果到monogodb文档
+- 问卷元信息,指向mgdb中具体题目和逻辑

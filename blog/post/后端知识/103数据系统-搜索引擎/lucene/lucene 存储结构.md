@@ -1,3 +1,5 @@
+es在lucene上构建，lucene主要处理segment等索引文件，es自己维护translog等结构
+
 # 基于segment 的存储
 
 使用定时生成segment的结构， 结合WAL保证持久性

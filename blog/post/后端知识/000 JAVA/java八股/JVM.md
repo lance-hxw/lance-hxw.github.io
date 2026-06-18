@@ -5,7 +5,7 @@ jvm内存：
 	- heap
 	- stack
 	- PC
-- Native Men: jvm申请但是操作系统管理
+- Native Mem: jvm申请但是操作系统管理
 	- meta space
 	- 直接内存：如NIO
 	- 本地方法stack
@@ -65,7 +65,7 @@ NIO是一个基于通道和buffer的IO方式，可以用native函数库直接分
 			- 大对象可能直接去老年代
 - 老年代：2/3
 	- 存放经过minorGC后还活着的对象
-	- mayorGC/Full GC 比较少执行，并且执行耗时非常大
+	- majorGC/Full GC 比较少执行，并且执行耗时非常大
 曾经有PermGen，移除了
 有的jvm实现（G1垃圾收集器）中有大对象专用空间，如大数组，这种会直接被分派到老年代，不用连续移动和分配内存。
 

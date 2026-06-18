@@ -56,3 +56,4 @@ kafka自身可靠性(集群+持久化)
 ## 消费者
 关闭自动提交offset, 在消费完成后手动调用commitSync()或者commitAsync()
 [[kafka 上报offset]]
+[[kafka重试（可靠性保证）]]

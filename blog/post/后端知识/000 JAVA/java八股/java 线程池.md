@@ -83,3 +83,19 @@ new CustomRetryPolicy()
 ArrayBlockingQueue，数组实现，有界
 LinkedBlockingQueue，链表实现，可以有界也可以无界，默认无，但可以指定
 SynchronousQueue，不存储元素，没有任何内部容量，只是用于传递任务PriorityBlockingQueue，带优先级，其元素需要实现Comparable或者提供比较器
+
+# 使用要注意的地方
+
+## 不同任务 使用不同线程池
+
+如果两个前后任务使用一个线程池， 可能出现死锁
+
+## 命名
+
+如果使用默认线程名， 难以定位问题
+这个需要自己实现ThreadFactory，对Thread 手动setName
+
+# 正确配置参数
+
+cpu 密集： N
+io密集， M \* N， 一般M是2， 可以调整，能充分利用cpu为优

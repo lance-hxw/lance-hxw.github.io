@@ -15,6 +15,8 @@ consumer只能看见HW对应的msg
 ## producer ack
 只有ISR参与写入判定, 如acks = all, 就需要所有ISR副本都同步到, 此时保证producer写入和consumer允许消费时完全一致的
 
+如果ISR数量小于设置的值， 此时acks = all的写入永远不会成功
+
 # ISR如何判定
 
 初始情况下, 所有副本都在ISR中, 然后有的宕机才会被踢出

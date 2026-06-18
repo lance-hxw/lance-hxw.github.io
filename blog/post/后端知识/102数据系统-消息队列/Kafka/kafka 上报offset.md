@@ -17,7 +17,24 @@ consumer定期提交上一次调用poll返回的所有消息的偏移量, 也就
 - 异步提交: commitAsync, 异步提交, 吞吐量高, 提交失败无法感知
 一般要结合幂等性实现exactly once
 
+纯手动提交：
+	
+
 ## 特别的, consumer可以消费多个分区, 所以可以一次提交多个分区的offset
+
+## offset如何维护
+
+有一个   
+```java
+@Override
+public void commitSync(Duration timeout) {
+	commitSync(subscriptions.allConsumed(), timeout);
+}
+```
+
+其中每次poll都会 在 fetchRecords中把subscriptions中的postion的每个分区的offset更新掉
+
+然后在commit的时候上报 这个allConsumed返回的Map\<TopicPartition, OffsetAndMetadata> 
 
 
 # 提交什么
@@ -25,5 +42,13 @@ consumer定期提交上一次调用poll返回的所有消息的偏移量, 也就
 一般默认是一整批消费成功, 提交这批最后一个msg的offset+1
 也可以提交最后一个成功的msg.offset+1
 
-# 失败
+# offset提交对并发的影响
 
+每个分区只能被同一个消费者中的一个消费者消费， 无论这个消费者是在干什么，也就是说， 哪怕消费者立即提交offset， 也没有其他消费者来poll这个分区的msg去处理， 绝对不会破坏顺序性。
+- 所以不需要担心多消费者并发问题
+
+只涉及同一消费者的提交时机
+
+# 失败处理
+
+[[kafka重试（可靠性保证）]]

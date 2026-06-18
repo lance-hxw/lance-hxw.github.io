@@ -186,5 +186,7 @@ old：mixed /fullgc
 然后按高到低逐个加入Cset（collection set， 回收集合）
 同时累加， 如果累加到接近预期停顿， 就终止
 
+# ZGC
+
 # meta space GC
 如Class卸载， 这种不是GC管理的， 是classloader之类的回收机制完成的， 是jvm通过加载器生命周期进行的。
